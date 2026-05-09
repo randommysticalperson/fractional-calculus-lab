@@ -1,8 +1,11 @@
 /*
-Neo-Brutalist Scientific Atlas reminder: this Python code is displayed as a transparent laboratory plate. Keep SciPy/SymPy package usage explicit and reproducible, and keep the output readable as a scientific bench note.
+Neo-Brutalist Scientific Atlas reminder: this Python code is displayed as a transparent laboratory plate. Keep SciPy/SymPy package usage explicit and reproducible, keep the output readable as a scientific bench note, and render plots as self-contained browser-safe artifacts.
 */
 
-export const pyscriptFractionalDemo = String.raw`import numpy as np
+export const pyscriptFractionalDemo = String.raw`import base64
+import io
+
+import numpy as np
 from scipy.special import gamma
 import sympy as sp
 
@@ -44,6 +47,56 @@ frac_symbolic = sum(
     for n in range(len(coeffs))
 )
 
+plot_data_uri = ""
+plot_note = "Matplotlib plot not generated."
+try:
+    import matplotlib
+    matplotlib.use("AGG")
+    import matplotlib.pyplot as plt
+
+    dense_x = np.linspace(0.18, 4.2, 260)
+    poly_curve = sum(coeffs[n] * dense_x ** n for n in range(len(coeffs)))
+    ordinary_curve = coeffs[1] + 2 * coeffs[2] * dense_x + 3 * coeffs[3] * dense_x ** 2
+    fractional_curve = sum(
+        coeffs[n] * gamma(n + 1) / gamma(n + 1 - alpha) * dense_x ** (n - alpha)
+        for n in range(len(coeffs))
+    )
+
+    fig, ax = plt.subplots(figsize=(8.4, 4.8), dpi=160)
+    fig.patch.set_facecolor("#fff7e5")
+    ax.set_facecolor("#fff7e5")
+    ax.plot(dense_x, poly_curve, color="#2f6f74", linewidth=2.8, label="p(x)")
+    ax.plot(dense_x, ordinary_curve, color="#241b14", linewidth=2.4, linestyle="--", label="ordinary p'(x)")
+    ax.plot(dense_x, fractional_curve, color="#9f4329", linewidth=3.0, label=f"RL D^{alpha:.2f} p(x)")
+    ax.scatter([x], [fractional_px], color="#9f4329", edgecolor="#241b14", linewidth=1.3, s=58, zorder=4)
+    ax.annotate(
+        f"x={x:.1f}\nD^αp={fractional_px:.3f}",
+        xy=(x, fractional_px),
+        xytext=(x + 0.35, fractional_px + 0.45),
+        arrowprops={"arrowstyle": "->", "color": "#241b14", "linewidth": 1.2},
+        fontsize=9,
+        color="#241b14",
+    )
+    ax.set_title("Python-generated polynomial starter plot", fontweight="bold", color="#241b14")
+    ax.set_xlabel("x", color="#241b14")
+    ax.set_ylabel("value", color="#241b14")
+    ax.grid(True, color="#49382a", alpha=0.22, linestyle="--", linewidth=0.8)
+    ax.legend(frameon=True, facecolor="#f4ead5", edgecolor="#241b14", fontsize=9)
+    for spine in ax.spines.values():
+        spine.set_color("#241b14")
+        spine.set_linewidth(1.3)
+    ax.tick_params(colors="#241b14")
+    fig.tight_layout()
+
+    buffer = io.BytesIO()
+    fig.savefig(buffer, format="png", bbox_inches="tight", facecolor=fig.get_facecolor())
+    plt.close(fig)
+    encoded = base64.b64encode(buffer.getvalue()).decode("ascii")
+    plot_data_uri = "data:image/png;base64," + encoded
+    plot_note = "Matplotlib rendered a browser-safe PNG data URI from Python inside Pyodide."
+except Exception as exc:
+    plot_note = "Matplotlib fallback: " + repr(exc)
+
 output = f"""
 Pyodide scientific Python plate: NumPy · SciPy · SymPy are loaded.
 
@@ -59,4 +112,6 @@ p'(x) = {sp.sstr(classical_symbolic)}
 D^α p(x) formula = {sp.sstr(frac_symbolic)}
 At x = {x:.2f}: p(x) = {px:.6f}, p'(x) = {classical_px:.6f}, D^αp(x) = {fractional_px:.6f}
 SciPy fractional polynomial samples: {np.array2string(np.array(poly_samples), precision=4)}
+
+Plot status: {plot_note}
 """`;

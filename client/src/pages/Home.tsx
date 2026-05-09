@@ -99,6 +99,7 @@ export default function Home() {
   const updatePolyCoeff = (index: number, value: number) => setPolyCoeffs((current) => current.map((coeff, i) => (i === index ? value : coeff)));
   const [pythonStatus, setPythonStatus] = useState("Preparing browser Python runtime…");
   const [pythonOutput, setPythonOutput] = useState("Waiting for Pyodide package loader.");
+  const [pythonPlotUri, setPythonPlotUri] = useState("");
 
   useEffect(() => {
     let cancelled = false;
@@ -116,15 +117,17 @@ export default function Home() {
         if (cancelled) return;
         const pyodide = await loadPyodide({ indexURL: PYODIDE_INDEX_URL });
         if (cancelled) return;
-        setPythonStatus("Loading NumPy, SciPy, and SymPy packages…");
-        await pyodide.loadPackage(["numpy", "scipy", "sympy"]);
+        setPythonStatus("Loading NumPy, SciPy, SymPy, and Matplotlib packages…");
+        await pyodide.loadPackage(["numpy", "scipy", "sympy", "matplotlib"]);
         if (cancelled) return;
         setPythonStatus("Running SciPy/SymPy fractional calculus computation…");
         await pyodide.runPythonAsync(pyscriptFractionalDemo);
         const output = pyodide.globals.get("output");
+        const plotUri = pyodide.globals.get("plot_data_uri");
         if (cancelled) return;
         window.clearTimeout(timeout);
         setPythonOutput(output ? output.toString() : "Python completed without an output variable.");
+        setPythonPlotUri(plotUri ? plotUri.toString() : "");
         setPythonStatus("Python plate ready — computed in browser with Pyodide.");
       } catch (error) {
         if (cancelled) return;
@@ -341,11 +344,17 @@ export default function Home() {
           <div className="atlas-card overflow-hidden p-3 -rotate-1"><img src={dualEngineImage} alt="Dual TypeScript and Python scientific computation engine" className="h-full min-h-[480px] w-full object-cover" /></div>
           <div className="atlas-card p-5">
             <div className="flex items-center gap-3"><Code2 /><h2 className="text-4xl font-black">Python / Pyodide SciPy plate</h2></div>
-            <p className="mt-4 leading-7">This plate now uses a direct main-page Pyodide loader rather than a hidden iframe, so its package-loading status is visible. It explicitly loads <span className="mono">numpy</span>, <span className="mono">scipy</span>, and <span className="mono">sympy</span> before running the same gamma-ratio power law and polynomial derivative starter.</p>
+            <p className="mt-4 leading-7">This plate now uses a direct main-page Pyodide loader rather than a hidden iframe, so its package-loading status is visible. It explicitly loads <span className="mono">numpy</span>, <span className="mono">scipy</span>, <span className="mono">sympy</span>, and <span className="mono">matplotlib</span> before running the same gamma-ratio power law and polynomial derivative starter.</p>
             <div className="mt-5 border-2 border-foreground bg-[#17120f] p-5 text-[#f5ead4] shadow-[8px_8px_0_#24180c]">
-              <span className="mono inline-block border border-[#f5ead4] px-2 py-1 text-xs uppercase tracking-[.18em] text-[#92dce5]">Pyodide loading NumPy · SciPy · SymPy</span>
+              <span className="mono inline-block border border-[#f5ead4] px-2 py-1 text-xs uppercase tracking-[.18em] text-[#92dce5]">Pyodide loading NumPy · SciPy · SymPy · Matplotlib</span>
               <p className="mono mt-4 text-xs uppercase tracking-[.12em] text-[#e2c270]">{pythonStatus}</p>
               <pre className="mt-4 max-h-[300px] overflow-auto whitespace-pre-wrap text-xs leading-6">{pythonOutput}</pre>
+              {pythonPlotUri && (
+                <figure className="mt-5 bg-[#fff7e5] p-2 text-[#241b14] shadow-[5px_5px_0_#9f4329]">
+                  <img src={pythonPlotUri} alt="Python-generated Matplotlib plot comparing p(x), ordinary derivative, and Riemann-Liouville fractional derivative" className="w-full border-2 border-[#241b14]" />
+                  <figcaption className="mono mt-2 text-[10px] uppercase tracking-[.14em]">Rendered in Python with Matplotlib AGG, returned to React as a PNG data URI.</figcaption>
+                </figure>
+              )}
             </div>
             <details className="mt-5 border-2 border-foreground bg-[#fff7e5] p-4">
               <summary className="plate-title cursor-pointer text-xs">View Python source</summary>

@@ -16,7 +16,7 @@
 - [x] Add polynomial coefficient sliders to the derivative starter so users can change the cubic polynomial interactively.
 - [x] Add operator comparison presets for ordinary derivative, Riemann–Liouville derivative, and Caputo derivative.
 - [x] Run TypeScript/build checks and inspect browser logs for Python runtime errors.
-- [ ] Save a new checkpoint and deliver the updated version.
+- [x] Save a new checkpoint and deliver the updated version.
 
 # Continued verification after user request
 
@@ -24,4 +24,13 @@
 - [x] Inspect recent browser console logs for direct Pyodide, package-loading, iframe, or Python execution errors.
 - [x] If runtime still fails, apply a targeted fallback that either loads packages through `loadPackage` reliably or shows a clear Python-source fallback instead of hanging.
 - [x] Re-run TypeScript and production build checks after any targeted fix.
-- [ ] Save a new checkpoint and deliver the updated version.
+- [x] Save a new checkpoint and deliver the updated version.
+
+# Python plot output request
+
+- [x] Inspect the current direct Pyodide code path and determine how Python output is rendered into the page.
+- [x] Add Python-side plotting for polynomial, ordinary derivative, and fractional derivative curves, preferably using Matplotlib in Pyodide when available.
+- [x] Add a browser-safe fallback plot path if Matplotlib package loading is too slow or unavailable.
+- [x] Run TypeScript and production build checks.
+- [x] Verify the plot appears in the browser panel and inspect logs for runtime errors.
+- [ ] Save a new checkpoint and deliver the updated website version.
