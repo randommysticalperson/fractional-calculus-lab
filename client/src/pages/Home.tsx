@@ -22,6 +22,30 @@ function numeric(value: number) {
   return Math.abs(value) > 10000 || Math.abs(value) < 0.0001 ? value.toExponential(5) : value.toFixed(6);
 }
 
+function starterPolynomialData(alpha: number) {
+  const coeffs = [0.45, 1.65, -0.85, 0.18];
+  const localGamma = (z: number): number => {
+    const p = [676.5203681218851, -1259.1392167224028, 771.32342877765313, -176.61502916214059, 12.507343278686905, -0.13857109526572012, 9.9843695780195716e-6, 1.5056327351493116e-7];
+    if (z < 0.5) return Math.PI / (Math.sin(Math.PI * z) * localGamma(1 - z));
+    z -= 1;
+    let xg = 0.99999999999980993;
+    for (let i = 0; i < p.length; i += 1) xg += p[i] / (z + i + 1);
+    const t = z + p.length - 0.5;
+    return Math.sqrt(2 * Math.PI) * t ** (z + 0.5) * Math.exp(-t) * xg;
+  };
+  return Array.from({ length: 57 }, (_, index) => {
+    const x = 0.15 + index * 0.085;
+    const p = coeffs[0] + coeffs[1] * x + coeffs[2] * x ** 2 + coeffs[3] * x ** 3;
+    const classical = coeffs[1] + 2 * coeffs[2] * x + 3 * coeffs[3] * x ** 2;
+    const fractional = coeffs.reduce((sum, coeff, power) => {
+      const denom = localGamma(power + 1 - alpha);
+      if (!Number.isFinite(denom) || Math.abs(denom) < 1e-12) return sum;
+      return sum + coeff * (localGamma(power + 1) / denom) * x ** (power - alpha);
+    }, 0);
+    return { x: Number(x.toFixed(3)), polynomial: p, classical, fractional };
+  });
+}
+
 function pyscriptFrameSource() {
   const escaped = pyscriptFractionalDemo.replace(/<\/script>/g, "<\\/script>");
   return `<!doctype html>
@@ -35,12 +59,11 @@ function pyscriptFrameSource() {
   .stamp { display:inline-block; border:1px solid #f5ead4; padding:4px 8px; color:#92dce5; margin-bottom:12px; text-transform:uppercase; letter-spacing:.1em; }
   pre { white-space: pre-wrap; line-height: 1.55; font-size: 13px; }
 </style>
-<script type="module" src="https://pyscript.net/releases/2024.11.1/core.js"></script>
-<script type="py-config">packages = ["numpy", "scipy", "sympy"]</script>
-</head>
-<body>
-<div class="wrap"><span class="stamp">PyScript loading NumPy · SciPy · SymPy</span><pre id="py-output">Initializing Pyodide scientific stack. First load can take a moment…</pre></div>
-<script type="py">${escaped}</script>
+	<script type="module" src="https://pyscript.net/releases/2024.11.1/core.js"></script>
+	</head>
+	<body>
+	<div class="wrap"><span class="stamp">PyScript loading NumPy · SciPy · SymPy</span><pre id="py-output">Initializing Pyodide scientific stack. First load can take a moment…</pre></div>
+	<script type="py" config='{"packages":["numpy","scipy","sympy"]}'>${escaped}</script>
 </body>
 </html>`;
 }
@@ -55,6 +78,7 @@ export default function Home() {
   const [query, setQuery] = useState("");
 
   const result = useMemo(() => runEngine({ alpha, beta, x, step, terms, operator }), [alpha, beta, x, step, terms, operator]);
+  const polynomialStarter = useMemo(() => starterPolynomialData(alpha), [alpha]);
   const pySrc = useMemo(() => pyscriptFrameSource(), []);
 
   const filteredReferences = useMemo(() => {
@@ -71,6 +95,7 @@ export default function Home() {
         <nav className="col-span-full flex flex-wrap items-center justify-between gap-4 border-b-2 border-foreground pb-4">
           <a href="#top" className="plate-title text-sm">Fractional Calculus Lab</a>
           <div className="flex flex-wrap gap-2 text-xs">
+            <a className="atlas-chip px-3 py-2" href="#starter-derivative">Derivative starter</a>
             <a className="atlas-chip px-3 py-2" href="#operator-bench">Operator bench</a>
             <a className="atlas-chip px-3 py-2" href="#python-lab">PyScript SciPy</a>
             <a className="atlas-chip px-3 py-2" href="#reference-ledger">FCAA ledger</a>
@@ -108,6 +133,35 @@ export default function Home() {
       </header>
 
       <main>
+        <section id="starter-derivative" className="container grid gap-7 py-14 lg:grid-cols-[.85fr_1.15fr]">
+          <aside className="atlas-card h-fit p-5">
+            <div className="flex items-center gap-3"><Sigma /><h2 className="text-4xl font-black">Derivative starter</h2></div>
+            <p className="mt-4 leading-7">Start with an ordinary polynomial. The black curve is <span className="mono">p(x)=0.18x³−0.85x²+1.65x+0.45</span>; the teal curve is its familiar first derivative; the sienna curve is a Riemann–Liouville fractional derivative at the current order <span className="mono">α={alpha.toFixed(2)}</span>.</p>
+            <div className="mt-5 grid gap-3 sm:grid-cols-3 lg:grid-cols-1">
+              <div className="atlas-card bg-[#fff7e5] p-4"><p className="plate-title text-xs">Polynomial</p><p className="mono mt-2">p(x)</p><p className="mt-2 text-sm">A curve built from powers x⁰, x¹, x², x³.</p></div>
+              <div className="atlas-card bg-[#fff7e5] p-4"><p className="plate-title text-xs">Classical derivative</p><p className="mono mt-2">p'(x)</p><p className="mt-2 text-sm">Each term drops its exponent by exactly one.</p></div>
+              <div className="atlas-card bg-[#fff7e5] p-4"><p className="plate-title text-xs">Fractional bridge</p><p className="mono mt-2">D^α p(x)</p><p className="mt-2 text-sm">Each power is scaled by gamma ratios and shifted by α instead of 1.</p></div>
+            </div>
+          </aside>
+          <div className="atlas-card graph-paper p-5">
+            <div className="mb-4 flex flex-wrap items-center justify-between gap-4"><h3 className="text-3xl font-black">Polynomial to fractional derivative</h3><span className="atlas-chip px-2 py-1 text-[10px]">starter visual</span></div>
+            <div className="h-[430px] bg-[#fff7e5]/75 p-2">
+              <ResponsiveContainer width="100%" height="100%">
+                <LineChart data={polynomialStarter} margin={{ left: 8, right: 18, top: 12, bottom: 8 }}>
+                  <CartesianGrid strokeDasharray="4 4" stroke="#49382a55" />
+                  <XAxis dataKey="x" tick={{ fontSize: 11 }} />
+                  <YAxis tick={{ fontSize: 11 }} width={56} />
+                  <Tooltip />
+                  <Legend />
+                  <Line type="monotone" dataKey="polynomial" name="p(x)" stroke="#17120f" strokeWidth={3} dot={false} />
+                  <Line type="monotone" dataKey="classical" name="ordinary derivative p'(x)" stroke="#2f6f74" strokeWidth={3} dot={false} />
+                  <Line type="monotone" dataKey="fractional" name={`fractional derivative D^${alpha.toFixed(2)} p(x)`} stroke="#9f4329" strokeWidth={3} dot={false} />
+                </LineChart>
+              </ResponsiveContainer>
+            </div>
+          </div>
+        </section>
+
         <section id="operator-bench" className="container grid gap-7 py-14 lg:grid-cols-[380px_1fr]">
           <aside className="atlas-card h-fit p-5">
             <div className="mb-4 flex items-center gap-3"><FunctionSquare /><h2 className="text-3xl font-black">Operator bench</h2></div>
