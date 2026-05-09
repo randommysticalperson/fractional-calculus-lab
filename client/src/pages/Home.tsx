@@ -2,7 +2,7 @@
 Neo-Brutalist Scientific Atlas reminder: preserve the asymmetric research-folio layout, tactile operator plates, graph-paper plotting fields, warm paper, carbon ink, and visible computation provenance. Ask: does this choice reinforce or dilute the design philosophy?
 */
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { AlertTriangle, BookOpen, Code2, FlaskConical, FunctionSquare, Library, Sigma, Waves } from "lucide-react";
 import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { Button } from "@/components/ui/button";
@@ -16,14 +16,19 @@ const referenceImage = "/manus-storage/fractional-reference-ledger_05ab69ca.png"
 const dualEngineImage = "/manus-storage/fractional-python-typescript-dual-engine_d702f87d.png";
 
 const operators = Object.entries(operatorCopy) as [OperatorKind, (typeof operatorCopy)[OperatorKind]][];
+type StarterComparison = "ordinary" | "riemann-liouville" | "caputo";
+const starterComparisons: Record<StarterComparison, { label: string; short: string; note: string }> = {
+  ordinary: { label: "Ordinary derivative", short: "d/dx", note: "The classical starter: each polynomial term loses exactly one power." },
+  "riemann-liouville": { label: "Riemann–Liouville", short: "RL-D", note: "The constant term is not erased; the lower terminal contributes a memory singularity." },
+  caputo: { label: "Caputo", short: "C-D", note: "Polynomial terms below the integer ceiling of α vanish, matching classical initial-condition intuition." },
+};
 
 function numeric(value: number) {
   if (!Number.isFinite(value)) return "singular / unsupported";
   return Math.abs(value) > 10000 || Math.abs(value) < 0.0001 ? value.toExponential(5) : value.toFixed(6);
 }
 
-function starterPolynomialData(alpha: number) {
-  const coeffs = [0.45, 1.65, -0.85, 0.18];
+function starterPolynomialData(alpha: number, coeffs: number[], comparison: StarterComparison) {
   const localGamma = (z: number): number => {
     const p = [676.5203681218851, -1259.1392167224028, 771.32342877765313, -176.61502916214059, 12.507343278686905, -0.13857109526572012, 9.9843695780195716e-6, 1.5056327351493116e-7];
     if (z < 0.5) return Math.PI / (Math.sin(Math.PI * z) * localGamma(1 - z));
@@ -37,35 +42,44 @@ function starterPolynomialData(alpha: number) {
     const x = 0.15 + index * 0.085;
     const p = coeffs[0] + coeffs[1] * x + coeffs[2] * x ** 2 + coeffs[3] * x ** 3;
     const classical = coeffs[1] + 2 * coeffs[2] * x + 3 * coeffs[3] * x ** 2;
-    const fractional = coeffs.reduce((sum, coeff, power) => {
+    const rl = coeffs.reduce((sum, coeff, power) => {
       const denom = localGamma(power + 1 - alpha);
       if (!Number.isFinite(denom) || Math.abs(denom) < 1e-12) return sum;
       return sum + coeff * (localGamma(power + 1) / denom) * x ** (power - alpha);
     }, 0);
-    return { x: Number(x.toFixed(3)), polynomial: p, classical, fractional };
+    const caputo = coeffs.reduce((sum, coeff, power) => {
+      if (power < Math.ceil(alpha)) return sum;
+      const denom = localGamma(power + 1 - alpha);
+      if (!Number.isFinite(denom) || Math.abs(denom) < 1e-12) return sum;
+      return sum + coeff * (localGamma(power + 1) / denom) * x ** (power - alpha);
+    }, 0);
+    const selected = comparison === "ordinary" ? classical : comparison === "caputo" ? caputo : rl;
+    return { x: Number(x.toFixed(3)), polynomial: p, ordinary: classical, rl, caputo, selected };
   });
 }
 
-function pyscriptFrameSource() {
-  const escaped = pyscriptFractionalDemo.replace(/<\/script>/g, "<\\/script>");
-  return `<!doctype html>
-<html>
-<head>
-<meta charset="utf-8" />
-<link rel="stylesheet" href="https://pyscript.net/releases/2024.11.1/core.css" />
-<style>
-  body { margin: 0; background: #14100d; color: #f5ead4; font-family: 'IBM Plex Mono', monospace; }
-  .wrap { padding: 18px; border: 2px solid #f5ead4; min-height: 270px; background: linear-gradient(135deg, #19130f, #272019); }
-  .stamp { display:inline-block; border:1px solid #f5ead4; padding:4px 8px; color:#92dce5; margin-bottom:12px; text-transform:uppercase; letter-spacing:.1em; }
-  pre { white-space: pre-wrap; line-height: 1.55; font-size: 13px; }
-</style>
-	<script type="module" src="https://pyscript.net/releases/2024.11.1/core.js"></script>
-	</head>
-	<body>
-	<div class="wrap"><span class="stamp">PyScript loading NumPy · SciPy · SymPy</span><pre id="py-output">Initializing Pyodide scientific stack. First load can take a moment…</pre></div>
-	<script type="py" config='{"packages":["numpy","scipy","sympy"]}'>${escaped}</script>
-</body>
-</html>`;
+const PYODIDE_URL = "https://cdn.jsdelivr.net/pyodide/v0.26.4/full/pyodide.js";
+const PYODIDE_INDEX_URL = "https://cdn.jsdelivr.net/pyodide/v0.26.4/full/";
+
+async function loadPyodideScript() {
+  const w = window as typeof window & { loadPyodide?: (options: { indexURL: string }) => Promise<any> };
+  if (w.loadPyodide) return w.loadPyodide;
+  await new Promise<void>((resolve, reject) => {
+    const existing = document.querySelector<HTMLScriptElement>(`script[src="${PYODIDE_URL}"]`);
+    if (existing) {
+      existing.addEventListener("load", () => resolve(), { once: true });
+      existing.addEventListener("error", () => reject(new Error("Pyodide script failed to load.")), { once: true });
+      return;
+    }
+    const script = document.createElement("script");
+    script.src = PYODIDE_URL;
+    script.async = true;
+    script.onload = () => resolve();
+    script.onerror = () => reject(new Error("Pyodide script failed to load from jsDelivr."));
+    document.head.appendChild(script);
+  });
+  if (!w.loadPyodide) throw new Error("Pyodide script loaded, but loadPyodide was not attached to window.");
+  return w.loadPyodide;
 }
 
 export default function Home() {
@@ -76,10 +90,56 @@ export default function Home() {
   const [terms, setTerms] = useState(34);
   const [operator, setOperator] = useState<OperatorKind>("riemann-liouville-derivative");
   const [query, setQuery] = useState("");
+  const [polyCoeffs, setPolyCoeffs] = useState([0.45, 1.65, -0.85, 0.18]);
+  const [starterComparison, setStarterComparison] = useState<StarterComparison>("riemann-liouville");
 
   const result = useMemo(() => runEngine({ alpha, beta, x, step, terms, operator }), [alpha, beta, x, step, terms, operator]);
-  const polynomialStarter = useMemo(() => starterPolynomialData(alpha), [alpha]);
-  const pySrc = useMemo(() => pyscriptFrameSource(), []);
+  const polynomialStarter = useMemo(() => starterPolynomialData(alpha, polyCoeffs, starterComparison), [alpha, polyCoeffs, starterComparison]);
+  const polynomialFormula = useMemo(() => `${polyCoeffs[3].toFixed(2)}x³ ${polyCoeffs[2] < 0 ? "−" : "+"} ${Math.abs(polyCoeffs[2]).toFixed(2)}x² ${polyCoeffs[1] < 0 ? "−" : "+"} ${Math.abs(polyCoeffs[1]).toFixed(2)}x ${polyCoeffs[0] < 0 ? "−" : "+"} ${Math.abs(polyCoeffs[0]).toFixed(2)}`, [polyCoeffs]);
+  const updatePolyCoeff = (index: number, value: number) => setPolyCoeffs((current) => current.map((coeff, i) => (i === index ? value : coeff)));
+  const [pythonStatus, setPythonStatus] = useState("Preparing browser Python runtime…");
+  const [pythonOutput, setPythonOutput] = useState("Waiting for Pyodide package loader.");
+
+  useEffect(() => {
+    let cancelled = false;
+    const timeout = window.setTimeout(() => {
+      if (!cancelled) {
+        setPythonStatus("Python runtime is still loading — source fallback shown below.");
+        setPythonOutput("Pyodide can take time on first load, especially SciPy. The exact Python/SciPy/SymPy source remains available below while the runtime continues attempting to load.");
+      }
+    }, 18000);
+
+    async function bootScientificPython() {
+      try {
+        setPythonStatus("Loading Pyodide WebAssembly runtime…");
+        const loadPyodide = await loadPyodideScript();
+        if (cancelled) return;
+        const pyodide = await loadPyodide({ indexURL: PYODIDE_INDEX_URL });
+        if (cancelled) return;
+        setPythonStatus("Loading NumPy, SciPy, and SymPy packages…");
+        await pyodide.loadPackage(["numpy", "scipy", "sympy"]);
+        if (cancelled) return;
+        setPythonStatus("Running SciPy/SymPy fractional calculus computation…");
+        await pyodide.runPythonAsync(pyscriptFractionalDemo);
+        const output = pyodide.globals.get("output");
+        if (cancelled) return;
+        window.clearTimeout(timeout);
+        setPythonOutput(output ? output.toString() : "Python completed without an output variable.");
+        setPythonStatus("Python plate ready — computed in browser with Pyodide.");
+      } catch (error) {
+        if (cancelled) return;
+        window.clearTimeout(timeout);
+        setPythonStatus("Python runtime error — showing diagnostic and source fallback.");
+        setPythonOutput(String(error instanceof Error ? error.stack || error.message : error));
+      }
+    }
+
+    bootScientificPython();
+    return () => {
+      cancelled = true;
+      window.clearTimeout(timeout);
+    };
+  }, []);
 
   const filteredReferences = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -136,11 +196,32 @@ export default function Home() {
         <section id="starter-derivative" className="container grid gap-7 py-14 lg:grid-cols-[.85fr_1.15fr]">
           <aside className="atlas-card h-fit p-5">
             <div className="flex items-center gap-3"><Sigma /><h2 className="text-4xl font-black">Derivative starter</h2></div>
-            <p className="mt-4 leading-7">Start with an ordinary polynomial. The black curve is <span className="mono">p(x)=0.18x³−0.85x²+1.65x+0.45</span>; the teal curve is its familiar first derivative; the sienna curve is a Riemann–Liouville fractional derivative at the current order <span className="mono">α={alpha.toFixed(2)}</span>.</p>
+            <p className="mt-4 leading-7">Start with an ordinary polynomial. The black curve is <span className="mono">p(x)={polynomialFormula}</span>. Use the sliders below to reshape the polynomial, then compare the familiar first derivative against fractional derivative presets at the current order <span className="mono">α={alpha.toFixed(2)}</span>.</p>
             <div className="mt-5 grid gap-3 sm:grid-cols-3 lg:grid-cols-1">
               <div className="atlas-card bg-[#fff7e5] p-4"><p className="plate-title text-xs">Polynomial</p><p className="mono mt-2">p(x)</p><p className="mt-2 text-sm">A curve built from powers x⁰, x¹, x², x³.</p></div>
               <div className="atlas-card bg-[#fff7e5] p-4"><p className="plate-title text-xs">Classical derivative</p><p className="mono mt-2">p'(x)</p><p className="mt-2 text-sm">Each term drops its exponent by exactly one.</p></div>
-              <div className="atlas-card bg-[#fff7e5] p-4"><p className="plate-title text-xs">Fractional bridge</p><p className="mono mt-2">D^α p(x)</p><p className="mt-2 text-sm">Each power is scaled by gamma ratios and shifted by α instead of 1.</p></div>
+              <div className="atlas-card bg-[#fff7e5] p-4"><p className="plate-title text-xs">Selected comparison</p><p className="mono mt-2">{starterComparisons[starterComparison].short}</p><p className="mt-2 text-sm">{starterComparisons[starterComparison].note}</p></div>
+            </div>
+            <div className="mt-5 border-2 border-foreground bg-[#fff7e5] p-4">
+              <p className="plate-title text-xs">Polynomial coefficients</p>
+              <div className="mt-3 grid gap-3">
+                {["constant", "x", "x²", "x³"].map((label, index) => (
+                  <label key={label} className="block">
+                    <span className="plate-title flex justify-between text-[10px]"><span>{label}</span><span>{polyCoeffs[index].toFixed(2)}</span></span>
+                    <input className="mt-2 w-full accent-[#2f6f74]" type="range" min={-2.5} max={2.5} step={0.01} value={polyCoeffs[index]} onChange={(event) => updatePolyCoeff(index, Number(event.target.value))} />
+                  </label>
+                ))}
+              </div>
+            </div>
+            <div className="mt-5 border-2 border-foreground bg-[#fff7e5] p-4">
+              <p className="plate-title text-xs">Comparison preset</p>
+              <div className="mt-3 grid gap-2">
+                {(Object.entries(starterComparisons) as [StarterComparison, (typeof starterComparisons)[StarterComparison]][]).map(([key, meta]) => (
+                  <button key={key} onClick={() => setStarterComparison(key)} className={`border-2 border-foreground p-3 text-left transition ${starterComparison === key ? "bg-foreground text-background" : "bg-card hover:-translate-y-0.5 hover:shadow-[4px_4px_0_var(--foreground)]"}`}>
+                    <span className="mono text-xs">{meta.short}</span><span className="block font-semibold">{meta.label}</span>
+                  </button>
+                ))}
+              </div>
             </div>
           </aside>
           <div className="atlas-card graph-paper p-5">
@@ -154,8 +235,8 @@ export default function Home() {
                   <Tooltip />
                   <Legend />
                   <Line type="monotone" dataKey="polynomial" name="p(x)" stroke="#17120f" strokeWidth={3} dot={false} />
-                  <Line type="monotone" dataKey="classical" name="ordinary derivative p'(x)" stroke="#2f6f74" strokeWidth={3} dot={false} />
-                  <Line type="monotone" dataKey="fractional" name={`fractional derivative D^${alpha.toFixed(2)} p(x)`} stroke="#9f4329" strokeWidth={3} dot={false} />
+                  <Line type="monotone" dataKey="ordinary" name="ordinary derivative p'(x)" stroke="#2f6f74" strokeWidth={2} strokeDasharray="7 5" dot={false} />
+                  <Line type="monotone" dataKey="selected" name={`${starterComparisons[starterComparison].label} comparison`} stroke="#9f4329" strokeWidth={3} dot={false} />
                 </LineChart>
               </ResponsiveContainer>
             </div>
@@ -259,9 +340,13 @@ export default function Home() {
         <section id="python-lab" className="container grid gap-7 py-14 lg:grid-cols-[.9fr_1.1fr]">
           <div className="atlas-card overflow-hidden p-3 -rotate-1"><img src={dualEngineImage} alt="Dual TypeScript and Python scientific computation engine" className="h-full min-h-[480px] w-full object-cover" /></div>
           <div className="atlas-card p-5">
-            <div className="flex items-center gap-3"><Code2 /><h2 className="text-4xl font-black">Python / PyScript SciPy plate</h2></div>
-            <p className="mt-4 leading-7">This isolated frame uses PyScript/Pyodide and declares <span className="mono">numpy</span>, <span className="mono">scipy</span>, and <span className="mono">sympy</span>. It computes the same gamma-ratio power law with SciPy’s special functions and displays a SymPy symbolic expression.</p>
-            <iframe title="PyScript SciPy SymPy fractional calculus demo" srcDoc={pySrc} className="mt-5 h-[350px] w-full border-2 border-foreground bg-[#17120f]" sandbox="allow-scripts allow-same-origin" />
+            <div className="flex items-center gap-3"><Code2 /><h2 className="text-4xl font-black">Python / Pyodide SciPy plate</h2></div>
+            <p className="mt-4 leading-7">This plate now uses a direct main-page Pyodide loader rather than a hidden iframe, so its package-loading status is visible. It explicitly loads <span className="mono">numpy</span>, <span className="mono">scipy</span>, and <span className="mono">sympy</span> before running the same gamma-ratio power law and polynomial derivative starter.</p>
+            <div className="mt-5 border-2 border-foreground bg-[#17120f] p-5 text-[#f5ead4] shadow-[8px_8px_0_#24180c]">
+              <span className="mono inline-block border border-[#f5ead4] px-2 py-1 text-xs uppercase tracking-[.18em] text-[#92dce5]">Pyodide loading NumPy · SciPy · SymPy</span>
+              <p className="mono mt-4 text-xs uppercase tracking-[.12em] text-[#e2c270]">{pythonStatus}</p>
+              <pre className="mt-4 max-h-[300px] overflow-auto whitespace-pre-wrap text-xs leading-6">{pythonOutput}</pre>
+            </div>
             <details className="mt-5 border-2 border-foreground bg-[#fff7e5] p-4">
               <summary className="plate-title cursor-pointer text-xs">View Python source</summary>
               <pre className="mt-4 overflow-x-auto text-xs leading-6">{pyscriptFractionalDemo}</pre>

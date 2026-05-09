@@ -1,18 +1,10 @@
 /*
-Neo-Brutalist Scientific Atlas reminder: this PyScript code is displayed as a transparent laboratory plate. Keep SciPy/SymPy package usage explicit and reproducible.
+Neo-Brutalist Scientific Atlas reminder: this Python code is displayed as a transparent laboratory plate. Keep SciPy/SymPy package usage explicit and reproducible, and keep the output readable as a scientific bench note.
 */
 
-export const pyscriptFractionalDemo = String.raw`from pyscript import display
-try:
-    import numpy as np
-    from scipy.special import gamma
-    import sympy as sp
-except ModuleNotFoundError:
-    import micropip
-    await micropip.install(["numpy", "scipy", "sympy"])
-    import numpy as np
-    from scipy.special import gamma
-    import sympy as sp
+export const pyscriptFractionalDemo = String.raw`import numpy as np
+from scipy.special import gamma
+import sympy as sp
 
 alpha = 0.63
 beta = 2.40
@@ -35,6 +27,7 @@ fractional_px = sum(
     coeffs[n] * gamma(n + 1) / gamma(n + 1 - alpha) * x ** (n - alpha)
     for n in range(len(coeffs))
 )
+
 poly_samples = []
 for sample_x in np.linspace(0.5, 3.0, 6):
     frac_value = sum(
@@ -51,8 +44,8 @@ frac_symbolic = sum(
     for n in range(len(coeffs))
 )
 
-message = f"""
-SciPy/SymPy fractional power plate
+output = f"""
+Pyodide scientific Python plate: NumPy · SciPy · SymPy are loaded.
 
 α = {alpha:.2f}, β = {beta:.2f}, x = {x:.2f}
 Riemann–Liouville D^α x^β = {rl_derivative:.8f}
@@ -66,6 +59,4 @@ p'(x) = {sp.sstr(classical_symbolic)}
 D^α p(x) formula = {sp.sstr(frac_symbolic)}
 At x = {x:.2f}: p(x) = {px:.6f}, p'(x) = {classical_px:.6f}, D^αp(x) = {fractional_px:.6f}
 SciPy fractional polynomial samples: {np.array2string(np.array(poly_samples), precision=4)}
-"""
-
-display(message, target="py-output")`;
+"""`;
