@@ -1,3 +1,7 @@
+/*
+Neo-Brutalist Scientific Atlas reminder: preserve the warm-paper research folio, tactile operator plates, graph surfaces, and explicit computation provenance across routes.
+*/
+
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";

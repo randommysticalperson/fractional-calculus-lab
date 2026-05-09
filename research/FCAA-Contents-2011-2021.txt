@@ -1,0 +1,3635 @@
+
+
+
+
+Fractional Calculus and Applied Analysis (FCAA)
+CONTENTS
+Vol. 14 (2011) – Vol. 24 (2021)
+Editor-in-Chief: Virginia Kiryakova
+Published by:
+Institute of Mathematics and Informatics
+– Bulgarian Academy of Sciences, Soﬁa (1998–2010)
+http://www.math.bas.bg/complan/fcaa
+De Gryuter Open (Versita), Warsaw
+and Springer-Verlag, Wien (2011–2014)
+Walter de Gruyter GmbH, Berlin (2015–2021)
+https://www.degruyter.com/journal/key/FCA/html
+
+ISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 14, No 1 (2011)
+
+CONTENTS
+Guest-Editors: Virginia Kiryakova, Yury Luchko,
+Francesco Mainardi, Blas Vinagre, Igor Podlubny, YangQuan Chen
+Special Issue: Dedicated to 80th Anniversary of Prof. R. Gorenﬂo
+Editorial: FOREWORD . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+Yu. Luchko, F. Mainardi, S. Rogosin
+PROFESSOR RUDOLF GORENFLO
+AND HIS CONTRIBUTION TO FRACTIONAL CALCULUS . . . . . . . 3
+S. Samko
+ON A 3d-HYPERSINGULAR EQUATION
+OF A PROBLEM FOR A CRACK . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+Vu Kim Tuan
+INVERSE PROBLEM FOR FRACTIONAL
+DIFFUSION EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+M. Hahn, S. Umarov
+FRACTIONAL FOKKER-PLANCK-KOLMOGOROV TYPE
+EQUATIONS AND THEIR ASSOCIATED
+STOCHASTIC DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . 56
+G. Pagnini
+NONLINEAR TIME-FRACTIONAL DIFFERENTIAL
+EQUATIONS IN COMBUSTION SCIENCE . . . . . . . . . . . . . . . . . . . . . . . . 80
+T.M. Atanackovic, S. Pilipovic
+HAMILTON’S PRINCIPLE WITH VARIABLE
+ORDER FRACTIONAL DERIVATIVES . . . . . . . . . . . . . . . . . . . . . . . . . . . 94
+Yu. Luchko
+MAXIMUM PRINCIPLE AND ITS APPLICATION
+FOR THE TIME-FRACTIONAL DIFFUSION EQUATIONS . . . . . . 110
+M. Stojanovic
+FRACTIONAL DERIVATIVES IN SPACES
+OF GENERALIZED FUNCTIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 125
+A.M. Mathai, H.J. Haubold
+MATRIX-VARIATE STATISTICAL DISTRIBUTIONS
+AND FRACTIONAL CALCULUS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 138
+Conference: IDOTA-2011, June 30-July 2, 2011, Aveiro, Portugal
+(On the occasion of 70th birthday of Prof. S. Samko) . . . . . . . . . . . . . . 156
+Conference: FDTA-2011, August 29-31, 2011, Washington D.C., USA
+(5th Symp. on Fractional Derivatives and Their Applications) . . . . . . 158
+Conference: AMADE-2011, September 12-19, 2011, Minsk, Belarus
+(Dedicated to the memory of Prof. A.A. Kilbas) . . . . . . . . . . . . . . . . . . . 160
+
+ISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 14, No 2 (2011)
+
+CONTENTS
+
+Editorial: PRESS RELEASE:
+First Bulgarian journal published by Springer and Versita . . . . . . . . . . 163
+D. Przeworska-Rolewicz
+SHIFTS AND PERIODICITY IN ALGEBRAIC ANALYSIS . . . . . . . 164
+C. Atkinson, A. Osseiran
+DISCRETE-SPACE TIME-FRACTIONAL PROCESSES . . . . . . . . . . 201
+A. Abouelaz
+THE d-PLANE RADON TRANSFORM
+ON THE TORUS Tn . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 233
+A. Obeidat, M. Gharaibeh, M. Al-Ali, A. Rousan
+EVOLUTION OF A CURRENT IN A RESISTOR . . . . . . . . . . . . . . . . . 247
+K.N. Khan, W. Lamb, A.C. McBride
+FRACTIONAL CALCULUS OF
+PERIODIC DISTRIBUTIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 260
+T. Morita, K. Sato
+MOLLIFICATION OF FRACTIONAL DERIVATIVES
+USING RAPIDLY DECAYING HARMONIC WAVELET . . . . . . . . . . 284
+M. Kostić
+ABSTRACT TIME-FRACTIONAL EQUATIONS:
+EXISTENCE AND GROWTH OF SOLUTIONS . . . . . . . . . . . . . . . . . . . 301
+D. Babusci, G. Dattoli, D. Sacchetti
+THE LAMB-BATEMAN INTEGRAL EQUATION
+AND THE FRACTIONAL DERIVATIVES . . . . . . . . . . . . . . . . . . . . . . . . 317
+Conference: TMSF’2011, October 20-23, 2011, Soﬁa, Bulgaria
+(On the occasion of 80th anniversary of Prof. P. Rusev) . . . . . . . . . . . . 321
+
+ISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 14, No 3 (2011)
+
+CONTENTS
+Editorial:
+FCAA NEWS, BOOKS, MEETINGS, ANNIVERSARIES . . . . . . . . . . 323
+L. Vázquez, J.J. Trujillo, M.P. Velasco
+FRACTIONAL HEAT EQUATION AND
+THE SECOND LAW OF THERMODYNAMICS . . . . . . . . . . . . . . . . . . . 334
+H. Rafeiro, M. Yakhshiboev
+THE CHEN-MARCHAUD FRACTIONAL
+INTEGRO-DIFFERENTIATION IN THE VARIABLE
+EXPONENT LEBESGUE SPACES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 343
+L. Diening, D. Cruz-Uribe, P. Hästö
+THE MAXIMAL OPERATOR ON WEIGHTED
+VARIABLE LEBESGUE SPACES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 361
+J.P.N. Bishwal
+MINIMUM CONTRAST ESTIMATION IN FRACTIONAL
+ORNSTEIN-UHLENBECK PROCESS:
+CONTINUOUS AND DISCRETE SAMPLING . . . . . . . . . . . . . . . . . . . . 375
+J. Kemppainen
+EXISTENCE AND UNIQUENESS OF THE SOLUTION
+FOR A TIME-FRACTIONAL DIFFUSION EQUATION . . . . . . . . . . 411
+Y. Povstenko
+NON-AXISYMMETRIC SOLUTIONS
+TO TIME-FRACTIONAL DIFFUSION-WAVE EQUATION
+IN AN INFINITE CYLINDER . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 418
+Z. Jiao, Y.Q. Chen
+STABILITY ANALYSIS OF FRACTIONAL-ORDER
+SYSTEMS WITH DOUBLE NONCOMMENSURATE
+ORDERS FOR MATRIX CASE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 436
+N.J. Ford, J. Xiao, Y. Yan
+A FINITE ELEMENT METHOD FOR TIME FRACTIONAL
+PARTIAL DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . 454
+K. Diethelm
+AN EFFICIENT PARALLEL ALGORITHM
+FOR THE NUMERICAL SOLUTION
+OF FRACTIONAL DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . 475
+
+ISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 14, No 4 (2011)
+
+CONTENTS
+
+Editorial:
+FCAA NEWS: MEETINGS, BOOKS, ANNIVERSARIES . . . . . . . . . . 491
+P. Lanusse, J. Sabatier
+PLC IMPLEMENTATION OF A CRONE CONTROLLER . . . . . . . . 505
+A.B. Malinowska, D.F.M. Torres
+FRACTIONAL CALCULUS OF VARIATIONS
+FOR A COMBINED CAPUTO DERIVATIVE . . . . . . . . . . . . . . . . . . . . . 523
+D. Idczak, R. Kamocki
+ON THE EXISTENCE AND UNIQUENESS
+AND FORMULA FOR THE SOLUTION
+OF R-L FRACTIONAL CAUCHY PROBLEM IN Rn . . . . . . . . . . . . . 538
+N.J. Ford, M.L. Morgado
+FRACTIONAL BOUNDARY VALUE PROBLEMS:
+ANALYSIS AND NUMERICAL METHODS . . . . . . . . . . . . . . . . . . . . . . . 554
+G. Baumann, F. Stenger
+FRACTIONAL CALCULUS AND SINC METHODS . . . . . . . . . . . . . . 568
+Ž. Tomovski, T.K. Pogány
+INTEGRAL EXPRESSIONS FOR MATHIEU–TYPE
+POWER SERIES AND FOR
+THE BUTZER–FLOCKE–HAUSS Ω–FUNCTION . . . . . . . . . . . . . . . . . 623
+J. Tenreiro Machado
+AND I SAY TO MYSELF:
+“WHAT A FRACTIONAL WORLD !” . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 635
+
+ISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 15, No 1 (2012)
+
+CONTENTS
+FCAA NEWS: MEETINGS AND BOOKS . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1
+
+J.R. Graef, L. Kong, B. Yang
+POSITIVE SOLUTIONS FOR A SEMIPOSITONE
+FRACTIONAL BOUNDARY VALUE PROBLEM
+WITH A FORCING TERM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+8
+
+Yu.S. Linchuk
+COMMUTANTS OF COMPOSITION OPERATORS
+INDUCED BY A PARABOLIC LINEAR FRACTIONAL
+AUTOMORPHISMS OF THE UNIT DISK . . . . . . . . . . . . . . . . . . . . . . . . . 25
+B. Rubin
+ON SOME INVERSION FORMULAS
+FOR RIESZ POTENTIALS AND k-PLANE TRANSFORMS . . . . . . . 34
+A. Aghajani, Y. Jalilian, J.J. Trujillo
+ON THE EXISTENCE OF SOLUTIONS OF
+FRACTIONAL INTEGRO-DIFFERENTIAL EQUATIONS . . . . . . . .
+
+44
+
+B.J. West, D. West
+FRACTIONAL DYNAMICS OF ALLOMETRY . . . . . . . . . . . . . . . . . . . .
+
+70
+
+Z. Jiao, Y. Q. Chen
+IMPULSE RESPONSE OF A GENERALIZED
+FRACTIONAL SECOND ORDER FILTER . . . . . . . . . . . . . . . . . . . . . . . .
+
+97
+
+G. Pagnini
+ERDÉLYI–KOBER FRACTIONAL DIFFUSION . . . . . . . . . . . . . . . . . . . 117
+K. Hu, N. Jacob, C. Yuan
+ON AN EQUATION BEING A FRACTIONAL DIFFERENTIAL
+EQUATION WITH RESPECT TO TIME AND A
+PSEUDO-DIFFERENTIAL EQUATION WITH RESPECT
+TO SPACE RELATED TO LÉVY-TYPE PROCESSES . . . . . . . . . . . . 128
+Yu. Luchko
+INITIAL-BOUNDARY-VALUE PROBLEMS
+FOR THE ONE-DIMENSIONAL TIME-FRACTIONAL
+DIFFUSION EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 141
+
+ISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 15, No 2 (2012)
+
+CONTENTS
+FCAA NEWS, RELATED MEETINGS AND BOOKS . . . . . . . . . . . . . . . . . . 161
+
+S. Abbas, M. Benchohra, A.N. Vityuk
+ON FRACTIONAL ORDER DERIVATIVES AND DARBOUX
+PROBLEM FOR IMPLICIT DIFFERENTIAL EQUATIONS . . . . . . . . . . .
+
+168
+
+A. Cernea
+A NOTE ON THE EXISTENCE OF SOLUTIONS FOR SOME BOUNDARY
+VALUE PROBLEMS OF FRACTIONAL DIFFERENTIAL INCLUSIONS 183
+
+J. Kemppainen
+SOLVABILITY OF A DIRICHLET PROBLEM FOR A TIME FRACTIONAL
+DIFFUSION-WAVE EQUATION IN LIPSCHITZ DOMAINS . . . . . . . . . . . 195
+
+C. Atkinson
+MOVING BOUNDARY PROBLEMS FOR TIME FRACTIONAL
+AND COMPOSITION DEPENDENT DIFFUSION . . . . . . . . . . . . . . . . . . . .
+
+207
+
+S.R. Grace, R.P. Agarwal, P.J.Y. Wong, A. Zafer
+ON OSCILLATION OF FRACTIONAL DIFFERENTIAL EQUATIONS . 222
+
+E. Bazhlekova
+EXISTENCE AND UNIQUENESS RESULTS FOR A
+FRACTIONAL EVOLUTION EQUATION IN HILBERT SPACE . . . . . . .
+
+232
+
+G. Wang, D. Baleanu, L. Zhang
+MONOTONE ITERATIVE METHOD FOR A CLASS OF
+NONLINEAR FRACTIONAL DIFFERENTIAL EQUATIONS . . . . . . . . . . 244
+
+Y. Povstenko
+NON-CENTRAL-SYMMETRIC SOLUTION TO
+TIME-FRACTIONAL DIFFUSION-WAVE EQUATION IN A
+SPHERE UNDER DIRICHLET BOUNDARY CONDITION . . . . . . . . . . . .
+
+253
+
+K.M. Shinaliyev, B.Kh. Turmetov, S.R. Umarov
+A FRACTIONAL OPERATOR ALGORITHM METHOD
+FOR CONSTRUCTION OF SOLUTIONS OF FRACTIONAL
+ORDER DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 267
+
+I. Petráš
+TUNING AND IMPLEMENTATION METHODS FOR
+FRACTIONAL-ORDER CONTROLLERS . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+282
+
+K. Diethelm
+THE MEAN VALUE THEOREMS AND A NAGUMO-TYPE UNIQUENESS
+THEOREM FOR CAPUTO’S FRACTIONAL CALCULUS . . . . . . . . . . . . . 304
+
+E. Scalas, N. Viles
+ON THE CONVERGENCE OF QUADRATIC VARIATION
+FOR COMPOUND FRACTIONAL POISSON PROCESSES . . . . . . . . . . . . 314
+
+R. Herrmann
+COVARIANT FRACTIONAL EXTENSION OF THE MODIFIED
+LAPLACE-OPERATOR USED IN 3D-SHAPE RECOVERY . . . . . . . . . . . . 332
+
+ISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 15, No 3 (2012)
+
+CONTENTS
+Editorial: FCAA RELATED MEETINGS, BOOKS, IN MEMORIAM
+(FCAA - Volume 15 - No 3) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 345
+D. Bouagada, P. Van Dooren
+STATE SPACE SOLUTION OF IMPLICIT FRACTIONAL
+CONTINUOUS TIME SYSTEMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 356
+
+B. Ahmad, S. Ntouyas
+FRACTIONAL DIFFERENTIAL INCLUSIONS WITH
+FRACTIONAL SEPARATED BOUNDARY CONDITIONS . . . . . . . . . . . . . 362
+
+C.P. Li, F.H. Zeng, F. Liu
+SPECTRAL APPROXIMATIONS TO THE FRACTIONAL
+INTEGRAL AND DERIVATIVE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 383
+
+A.B. Malinowska, D.F.M. Torres
+TOWARDS A COMBINED FRACTIONAL MECHANICS
+AND QUANTIZATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 407
+
+D. Idczak, S. Walczak
+A FRACTIONAL IMBEDDING THEOREM . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+418
+
+T. Sandev, R. Metzler, Ž. Tomovski
+VELOCITY AND DISPLACEMENT CORRELATION
+FUNCTIONS FOR FRACTIONAL
+GENERALIZED LANGEVIN EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . 426
+
+B. Ahmad, J.J. Nieto
+ANTI-PERIODIC FRACTIONAL BOUNDARY VALUE
+PROBLEMS WITH NONLINEAR TERM DEPENDING
+ON LOWER ORDER DERIVATIVE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 451
+
+D. Bolster, M. M. Meerschaert, A. Sikorskii
+PRODUCT RULE FOR VECTOR FRACTIONAL
+DERIVATIVES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+463
+
+C. Zeng, Y.Q. Chen, Q. Yang
+THE FBM-DRIVEN ORNSTEIN-UHLENBECK PROCESS:
+PROBABILITY DENSITY FUNCTION AND ANOMALOUS DIFFUSION 479
+
+N.X. Thao, V.K. Tuan, N.T. Hong
+A FOURIER GENERALIZED CONVOLUTION TRANSFORM
+AND APPLICATIONS TO INTEGRAL EQUATIONS . . . . . . . . . . . . . . . . .
+
+493
+
+J.R. Graef, L. Kong, Q. Kong, M. Wang
+UNIQUENESS OF POSITIVE SOLUTIONS OF FRACTIONAL
+BOUNDARY VALUE PROBLEMS WITH
+NON-HOMOGENEOUS INTEGRAL BOUNDARY CONDITIONS . . . . . . 509
+
+ISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 15, No 4 (2012)
+
+CONTENTS
+Editorial: FCAA RELATED MEETINGS, BOOKS, IN MEMORIAM
+(FCAA - Volume 15 - No 4) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 529
+B. Duda
+FRACTIONAL CALCULUS FOR POWER FUNCTIONS
+AND EIGENVALUES OF THE FRACTIONAL LAPLACIAN . . . . . . . . . .
+
+536
+
+D. Rostamy, K. Karimi
+BERNSTEIN POLYNOMIALS FOR SOLVING
+FRACTIONAL HEAT- AND WAVE-LIKE EQUATIONS . . . . . . . . . . . . . . . 556
+
+R.P. Agarwal, S. Arshad, D. O’Regan, V. Lupulescu
+FUZZY FRACTIONAL INTEGRAL EQUATIONS
+UNDER COMPACTNESS TYPE CONDITION . . . . . . . . . . . . . . . . . . . . . . . . 572
+
+Li Kexue, Peng Jigen, Gao Jinghuai
+EXISTENCE RESULTS FOR SEMILINEAR FRACTIONAL
+DIFFERENTIAL EQUATIONS VIA KURATOWSKI
+MEASURE OF NONCOMPACTNESS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 591
+
+R.A.C. Ferreira
+A UNIQUENESS RESULT FOR A FRACTIONAL
+DIFFERENTIAL EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 611
+
+P.A. Williams
+FRACTIONAL CALCULUS ON TIME SCALES
+WITH TAYLOR’S THEOREM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 616
+
+C.-G. Li, M. Kostić, M. Li, S. Piskarev
+ON A CLASS OF TIME-FRACTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+639
+
+N.H. Sweilam, M.M. Khader, H.M. Almarwm
+NUMERICAL STUDIES FOR THE VARIABLE-ORDER
+NONLINEAR FRACTIONAL WAVE EQUATION . . . . . . . . . . . . . . . . . . . . . 669
+
+C.D. Dhaigude, V.R. Nikam
+SOLUTION OF FRACTIONAL PARTIAL DIFFERENTIAL
+EQUATIONS USING ITERATIVE METHOD . . . . . . . . . . . . . . . . . . . . . . . . . 684
+
+O. Agrawal
+SOME GENERALIZED FRACTIONAL CALCULUS OPERATORS
+AND THEIR APPLICATIONS IN INTEGRAL EQUATIONS . . . . . . . . . . . 700
+
+F. Mainardi
+AN HISTORICAL PERSPECTIVE ON FRACTIONAL
+CALCULUS IN LINEAR VISCOELASTICITY . . . . . . . . . . . . . . . . . . . . . . . . 712
+
+R.R. Nigmatulllin, D. Baleanu
+THE DERIVATION OF THE GENERALIZED FUNCTIONAL
+EQUATIONS DESCRIBING SELF-SIMILAR PROCESSES . . . . . . . . . . . . . 718
+
+FCAA, Vol. 16, No 1 (2013)
+
+ISSN 1311-0454, eISSN 1314-2224
+
+CONTENTS
+SPECIAL ISSUE:
+“Fractional Diﬀerentiation and Its Applications’ 2012”
+(Papers selected from the 5th Symposium FDA’ 2012,
+Hohai University, China)
+Guest Editors: Virginia Kiryakova, Wen Chen,
+Mark M. Meerschaert, Igor Podlubny
+Editorial: FCAA RELATED MEETINGS AND NEWS
+(FCAA–Volume 16–1–2013) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1
+
+F. Liu, M.M. Meerschaert, R.J. McGough, P. Zhuang, Q. Liu
+NUMERICAL METHODS FOR SOLVING THE MULTI-TERM
+TIME-FRACTIONAL WAVE-DIFFUSION EQUATION . . . . . . . . . . . . . . . . .
+
+9
+
+S. P. Näsholm, S. Holm
+ON A FRACTIONAL ZENER ELASTIC WAVE EQUATION . . . . . . . . . . .
+
+26
+
+J. Liang, Z. Liu, X. Wang
+SOLVABILITY FOR A COUPLE SYSTEM OF NONLINEAR
+FRACTIONAL DIFFERENTIAL EQUATIONS IN A BANACH SPACE . .
+
+51
+
+T. Odzijewicz, A.B. Malinowska, D.F.M. Torres
+GREEN’S THEOREM FOR GENERALIZED
+FRACTIONAL DERIVATIVES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+64
+
+W. Chen, J.J. Zhang, J.Y. Zhang
+A VARIABLE-ORDER TIME-FRACTIONAL DERIVATIVE MODEL FOR
+CHLORIDE IONS SUB-DIFFUSION IN CONCRETE STRUCTURES . . . 76
+
+R. Caponetto, G. Maione, A. Pisano, M.R. Rapaić, E. Usai
+ANALYSIS AND SHAPING OF THE SELF-SUSTAINED OSCILLATIONS
+IN RELAY CONTROLLED FRACTIONAL-ORDER SYSTEMS . . . . . . . . . 93
+
+H. Jafari, H. Tajadodi, D. Baleanu
+A MODIFIED VARIATIONAL ITERATION METHOD
+FOR SOLVING FRACTIONAL RICCATI DIFFERENTIAL
+EQUATION BY ADOMIAN POLYNOMIALS . . . . . . . . . . . . . . . . . . . . . . . . . 109
+
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+P. Guo, C.B. Zeng, C.P. Li, Y.Q. Chen
+NUMERICS FOR THE FRACTIONAL LANGEVIN EQUATION
+DRIVEN BY THE FRACTIONAL BROWNIAN MOTION . . . . . . . . . . . . . 123
+
+J.G. Lu, Y.Q. Chen
+STABILITY AND STABILIZATION OF FRACTIONAL-ORDER
+LINEAR SYSTEMS WITH CONVEX POLYTOPIC UNCERTAINTIES . 142
+
+A.A. Khamzin, R.R. Nigmatullin, I.I. Popov, B.A. Murzaliev
+MICROSCOPIC MODEL OF DIELECTRIC
+α-RELAXATION IN DISORDERED MEDIA . . . . . . . . . . . . . . . . . . . . . . . . . . 158
+
+K.M. Furati
+BOUNDS ON THE SOLUTION OF A CAUCHY-TYPE
+PROBLEM INVOLVING A WEIGHTED
+SEQUENTIAL FRACTIONAL DERIVATIVE . . . . . . . . . . . . . . . . . . . . . . . . . 171
+
+L.C. Chen, F. Hu, W.Q. Zhu
+STOCHASTIC DYNAMICS AND FRACTIONAL OPTIMAL
+CONTROL OF QUASI INTEGRABLE HAMILTONIAN
+SYSTEMS WITH FRACTIONAL DERIVATIVE DAMPING . . . . . . . . . . .
+
+189
+
+B. Guo, Z. Huo
+WELL-POSEDNESS FOR THE NONLINEAR FRACTIONAL
+SCHRÖDINGER EQUATION AND INVISCID LIMIT
+BEHAVIOR OF SOLUTION FOR
+THE FRACTIONAL GINZBURG-LANDAU EQUATION . . . . . . . . . . . . . . . 226
+
+M. Klimek, M. Lupa
+REFLECTION SYMMETRIC FORMULATION OF GENERALIZED
+FRACTIONAL VARIATIONAL CALCULUS . . . . . . . . . . . . . . . . . . . . . . . . . . 243
+
+P. Straka, M.M. Meerschaert, R.J. McGough, Y. Zhou
+FRACTIONAL WAVE EQUATIONS WITH ATTENUATION . . . . . . . . . .
+
+262
+
+R. Malti, M. Thomassin
+DIFFERENTIATION SIMILARITIES IN FRACTIONAL
+PSEUDO-STATE SPACE REPRESENTATIONS
+AND THE SUBSPACE-BASED METHODS . . . . . . . . . . . . . . . . . . . . . . . . . . . 273
+
+ISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 16, No 2 (2013)
+
+CONTENTS
+SPECIAL ISSUE:
+Dedicated to 70th Anniversary of Prof. Francesco Mainardi
+Guest Editors:
+Rudolf Gorenﬂo, Yuri Luchko, Virginia Kiryakova
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 16–2–2013) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 289
+R. Gorenﬂo, Yu. Luchko, and M. Stojanović
+FUNDAMENTAL SOLUTION OF A DISTRIBUTED
+ORDER TIME-FRACTIONAL DIFFUSION-WAVE
+EQUATION AS PROBABILITY DENSITY . . . . . . . . . . . . . . . . . . . . . . . 297
+C. Zeng, Y.Q. Chen, Q. Yang
+ALMOST SURE AND MOMENT STABILITY PROPERTIES
+OF FRACTIONAL ORDER BLACK-SCHOLES MODEL . . . . . . . . . 317
+D. Fulger, E. Scalas, G. Germano
+RANDOM NUMBERS FROM THE TAILS
+OF PROBABILITY DISTRIBUTIONS USING
+THE TRANSFORMATION METHOD . . . . . . . . . . . . . . . . . . . . . . . . . . . . 332
+Y. Povstenko
+TIME-FRACTIONAL HEAT CONDUCTION
+IN AN INFINITE MEDIUM WITH A SPHERICAL HOLE
+UNDER ROBIN BOUNDARY CONDITION . . . . . . . . . . . . . . . . . . . . . . . 354
+S. Samko
+A NOTE ON RIESZ FRACTIONAL INTEGRALS
+IN THE LIMITING CASE α(x)p(x) ≡ n . . . . . . . . . . . . . . . . . . . . . . . . . . . 370
+A.A. Kilbas, A.A. Koroleva, S.V. Rogosin
+MULTI-PARAMETRIC MITTAG-LEFFLER FUNCTIONS
+AND THEIR EXTENSION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 378
+Yu. Luchko, V. Kiryakova
+THE MELLIN INTEGRAL TRANSFORM
+IN FRACTIONAL CALCULUS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 405
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+P. Rusev
+REPRESENTATION OF HOLOMORPHIC FUNCTIONS
+BY SCHLÖMILCH’S SERIES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 431
+G. Pagnini
+THE M-WRIGHT FUNCTION
+AS A GENERALIZATION OF THE GAUSSIAN DENSITY
+FOR FRACTIONAL DIFFUSION PROCESSES . . . . . . . . . . . . . . . . . . . 436
+N.J. Ford, M.M. Rodrigues, N. Vieira
+A NUMERICAL METHOD FOR THE FRACTIONAL
+SCHRÖDINGER TYPE EQUATION
+OF SPATIAL DIMENSION TWO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 454
+A.M. Mathai, H.J. Haubold
+FRACTIONAL OPERATORS IN THE MATRIX
+VARIATE CASE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 469
+J. Tenreiro Machado, A.M. Galhano, J.J. Trujillo
+SCIENCE METRICS ON FRACTIONAL CALCULUS
+DEVELOPMENT SINCE 1966 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 479
+I. Podlubny
+WHAT EULER COULD FURTHER WRITE, OR
+THE UNNOTICED “BIG BANG”
+OF THE FRACTIONAL CALCULUS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 501
+
+ISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 16, No 3 (2013)
+
+CONTENTS
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 16–3–2013) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 507
+J. Munkhammar
+CHAOS IN A FRACTIONAL ORDER LOGISTIC MAP . . . . . . . . . . 511
+R. Abi Zeid Daou, X. Moreau, C. Francis
+EFFECTS OF THE TEMPERATURE VARIATION ON
+THE BEHAVIOR OF THE FIRST ORDER CRONE
+SYSTEM REALIZED IN THE ELECTRICAL DOMAIN . . . . . . . . . . 520
+P.D. Phung, L.X. Truong
+ON A FRACTIONAL DIFFERENTIAL INCLUSION
+WITH INTEGRAL BOUNDARY CONDITIONS
+IN BANACH SPACE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 538
+W. Okrasiński, L
+ . Plociniczak
+A NOTE ON FRACTIONAL BESSEL EQUATION
+AND ITS ASYMPTOTICS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 559
+Xiao-Li Ding, Yao-Lin Jiang
+WAVEFORM RELAXATION METHODS FOR
+FRACTIONAL FUNCTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 573
+T. Trif
+EXISTENCE OF SOLUTIONS TO INITIAL VALUE
+PROBLEMS FOR NONLINEAR FRACTIONAL
+DIFFERENTIAL EQUATIONS ON THE SEMI-AXIS . . . . . . . . . . . . . 595
+R. Abu-Saris, Q. Al-Mdallal
+ON THE ASYMPTOTIC STABILITY OF LINEAR SYSTEM
+OF FRACTIONAL-ORDER DIFFERENCE EQUATIONS . . . . . . . . . 613
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+T. Morita, K. Sato
+LIOUVILLE AND RIEMANN-LIOUVILLE
+FRACTIONAL DERIVATIVES VIA
+CONTOUR INTEGRALS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 630
+C. Gong, W. Bao and G. Tang
+A PARALLEL ALGORITHM FOR THE RIESZ
+FRACTIONAL REACTION-DIFFUSION EQUATION
+WITH EXPLICIT FINITE DIFFERENCE METHOD . . . . . . . . . . . . . 654
+T. Marinov, N. Ramirez, F. Santamaria
+FRACTIONAL INTEGRATION TOOLBOX . . . . . . . . . . . . . . . . . . . . . . 670
+Y. Chalco-Cano, J.J. Nieto, A. Ouahab, H. Román-Flores
+SOLUTION SET FOR FRACTIONAL DIFFERENTIAL
+EQUATIONS WITH RIEMANN-LIOUVILLE DERIVATIVE . . . . . . 682
+J.R. Graef, L. Kong
+EXISTENCE OF POSITIVE SOLUTIONS TO A HIGHER
+ORDER SINGULAR BOUNDARY VALUE PROBLEM
+WITH FRACTIONAL Q-DERIVATIVES . . . . . . . . . . . . . . . . . . . . . . . . . . 695
+Yufeng Xu, O.P. Agrawal
+NUMERICAL SOLUTIONS AND ANALYSIS OF
+DIFFUSION FOR NEW GENERALIZED FRACTIONAL
+BURGERS EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 709
+G. Baumann, F. Stenger
+FRACTIONAL ADSORPTION DIFFUSION . . . . . . . . . . . . . . . . . . . . . . 737
+
+ISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 16, No 4 (2013)
+
+CONTENTS
+
+Editorial:
+V. Kiryakova, J.J. O’Connor, E.F. Robertson, D. Nemzer
+FCAA RELATED EVENTS AND 100th ANNIVERSARY
+OF THE BIRTH OF JAN MIKUSIŃSKI
+(FCAA–Volume 16–4–2013) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 765
+Z.D. Mei, J.G. Peng, Y. Zhang
+A CHARACTERISTIC OF FRACTIONAL RESOLVENTS . . . . . . . . 777
+S. Kumar, N. Sukavanam
+CONTROLLABILITY OF FRACTIONAL ORDER SYSTEM
+WITH NONLINEAR TERM
+HAVING INTEGRAL CONTRACTOR . . . . . . . . . . . . . . . . . . . . . . . . . . . . 791
+S. Roscani, E. Santillan Marcus
+TWO EQUIVALENT STEFAN’S PROBLEMS
+FOR THE TIME FRACTIONAL DIFFUSION EQUATION . . . . . . . 802
+A.M.A. El-Sayed, H.H.G. Hashem
+EXISTENCE RESULTS FOR NONLINEAR QUADRATIC
+INTEGRAL EQUATIONS OF FRACTIONAL ORDER
+IN BANACH ALGEBRA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 816
+T.M. Michelitsch, G.A. Maugin,
+A.F. Nowakowski, F.C.G.A. Nicolleau, M. Rahman
+THE FRACTIONAL LAPLACIAN AS A LIMITING CASE
+OF A SELF-SIMILAR SPRING MODEL
+AND APPLICATIONS TO N -DIMENSIONAL
+ANOMALOUS DIFFUSION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 827
+A.N. Kochubei
+FRACTIONAL-HYPERBOLIC SYSTEMS . . . . . . . . . . . . . . . . . . . . . . . . 860
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+N.J. Ford, M.L. Morgado, M. Rebelo
+NONPOLYNOMIAL COLLOCATION APPROXIMATION
+OF SOLUTIONS TO FRACTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 874
+I. Karatay, N. Kale, S.R. Bayramoglu
+A NEW DIFFERENCE SCHEME FOR TIME
+FRACTIONAL HEAT EQUATIONS BASED ON
+THE CRANK-NICHOLSON METHOD . . . . . . . . . . . . . . . . . . . . . . . . . . . . 892
+R.R. Nigmatullin, D. Baleanu
+NEW RELATIONSHIPS CONNECTING
+A CLASS OF FRACTAL OBJECTS AND
+FRACTIONAL INTEGRALS IN SPACE . . . . . . . . . . . . . . . . . . . . . . . . . . 911
+K. Zhang and J. Xu
+UNIQUE POSITIVE SOLUTION FOR A FRACTIONAL
+BOUNDARY VALUE PROBLEM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 937
+D. Rajter-Ćirić, M. Stojanović
+FRACTIONAL DERIVATIVES OF MULTIDIMENSIONAL
+COLOMBEAU GENERALIZED STOCHASTIC PROCESSES . . . . . 949
+A. Aghajani, E. Pourhadi, J.J. Trujillo
+APPLICATION OF MEASURE OF NONCOMPACTNESS
+TO A CAUCHY PROBLEM FOR FRACTIONAL
+DIFFERENTIAL EQUATIONS IN BANACH SPACES . . . . . . . . . . . . 962
+R.A.C. Ferreira
+A LYAPUNOV-TYPE INEQUALITY FOR A FRACTIONAL
+BOUNDARY VALUE PROBLEM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 978
+J. Henderson, R. Luca
+POSITIVE SOLUTIONS FOR A SYSTEM OF NONLOCAL
+FRACTIONAL BOUNDARY VALUE PROBLEMS . . . . . . . . . . . . . . . . 985
+
+ISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 17, No 1 (2014)
+
+CONTENTS
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 17–1–2014) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1
+
+J.-S. Duan, Z. Wang, S.-Z. Fu
+THE ZEROS OF THE SOLUTIONS OF THE FRACTIONAL
+OSCILLATION EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+10
+
+H. Yang, X. Zhu, K. Cao
+DISTRIBUTED COORDINATION OF FRACTIONAL
+ORDER MULTI-AGENT SYSTEMS
+WITH COMMUNICATION DELAYS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+23
+
+Z. Tomovski, R. Garra
+ANALYTIC SOLUTIONS OF FRACTIONAL
+INTEGRO-DIFFERENTIAL EQUATIONS OF VOLTERRA
+TYPE WITH VARIABLE COEFFICIENTS . . . . . . . . . . . . . . . . . . . . . . . .
+
+38
+
+Z.S.I. Mansour
+ON A CLASS OF NONLINEAR VOLTERRA–FREDHOLM
+q-INTEGRAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61
+M.-Ha Kim, G.-Chol Ri, H.-Chol O
+OPERATIONAL METHOD FOR SOLVING MULTI-TERM
+FRACTIONAL DIFFERENTIAL EQUATIONS WITH
+THE GENERALIZED FRACTIONAL DERIVATIVES . . . . . . . . . . . . .
+
+79
+
+T.D. Ke, D. Lan
+DECAY INTEGRAL SOLUTIONS FOR A CLASS
+OF IMPULSIVE FRACTIONAL DIFFERENTIAL
+EQUATIONS IN BANACH SPACES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+96
+
+Y. Povstenko
+SOLUTIONS TO THE FRACTIONAL DIFFUSION-WAVE
+EQUATION IN A WEDGE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 122
+(Continued on back cover page)
+
+CONTENTS, continued:
+Y.D. Ma, J.G. Lu, W.D. Chen, Y.Q. Chen
+A ROBUST STABILITY BOUNDS OF UNCERTAIN
+FRACTIONAL-ORDER SYSTEMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 136
+A. Prasad, V.K. Singh
+BOUNDEDNESS OF PSEUDO-DIFFERENTIAL
+OPERATOR ASSOCIATED WITH
+FRACTIONAL HANKEL TRANSFORM . . . . . . . . . . . . . . . . . . . . . . . . . . 154
+R. Stern, F. Eﬀenberger, H. Fichtner, T. Schäfer
+THE SPACE-FRACTIONAL DIFFUSION-ADVECTION
+EQUATION: ANALYTICAL SOLUTIONS AND CRITICAL
+ASSESSMENT OF NUMERICAL SOLUTIONS . . . . . . . . . . . . . . . . . . . 171
+C.M. Kirk, W.E. Olmstead
+THERMAL BLOW-UP IN A SUBDIFFUSIVE MEDIUM
+DUE TO A NONLINEAR BOUNDARY FLUX . . . . . . . . . . . . . . . . . . . . 191
+M. Fabrizio
+FRACTIONAL RHEOLOGICAL MODELS
+FOR THERMOMECHANICAL SYSTEMS.
+DISSIPATION AND FREE ENERGIES . . . . . . . . . . . . . . . . . . . . . . . . . . . 206
+C.A. Tudor
+RECENT DEVELOPMENTS ON STOCHASTIC
+HEAT EQUATION WITH ADDITIVE
+FRACTIONAL-COLORED NOISE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 224
+A.A. Khamzin, R.R. Nigmatullin, I.I. Popov
+JUSTIFICATION OF THE EMPIRICAL LAWS OF THE
+ANOMALOUS DIELECTRIC RELAXATION IN THE
+FRAMEWORK OF THE MEMORY FUNCTION FORMALISM . . 247
+S. Arshad, V. Lupulescu, D. O’Regan
+LP -SOLUTIONS FOR FRACTIONAL
+INTEGRAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 259
+S. Samko
+Remark to the paper of S. Samko, “A NOTE ON RIESZ
+FRACTIONAL INTEGRALS IN THE LIMITING CASE
+α(x)p(x) ≡ n”, from FCAA, Vol. 16, No 2, 2013 . . . . . . . . . . . . . . . . . . . 277
+
+ISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 17, No 2 (2014)
+
+CONTENTS
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 17–2–2014) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 279
+N.D. Cong, T.S. Doan, H.T. Tuan
+ON FRACTIONAL LYAPUNOV EXPONENT
+FOR SOLUTIONS OF LINEAR
+FRACTIONAL DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . 285
+T. Blaszczyk, M. Ciesielski
+NUMERICAL SOLUTION OF FRACTIONAL
+STURM–LIOUVILLE EQUATION IN INTEGRAL FORM . . . . . . . . 307
+C. Zeng, Y.Q. Chen
+OPTIMAL RANDOM SEARCH, FRACTIONAL DYNAMICS
+AND FRACTIONAL CALCULUS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 321
+S. Choudhary, V. Daftardar-Gejji
+NONLINEAR MULTI-ORDER FRACTIONAL
+DIFFERENTIAL EQUATIONS WITH PERIODIC/
+ANTI-PERIODIC BOUNDARY CONDITIONS . . . . . . . . . . . . . . . . . . . . 333
+B. Ahmad, S. Ntouyas
+A FULLY HADAMARD TYPE INTEGRAL BOUNDARY
+VALUE PROBLEM OF A COUPLED SYSTEM
+OF FRACTIONAL DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . 348
+R. Herrmann
+TOWARDS A GEOMETRIC INTERPRETATION
+OF GENERALIZED FRACTIONAL INTEGRALS –
+ERDÉLYI-KOBER TYPE INTEGRALS ON RN ,
+AS AN EXAMPLE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 361
+S. Roscani, E. Santillan Marcus
+A NEW EQUIVALENCE OF STEFAN’S PROBLEMS
+FOR THE TIME FRACTIONAL DIFFUSION EQUATION . . . . . . 371
+(Continued on back cover page)
+
+CONTENTS, continued:
+N. Khodabakhshi, S.M. Vaezpour, D. Baleanu
+NUMERICAL SOLUTIONS OF THE INITIAL VALUE PROBLEM
+FOR FRACTIONAL DIFFERENTIAL EQUATIONS BY MODIFICATION OF THE ADOMIAN DECOMPOSITION METHOD . . . . . 382
+M. Jelassi, H. Mejjaoli
+FRACTIONAL SOBOLEV TYPE SPACES ASSOCIATED WITH A
+SINGULAR DIFFERENTIAL OPERATOR AND APPLICATIONS 401
+R. Garra, A. Giusti, F. Mainardi, G. Pagnini
+FRACTIONAL RELAXATION WITH
+TIME-VARYING COEFFICIENT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 424
+M.S. Tavazoei
+TIME RESPONSE ANALYSIS OF FRACTIONAL-ORDER
+CONTROL SYSTEMS: A SURVEY ON RECENT RESULTS . . . . . . 440
+I. Tejado, S.H. HosseinNia, B.M. Vinagre
+ADAPTIVE GAIN-ORDER FRACTIONAL CONTROL FOR
+NETWORK-BASED APPLICATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . 462
+M. Al-Refai, Yu. Luchko
+MAXIMUM PRINCIPLE FOR THE FRACTIONAL DIFFUSION
+EQUATIONS WITH THE RIEMANN-LIOUVILLE FRACTIONAL
+DERIVATIVE AND ITS APPLICATIONS . . . . . . . . . . . . . . . . . . . . . . . . . 483
+J.R. Graef, L. Kong, M. Wang
+EXISTENCE AND UNIQUENESS OF SOLUTIONS FOR A
+FRACTIONAL BOUNDARY VALUE PROBLEM ON A GRAPH . 499
+K. Balachandran, V. Govindaraj,
+L. Rodrı́guez-Germá, J.J. Trujillo
+STABILIZABILITY OF FRACTIONAL
+DYNAMICAL SYSTEMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 511
+A. Kerss, N.N. Leonenko, A. Sikorskii
+FRACTIONAL SKELLAM PROCESSES
+WITH APPLICATIONS TO FINANCE . . . . . . . . . . . . . . . . . . . . . . . . . . . 532
+D. Valério, J. Tenreiro Machado, V. Kiryakova
+SOME PIONEERS OF THE APPLICATIONS
+OF FRACTIONAL CALCULUS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 552
+
+ISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 17, No 3 (2014)
+
+CONTENTS
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 17–3–2014) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 579
+Xiao-Li Ding, Yao-Lin Jiang
+WAVEFORM RELAXATION METHOD FOR FRACTIONAL
+DIFFERENTIAL-ALGEBRAIC EQUATIONS . . . . . . . . . . . . . . . . . . . . . 585
+W. Sun, Y. Wang
+MULTIPLE POSITIVE SOLUTIONS OF NONLINEAR
+FRACTIONAL DIFFERENTIAL EQUATIONS WITH
+INTEGRAL BOUNDARY VALUE CONDITIONS . . . . . . . . . . . . . . . . . 605
+W. Zhang, W. Wei, X. Cai
+PERFORMANCE MODELING OF SERIAL AND
+PARALLEL IMPLEMENTATIONS OF THE FRACTIONAL
+ADAMS-BASHFORTH-MOULTON METHOD . . . . . . . . . . . . . . . . . . . . 617
+K.R. Prasad, B.M.B. Krushna
+EIGENVALUES FOR ITERATIVE SYSTEMS OF
+STURM-LIOUVILLE FRACTIONAL ORDER TWO-POINT
+BOUNDARY VALUE PROBLEMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 638
+S. Dubey, M. Sharma
+SOLUTIONS TO FRACTIONAL FUNCTIONAL
+DIFFERENTIAL EQUATIONS
+WITH NONLOCAL CONDITIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 654
+Yu.A. Rossikhin, M.V. Shitikova
+CENTENNIAL JUBILEE OF ACADEMICIAN RABOTNOV
+AND CONTEMPORARY HANDLING
+OF HIS FRACTIONAL OPERATOR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 674
+Yu.N. Rabotnov (Transl. in EN by M. Shitikova)
+EQUILIBRIUM OF AN ELASTIC MEDIUM WITH AFTER-EFFECT
+(Reprinted from Prikladnaya Matematika i Mekhanika (J. Appl. Math.
+Mech.) 12, No 1 (1948), 53-62, In Russian) . . . . . . . . . . . . . . . . . . . . . . . . 684
+(Continued on back cover page)
+
+CONTENTS, continued:
+E. Gonzalez, Ľ. Dorčák, C.A. Monje, J. Valsa, F. Caluyo, I. Petráš
+CONCEPTUAL DESIGN OF A SELECTABLE
+FRACTIONAL-ORDER DIFFERENTIATOR
+FOR INDUSTRIAL APPLICATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 697
+G. Bonanno, R. Rodrı́guez-López, S. Tersian
+EXISTENCE OF SOLUTIONS TO BOUNDARY
+VALUE PROBLEM FOR IMPULSIVE FRACTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 717
+S. Umarov, F. Daum, K. Nelson
+FRACTIONAL GENERALIZATIONS OF FILTERING PROBLEMS
+AND THEIR ASSOCIATED FRACTIONAL ZAKAI EQUATIONS 745
+B. Rubin
+THE λ-COSINE TRANSFORMS WITH ODD KERNEL
+AND THE HEMISPHERICAL TRANSFORM . . . . . . . . . . . . . . . . . . . . . 765
+C.A. Tudor, M. Zili
+COVARIANCE MEASURE AND STOCHASTIC HEAT
+EQUATION WITH FRACTIONAL NOISE . . . . . . . . . . . . . . . . . . . . . . . . 807
+C. Chen, M. Kostić, M. Li
+REPRESENTATION OF COMPLEX POWERS
+OF C-SECTORIAL OPERATORS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 827
+P. Eloe, J. Neugebauer
+CONJUGATE POINTS FOR FRACTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 855
+J. Henderson, N. Kosmatov
+EIGENVALUE COMPARISON FOR FRACTIONAL BOUNDARY
+VALUE PROBLEMS WITH THE CAPUTO DERIVATIVE . . . . . . . 872
+A.N. Kochubei
+ASYMPTOTIC PROPERTIES OF SOLUTIONS OF
+THE FRACTIONAL DIFFUSION-WAVE EQUATION . . . . . . . . . . . . 881
+A. Karapetyants, F. Kodzoeva
+CHARACTERIZATION OF WEIGHTED ANALYTIC
+BESOV SPACES IN TERMS OF OPERATORS
+OF FRACTIONAL DIFFERENTIATION . . . . . . . . . . . . . . . . . . . . . . . . . 897
+
+ISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 17, No 4 (2014)
+
+CONTENTS
+SPECIAL ISSUE:
+Dedicated to 80th Anniversary of Prof. Ivan Dimovski
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 17–4–2014) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 907
+I. Dimovski
+NONCLASSICAL CONVOLUTIONS AND THEIR USES . . . . . . . . . 936
+Yu. Tsankov
+A THEOREM OF UNIQUENESS OF THE SOLUTION OF
+NONLOCAL EVOLUTION BOUNDARY VALUE PROBLEM . . . . . 945
+E. Bazhlekova, I. Bazhlekov
+VISCOELASTIC FLOWS WITH FRACTIONAL
+DERIVATIVE MODELS: COMPUTATIONAL APPROACH
+BY CONVOLUTIONAL CALCULUS OF DIMOVSKI . . . . . . . . . . . . . 954
+V. Kiryakova
+FROM THE HYPER-BESSEL OPERATORS OF DIMOVSKI
+TO THE GENERALIZED FRACTIONAL CALCULUS . . . . . . . . . . . 977
+J. Paneva-Konovska
+A FAMILY OF HYPER-BESSEL FUNCTIONS
+AND CONVERGENT SERIES IN THEM . . . . . . . . . . . . . . . . . . . . . . . . 1001
+R. Rodrı́guez-López, S. Tersian
+MULTIPLE SOLUTIONS TO BOUNDARY VALUE
+PROBLEM FOR IMPULSIVE
+FRACTIONAL DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . 1016
+T. Atanackovic, D. Dolicanin, S. Pilipovic, B. Stankovic
+CAUCHY PROBLEMS FOR SOME CLASSES OF LINEAR
+FRACTIONAL DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . 1039
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+D. Nemzer
+EXTENDING THE STIELTJES TRANSFORM II . . . . . . . . . . . . . . . . 1060
+S. Esmaeili, G.V. Milovanović
+NONSTANDARD GAUSS–LOBATTO QUADRATURE
+APPROXIMATION TO FRACTIONAL DERIVATIVES . . . . . . . . . . 1075
+Dj. Takači, A. Takači, Al. Takači
+ON THE OPERATIONAL SOLUTIONS OF
+FUZZY FRACTIONAL DIFFERENTIAL EQUATIONS . . . . . . . . . . 1100
+Z. Li, Yu. Luchko, M. Yamamoto
+ASYMPTOTIC ESTIMATES OF SOLUTIONS
+TO INITIAL-BOUNDARY-VALUE PROBLEMS
+FOR DISTRIBUTED ORDER TIME-FRACTIONAL
+DIFFUSION EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1114
+A.H. Bhrawy, Y.A. Alhamed, D. Baleanu, A.A. Al-Zahrani
+NEW SPECTRAL TECHNIQUES FOR SYSTEMS
+OF FRACTIONAL DIFFERENTIAL EQUATIONS
+USING FRACTIONAL-ORDER GENERALIZED
+LAGUERRE ORTHOGONAL FUNCTIONS . . . . . . . . . . . . . . . . . . . . . 1137
+Shengli Xie
+EXISTENCE RESULTS OF MILD SOLUTIONS FOR
+IMPULSIVE FRACTIONAL INTEGRO-DIFFERENTIAL
+EVOLUTION EQUATIONS WITH INFINITE DELAY . . . . . . . . . . . 1158
+Z. B. Bai, Y. Q. Chen, H. R. Lian, S. J. Sun
+ON THE EXISTENCE OF BLOW UP SOLUTIONS FOR
+A CLASS OF FRACTIONAL DIFFERENTIAL EQUATIONS . . . . 1175
+J. Tenreiro Machado, A.M. Lopes, F.B. Duarte,
+M.D. Ortigueira, R.T. Rato
+RHAPSODY IN FRACTIONAL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1188
+R. Herrmann
+REFLECTION SYMMETRIC ERDÉLYI-KOBER TYPE
+OPERATORS – A QUASI-PARTICLE INTERPRETATION . . . . . . 1215
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 18, No 1 (2015)
+
+CONTENTS
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 18–1–2015) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1
+
+R.Sh. Nigmatullin, V.A. Belavin
+ARCHIVES: ELECTROLYTIC FRACTIONAL DERIVATIVE
+AND INTEGRAL OF TWO-TERMINAL ELEMENT . . . . . . . . . . . . . .
+
+12
+
+A. Jawahdou
+INITIAL VALUE PROBLEM OF FRACTIONAL
+INTEGRO-DIFFERENTIAL EQUATIONS IN BANACH SPACE . .
+
+20
+
+M.H. Akrami, G.H. Erjaee
+EXAMPLES OF ANALYTICAL SOLUTIONS BY MEANS
+OF MITTAG-LEFFLER FUNCTION OF FRACTIONAL
+BLACK-SCHOLES OPTION PRICING EQUATION . . . . . . . . . . . . . . .
+
+38
+
+J. Xu, D. O’Regan, K. Zhang
+MULTIPLE SOLUTIONS FOR A CLASS OF
+FRACTIONAL HAMILTONIAN SYSTEMS . . . . . . . . . . . . . . . . . . . . . . . . 48
+M. Concezzi, R. Spigler
+SOME ANALYTICAL AND NUMERICAL PROPERTIES
+OF THE MITTAG-LEFFLER FUNCTIONS . . . . . . . . . . . . . . . . . . . . . . .
+
+64
+
+A. Debbouche, D.F.M. Torres
+SOBOLEV TYPE FRACTIONAL DYNAMIC EQUATIONS
+AND OPTIMAL MULTI-INTEGRAL CONTROLS
+WITH FRACTIONAL NONLOCAL CONDITIONS . . . . . . . . . . . . . . . .
+
+95
+
+T. Jankowski
+SYSTEMS OF NONLINEAR FRACTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 122
+
+(Continued on back cover page)
+
+CONTENTS, continued:
+Q.M. Zhou, K.Q. Wang
+EXISTENCE AND MULTIPLICITY OF
+SOLUTIONS FOR NONLINEAR ELLIPTIC PROBLEMS
+WITH THE FRACTIONAL LAPLACIAN . . . . . . . . . . . . . . . . . . . . . . . . . 133
+R. Sahadevan, T. Bakkyaraj
+INVARIANT SUBSPACE METHOD AND EXACT
+SOLUTIONS OF CERTAIN NONLINEAR TIME
+FRACTIONAL PARTIAL DIFFERENTIAL EQUATIONS . . . . . . . . 146
+A. Cernea
+FILIPPOV LEMMA FOR A CLASS OF HADAMARD-TYPE
+FRACTIONAL DIFFERENTIAL INCLUSIONS . . . . . . . . . . . . . . . . . . . 163
+S. Abbas, M. Benchohra, M.A. Darwish
+NEW STABILITY RESULTS FOR PARTIAL
+FRACTIONAL DIFFERENTIAL INCLUSIONS WITH NOT
+INSTANTANEOUS IMPULSES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 172
+C.K. Li
+SEVERAL RESULTS OF FRACTIONAL
+DERIVATIVES IN D (R+ ) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 192
+M. Caputo, J.M. Carcione, M.A.B. Botelho
+MODELING EXTREME-EVENT PRECURSORS
+WITH THE FRACTIONAL DIFFUSION EQUATION . . . . . . . . . . . . 208
+A. Cabada, Z. Hamdi
+MULTIPLICITY RESULTS FOR INTEGRAL
+BOUNDARY VALUE PROBLEMS OF FRACTIONAL ORDER
+WITH PARAMETRIC DEPENDENCE . . . . . . . . . . . . . . . . . . . . . . . . . . . . 223
+S. Victor, P. Melchior
+IMPROVEMENTS ON FLAT OUTPUT
+CHARACTERIZATION FOR FRACTIONAL SYSTEMS . . . . . . . . . . 238
+B. Ahmad, S. Ntouyas
+NONLOCAL FRACTIONAL BOUNDARY VALUE PROBLEMS
+WITH SLIT-STRIPS BOUNDARY CONDITIONS . . . . . . . . . . . . . . . . . 261
+S. Samko, J.J. Trujillo
+REMARKS TO THE PAPER “ON THE EXISTENCE OF
+BLOW UP SOLUTIONS FOR A CLASS OF FRACTIONAL
+DIFFERENTIAL EQUATIONS” by Z. Bai et al.,
+in “FCAA”, Vol. 17, No 4 (2014), 1175-1187 . . . . . . . . . . . . . . . . . . . . . . . 281
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 18, No 2 (2015)
+
+CONTENTS
+SPECIAL ISSUE: International Conference
+“Fractional Diﬀerentiation and its Applications 2014”
+(Papers selected from ICFDA 14, University of Catania, Italy)
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 18–2–2015) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 285
+H. Prado, M. Rivero, J.J. Trujillo, M.P. Velasco
+NEW RESULTS FROM OLD INVESTIGATION: A NOTE
+ON FRACTIONAL m-DIMENSIONAL DIFFERENTIAL
+OPERATORS. THE FRACTIONAL LAPLACIAN . . . . . . . . . . . . . . . . 290
+A. Lamara, G. Colin, P. Lanusse, A. Charlet,
+D. Nelson-Gruel, Y. Chamaillard
+POLLUTANT REDUCTION OF A TURBOCHARGED
+DIESEL ENGINE USING A DECENTRALIZED
+MIMO CRONE CONTROLLER . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 307
+R. Hilfer
+EXPERIMENTAL IMPLICATIONS OF
+BOCHNER-LEVY-RIESZ DIFFUSION . . . . . . . . . . . . . . . . . . . . . . . . . . . . 333
+O. Defterli, M. D’Elia, Q. Du, M. Gunzburger,
+R. Lehoucq, M.M. Meerschaert
+FRACTIONAL DIFFUSION ON BOUNDED DOMAINS . . . . . . . . . . 342
+J. Henderson, R. Luca, A. Tudorache
+ON A SYSTEM OF FRACTIONAL DIFFERENTIAL
+EQUATIONS WITH COUPLED
+INTEGRAL BOUNDARY CONDITIONS . . . . . . . . . . . . . . . . . . . . . . . . . . 361
+
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+H. Jafari, H. Tajadodi, D. Baleanu
+A NUMERICAL APPROACH FOR FRACTIONAL ORDER
+RICCATI DIFFERENTIAL EQUATION USING B-SPLINE
+OPERATIONAL MATRIX . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 387
+V. Daftardar-Gejji, Y. Sukale, S. Bhalekar
+SOLVING FRACTIONAL DELAY DIFFERENTIAL
+EQUATIONS: A NEW APPROACH . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 400
+J.L. Gracia, M. Stynes
+FORMAL CONSISTENCY VERSUS ACTUAL
+CONVERGENCE RATES OF DIFFERENCE SCHEMES
+FOR FRACTIONAL-DERIVATIVE BOUNDARY
+VALUE PROBLEMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 419
+J. Čermák, T. Kisela
+ASYMPTOTIC STABILITY OF DYNAMIC EQUATIONS
+WITH TWO FRACTIONAL TERMS:
+CONTINUOUS VERSUS DISCRETE CASE . . . . . . . . . . . . . . . . . . . . . . 437
+J.A. Tenreiro Machado, A.M. Lopes
+ANALYSIS OF NATURAL AND ARTIFICIAL
+PHENOMENA USING SIGNAL PROCESSING
+AND FRACTIONAL CALCULUS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 459
+I. Tejado, B.M. Vinagre, D. Torres, Á. López-Bernal,
+F.J. Villalobos, L. Testi, I. Podlubny
+FRACTIONAL APPROACH FOR ESTIMATING SAP
+VELOCITY IN TREES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 479
+J. Machado, F. Mainardi, V. Kiryakova
+FRACTIONAL CALCULUS: QUO VADIMUS? (WHERE ARE WE
+GOING?) Contributions to Round Table Discussion held at
+ICFDA 2014 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 495
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 18, No 3 (2015)
+
+CONTENTS
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 18–3–2015) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 527
+T.D. Ke, N. Van Loi, V. Obukhovskii
+DECAY SOLUTIONS FOR A CLASS OF FRACTIONAL
+DIFFERENTIAL VARIATIONAL INEQUALITIES . . . . . . . . . . . . . . . . 531
+E.F. Doungmo Goufo
+A BIOMATHEMATICAL VIEW ON THE FRACTIONAL
+DYNAMICS OF CELLULOSE DEGRADATION . . . . . . . . . . . . . . . . . . 554
+H. Cheng, R. Yuan
+THE SPREADING PROPERTY FOR
+A PREY-PREDATOR REACTION-DIFFUSION SYSTEM
+WITH FRACTIONAL DIFFUSION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 565
+D. Prodanov
+FRACTIONAL VARIATION OF HÖLDERIAN FUNCTIONS . . . . . 580
+G. Fedele, A. Ferrise
+PERIODIC DISTURBANCE REJECTION FOR
+FRACTIONAL-ORDER DYNAMICAL SYSTEMS . . . . . . . . . . . . . . . . 603
+K. Sayevand, K. Pichaghchi
+SUCCESSIVE APPROXIMATION: A SURVEY ON STABLE
+MANIFOLD OF FRACTIONAL DIFFERENTIAL SYSTEMS . . . . . 621
+C.C. Tisdell
+WHEN DO FRACTIONAL DIFFERENTIAL EQUATIONS
+HAVE SOLUTIONS THAT ARE BOUNDED
+BY THE MITTAG–LEFFLER FUNCTION ? . . . . . . . . . . . . . . . . . . . . . . 642
+
+(Continued on back cover page)
+
+CONTENTS, continued:
+J. Čermák, I. Győri, L. Nechvátal
+ON EXPLICIT STABILITY CONDITIONS FOR
+A LINEAR FRACTIONAL DIFFERENCE SYSTEM . . . . . . . . . . . . . . 651
+J.R. Graef, J. Henderson, A. Ouahab
+FRACTIONAL DIFFERENTIAL INCLUSIONS
+IN THE ALMGREN SENSE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 673
+I. Matychyn, V. Onyshchenko
+TIME-OPTIMAL CONTROL
+OF FRACTIONAL-ORDER LINEAR SYSTEMS . . . . . . . . . . . . . . . . . . 687
+X.-Li Ding, J.J. Nieto
+ANALYTICAL SOLUTIONS FOR THE MULTI-TERM
+TIME-SPACE FRACTIONAL REACTION-DIFFUSION
+EQUATIONS ON AN INFINITE DOMAIN . . . . . . . . . . . . . . . . . . . . . . . . 697
+M. Jleli, M. Kirane, B. Samet
+NONEXISTENCE RESULTS FOR A CLASS OF
+EVOLUTION EQUATIONS IN
+THE HEISENBERG GROUP . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 717
+J.X. Cao, C.P. Li, Y.Q. Chen
+HIGH-ORDER APPROXIMATION TO CAPUTO
+DERIVATIVES AND CAPUTO-TYPE
+ADVECTION-DIFFUSION EQUATIONS (II) . . . . . . . . . . . . . . . . . . . . . 735
+M. Actis, H. Aimar
+DYADIC NONLOCAL DIFFUSIONS IN METRIC
+MEASURE SPACES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 762
+W. Chen, Y. Liang, S. Hu, H. Sun
+FRACTIONAL DERIVATIVE ANOMALOUS
+DIFFUSION EQUATION MODELING
+PRIME NUMBER DISTRIBUTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 789
+R. Gorenﬂo, Yu. Luchko, M. Yamamoto
+TIME-FRACTIONAL DIFFUSION EQUATION
+IN THE FRACTIONAL SOBOLEV SPACES . . . . . . . . . . . . . . . . . . . . . . 799
+S. Umarov
+CONTINUOUS TIME RANDOM WALK MODELS
+ASSOCIATED WITH DISTRIBUTED ORDER
+DIFFUSION EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 821
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 18, No 4 (2015)
+
+CONTENTS
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 18–4–2015) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 839
+Sh.T. Karimov
+MULTIDIMENSIONAL GENERALIZED ERDÉLYI-KOBER
+OPERATOR AND ITS APPLICATION TO SOLVING
+CAUCHY PROBLEMS FOR DIFFERENTIAL EQUATIONS
+WITH SINGULAR COEFFICIENTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 845
+A. Babakhani, H. Agahi, R. Mesiar
+A (, ∗)-BASED MINKOWSKI’S INEQUALITY FOR
+SUGENO FRACTIONAL INTEGRAL OF ORDER α > 0 . . . . . . . . . 862
+A. Mendez, C. Torres
+MULTIPLICITY OF SOLUTIONS FOR FRACTIONAL
+HAMILTONIAN SYSTEMS WITH
+LIOUVILLE-WEYL FRACTIONAL DERIVATIVES . . . . . . . . . . . . . . . 875
+A. Gu, C. Zeng, Y. Li
+SYNCHRONIZATION OF SYSTEMS WITH FRACTIONAL
+ENVIRONMENTAL NOISES ON FINITE LATTICE . . . . . . . . . . . . . . 891
+M. Japundžić, D. Rajter-Ćirić
+REACTION-ADVECTION-DIFFUSION EQUATIONS WITH
+SPACE FRACTIONAL DERIVATIVES AND VARIABLE
+COEFFICIENTS ON INFINITE DOMAIN . . . . . . . . . . . . . . . . . . . . . . . . 911
+D.J. Wang, Z.N. Xia
+PSEUDO ALMOST AUTOMORPHIC SOLUTION OF
+SEMILINEAR FRACTIONAL DIFFERENTIAL EQUATIONS
+WITH THE CAPUTO DERIVATIVES . . . . . . . . . . . . . . . . . . . . . . . . . . . . 951
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+S.S. Linchuk, Yu.S. Linchuk
+A DESCRIPTION OF DERIVATION OPERATORS
+WITH RESPECT TO CONVOLUTION OF GENERALIZED
+GEL’FOND-LEONT’EV INTEGRATION . . . . . . . . . . . . . . . . . . . . . . . . . . 972
+N. Vasylyeva
+LOCAL SOLVABILITY OF A LINEAR SYSTEM WITH
+A FRACTIONAL DERIVATIVE IN TIME
+IN A BOUNDARY CONDITION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 982
+T. Sandev, A. Chechkin, H. Kantz, R. Metzler
+DIFFUSION AND FOKKER-PLANCK-SMOLUCHOWSKI
+EQUATIONS WITH GENERALIZED MEMORY KERNEL . . . . . . 1006
+V. Kolokoltsov
+ON FULLY MIXED AND MULTIDIMENSIONAL
+EXTENSIONS OF THE CAPUTO AND RIEMANN-LIOUVILLE
+DERIVATIVES, RELATED MARKOV PROCESSES
+AND FRACTIONAL DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . 1039
+M. Fabrizio
+SOME REMARKS ON THE FRACTIONAL
+CATTANEO-MAXWELL EQUATION
+FOR THE HEAT PROPAGATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1074
+L. Ferrrás, N. Ford, M. Morgado, J. Nóbrega, M. Rebelo
+FRACTIONAL PENNES’ BIOHEAT EQUATION:
+THEORETICAL AND NUMERICAL STUDIES . . . . . . . . . . . . . . . . . 1080
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 18, No 5 (2015)
+
+CONTENTS
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 18–5–2015) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1107
+S. Choudhary, V. Daftardar-Gejji
+EXISTENCE UNIQUENESS THEOREMS FOR
+MULTI-TERM FRACTIONAL DELAY
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1113
+Z. Hao, Y. Jiao
+FRACTIONAL INTEGRAL ON MARTINGALE
+HARDY SPACES WITH VARIABLE EXPONENTS . . . . . . . . . . . . . . 1128
+V. Kokilashvili, M. Mastylo, A. Meskhi
+TWO-WEIGHT NORM ESTIMATES FOR MULTILINEAR
+FRACTIONAL INTEGRALS
+IN CLASSICAL LEBESGUE SPACES . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1146
+I. Area, J. Losada, A. Manintchap
+ON SOME FRACTIONAL PEARSON EQUATIONS . . . . . . . . . . . . . 1164
+J.L.A. Dubbeldam, Z. Tomovski, T. Sandev
+SPACE-TIME FRACTIONAL SCHRÖDINGER EQUATION
+WITH COMPOSITE TIME FRACTIONAL DERIVATIVE . . . . . . . 1179
+G. Bengochea
+AN OPERATIONAL APPROACH WITH
+APPLICATION TO FRACTIONAL BESSEL EQUATION . . . . . . . . 1201
+
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+M. Concezzi, R. Garra, R. Spigler
+FRACTIONAL RELAXATION AND
+FRACTIONAL OSCILLATION MODELS
+INVOLVING ERDÉLYI-KOBER INTEGRALS . . . . . . . . . . . . . . . . . . . 1212
+T. Atanacković, M. Nedeljkov, S. Pilipović, D. Rajter-Ćirić
+DYNAMICS OF A FRACTIONAL DERIVATIVE TYPE OF
+A VISCOELASTIC ROD WITH RANDOM EXCITATION . . . . . . . 1232
+D. Lukkassen, L.E. Persson, N. Samko
+HARDY TYPE OPERATORS IN LOCAL VANISHING
+MORREY SPACES ON FRACTAL SETS . . . . . . . . . . . . . . . . . . . . . . . . 1252
+S. Staněk
+PERIODIC PROBLEM FOR THE GENERALIZED BASSET
+FRACTIONAL DIFFERENTIAL EQUATION . . . . . . . . . . . . . . . . . . . . 1277
+S.K. Damarla, M. Kundu
+DESIGN OF ROBUST FRACTIONAL PID CONTROLLER
+USING TRIANGULAR STRIP OPERATIONAL MATRICES . . . . . 1291
+S. Umarov
+CORRIGENDUM TO THE “FCAA” PAPER:
+CONTINUOUS TIME RANDOM WALK MODELS
+ASSOCIATED WITH DISTRIBUTED ORDER
+DIFFUSION EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1327
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 18, No 6 (2015)
+
+CONTENTS
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 18–6–2015) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1329
+M. Boutefnouchet, M. Kirane
+NONEXISTENCE OF SOLUTIONS OF SOME
+NON-LINEAR NON-LOCAL EVOLUTION SYSTEMS
+ON THE HEISENBERG GROUP . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1336
+A.W. Wharmby, R.L. Bagley
+NECESSARY CONDITIONS TO SOLVE FRACTIONAL
+ORDER WAVE EQUATIONS USING
+TRADITIONAL LAPLACE TRANSFORMS . . . . . . . . . . . . . . . . . . . . . . 1350
+R. Caponetto, S. Graziani, V. Tomasello, A. Pisano
+IDENTIFICATION AND FRACTIONAL SUPER-TWISTING
+ROBUST CONTROL OF IPMC ACTUATORS . . . . . . . . . . . . . . . . . . . 1358
+T. Mur, H. R. Henrı́quez
+CONTROLLABILITY OF ABSTRACT SYSTEMS
+OF FRACTIONAL ORDER . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1398
+D. Wang, A. Xiao, H. Liu
+DISSIPATIVITY AND STABILITY ANALYSIS
+FOR FRACTIONAL FUNCTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1399
+Q.M. Al-Mdallal, M.A. Hajji
+A CONVERGENT ALGORITHM FOR SOLVING
+HIGHER-ORDER NONLINEAR FRACTIONAL
+BOUNDARY VALUE PROBLEMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1423
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+C. Ionescu and C. Muresan
+SLIDING MODE CONTROL FOR A CLASS OF
+SUB-SYSTEMS WITH FRACTIONAL ORDER VARYING
+TRAJECTORY DYNAMICS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1441
+E.A. Abdel-Rehim
+IMPLICIT DIFFERENCE SCHEME OF THE SPACE-TIME
+FRACTIONAL ADVECTION DIFFUSION EQUATION . . . . . . . . . . 1452
+N. Nyamoradi
+MULTIPLICITY OF NONTRIVIAL SOLUTIONS FOR
+BOUNDARY VALUE PROBLEM FOR IMPULSIVE
+FRACTIONAL DIFFERENTIAL INCLUSIONS VIA
+NONSMOOTH CRITICAL POINT THEORY . . . . . . . . . . . . . . . . . . . . . 1470
+C. Zeng, Y.Q. Chen
+GLOBAL PADÉ APPROXIMATIONS OF
+THE GENERALIZED MITTAG-LEFFLER FUNCTION
+AND ITS INVERSE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1492
+P.R. Massopust, A.I. Zayed
+ON THE INVALIDITY OF FOURIER SERIES
+EXPANSIONS OF FRACTIONAL ORDER . . . . . . . . . . . . . . . . . . . . . . . 1507
+J.A. Tenreiro Machado, A.M. Lopes
+FRACTIONAL STATE SPACE ANALYSIS OF
+TEMPERATURE TIME SERIES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1518
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 19, No 1 (2016)
+
+CONTENTS
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 19–1–2016) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1
+
+P. Eloe, J. Neugebauer
+SMALLEST EIGENVALUES FOR A RIGHT FOCAL
+BOUNDARY VALUE PROBLEM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+11
+
+H.F. Ding, C.P. Li
+HIGH-ORDER ALGORITHMS FOR RIESZ DERIVATIVE
+AND THEIR APPLICATIONS (III) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+K. Hu, N. Jacob, C. Yuan
+EXISTENCE AND UNIQUENESS FOR A CLASS OF
+STOCHASTIC TIME FRACTIONAL SPACE
+PSEUDO-DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+56
+
+B. Jin, R. Lazarov, D. Sheen, Z. Zhou
+ERROR ESTIMATES FOR APPROXIMATIONS OF
+DISTRIBUTED ORDER TIME FRACTIONAL DIFFUSION
+WITH NONSMOOTH DATA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69
+X.Y. Liu, Y.J. Xu
+BOGOLYUBOV-TYPE THEOREM WITH CONSTRAINTS
+GENERATED BY A FRACTIONAL CONTROL SYSTEM . . . . . . . . 94
+P.N. Vabishchevich
+NUMERICAL SOLUTION OF NONSTATIONARY
+PROBLEMS FOR A SPACE-FRACTIONAL
+DIFFUSION EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+116
+
+W. Zhang, X. Cai
+SOLVING 3D TIME-FRACTIONAL DIFFUSION
+EQUATIONS BY HIGH-PERFORMANCE
+PARALLEL COMPUTING . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 140
+(Continued on back cover page)
+
+CONTENTS, continued:
+R. Cioć
+PHYSICAL AND GEOMETRICAL INTERPRETATION
+OF GRÜNWALD-LETNIKOV DIFFERINTEGRALS:
+MEASUREMENT OF PATH AND ACCELERATION . . . . . . . . . . . . . 161
+D. Prodanov
+SOME APPLICATIONS OF FRACTIONAL VELOCITIES . . . . . . . . 173
+Zhenhai Liu, Shengda Zeng, Yunru Bai
+MAXIMUM PRINCIPLES FOR MULTI-TERM
+SPACE-TIME VARIABLE-ORDER FRACTIONAL
+DIFFUSION EQUATIONS AND THEIR APPLICATIONS . . . . . . . 188
+A. Stanislavsky, K. Weron
+ATYPICAL CASE OF THE DIELECTRIC RELAXATION
+RESPONSES AND ITS FRACTIONAL
+KINETIC EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 212
+R. Ashurov, A. Cabada, B. Turmetov
+OPERATOR METHOD FOR CONSTRUCTION OF
+SOLUTIONS OF LINEAR FRACTIONAL DIFFERENTIAL
+EQUATIONS WITH CONSTANT COEFFICIENTS . . . . . . . . . . . . . . 229
+D. Averna, S. Tersian, E. Tornatore
+ON THE EXISTENCE AND MULTIPLICITY OF
+SOLUTIONS FOR DIRICHLET’S PROBLEM FOR
+FRACTIONAL DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . 253
+Z. Fan, Q. Dong, G. Li
+APPROXIMATE CONTROLLABILITY FOR SEMILINEAR
+COMPOSITE FRACTIONAL RELAXATION EQUATIONS . . . . . . . 267
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 19, No 2 (2016)
+
+CONTENTS
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 19–2–2016) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 285
+R. Agarwal, S. Hristova, D. O’Regan
+A SURVEY OF LYAPUNOV FUNCTIONS, STABILITY
+AND IMPULSIVE CAPUTO FRACTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 290
+G. Devillanova, G.C. Marano
+A FREE FRACTIONAL VISCOUS OSCILLATOR AS
+A FORCED STANDARD DAMPED VIBRATION . . . . . . . . . . . . . . . . . 319
+K. Ito, B. Jin, T. Takeuchi
+ON A LEGENDRE TAU METHOD FOR FRACTIONAL
+BOUNDARY VALUE PROBLEMS
+WITH A CAPUTO DERIVATIVE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 357
+C. Torres Ledesma
+NONLINEAR DIRICHLET PROBLEM WITH NON LOCAL
+REGIONAL DIFFUSION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 379
+S. Horrigue, H. Ouerdiane, I. Salhi
+GENERALIZED FRACTION EVOLUTION EQUATIONS
+WITH FRACTIONAL GROSS LAPLACIAN . . . . . . . . . . . . . . . . . . . . . 394
+G. Pagnini, P. Paradisi
+A STOCHASTIC SOLUTION WITH GAUSSIAN
+STATIONARY INCREMENTS OF THE SYMMETRIC
+SPACE-TIME FRACTIONAL DIFFUSION EQUATION . . . . . . . . . . 408
+S. Mincheva-Kaminska
+CONVOLUTIONAL APPROACH
+TO FRACTIONAL CALCULUS FOR DISTRIBUTIONS
+OF SEVERAL VARIABLES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 441
+(Continued on back cover page)
+
+CONTENTS, continued:
+D. Qarout, B. Ahmad, A. Alsaedi
+EXISTENCE THEOREMS FOR SEMI-LINEAR CAPUTO
+FRACTIONAL DIFFERENTIAL EQUATIONS WITH
+NONLOCAL DISCRETE AND INTEGRAL
+BOUNDARY CONDITIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 463
+N. Thongsalee, S.K. Ntouyas, J. Tariboon
+NONLINEAR RIEMANN-LIOUVILLE FRACTIONAL
+DIFFERENTIAL EQUATIONS WITH NONLOCAL
+ERDÉLYI-KOBER FRACTIONAL
+INTEGRAL CONDITIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 480
+V. Pandey, S.P. Näsholm, S. Holm
+SPATIAL DISPERSION OF ELASTIC WAVES IN
+A BAR CHARACTERIZED BY TEMPERED
+NONLOCAL ELASTICITY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 498
+M. Klimek, A.B. Malinowska, T. Odzijewicz
+APPLICATIONS OF THE FRACTIONAL
+STURM–LIOUVILLE PROBLEM TO THE SPACE–TIME
+FRACTIONAL DIFFUSION IN A FINITE DOMAIN . . . . . . . . . . . . . 516
+S.F. Zaman, D. Baleanu, I. Petráš
+MEASUREMENT OF PARA-XYLENE DIFFUSIVITY IN
+ZEOLITES AND ANALYZING DESORPTION CURVES
+USING THE MITTAG-LEFFLER FUNCTION . . . . . . . . . . . . . . . . . . . 551
+K. Diethelm
+MONOTONICITY OF FUNCTIONS
+AND SIGN CHANGES
+OF THEIR CAPUTO DERIVATIVES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 561
+A. Ansari
+ON THE VOLTERRA μ-FUNCTIONS AND
+THE M-WRIGHT FUNCTIONS AS KERNELS
+AND EIGENFUNCTIONS OF VOLTERRA TYPE
+INTEGRAL OPERATORS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 567
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 19, No 3 (2016)
+
+CONTENTS
+This issue is partly dedicated to
+75th Anniversary of Professor Stefan Samko
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 19–3–2016) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 573
+H. Rafeiro, S. Samko
+FRACTIONAL INTEGRALS AND DERIVATIVES:
+MAPPING PROPERTIES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 580
+S. Samko, S. Umarkhadzhiev
+RIESZ FRACTIONAL INTEGRALS
+IN GRAND LEBESGUE SPACES ON Rn . . . . . . . . . . . . . . . . . . . . . . . . . 608
+V.E. Tarasov
+UNITED LATTICE FRACTIONAL
+INTEGRO-DIFFERENTIATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 625
+N. Kosmatov
+INTEGRAL EQUATIONS OF FRACTIONAL ORDER
+IN LEBESGUE SPACES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 665
+Yu. Luchko, M. Yamamoto
+GENERAL TIME-FRACTIONAL DIFFUSION EQUATION:
+SOME UNIQUENESS AND EXISTENCE RESULTS
+FOR THE INITIAL-BOUNDARY-VALUE PROBLEMS . . . . . . . . . . 676
+V. Kokilashvili, M. Mastylo, A. Meskhi
+MULTILINEAR INTEGRAL OPERATORS IN WEIGHTED
+GRAND LEBESGUE SPACES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 696
+
+(Continued on back cover page)
+
+CONTENTS, continued:
+Regularly submitted papers:
+F. Bouzeﬀour
+FRACTIONAL INTEGRATION OPERATOR
+ON SOME RADIAL RAYS AND INTERTWINING
+FOR THE DUNKL OPERATOR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 725
+Z.N. Xia, M. Fan, R.P. Agarwal
+PSEUDO ALMOST AUTOMORPHY OF SEMILINEAR
+FRACTIONAL DIFFERENTIAL EQUATIONS
+IN BANACH SPACES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 741
+Chung-Sik Sin, Liancun Zheng
+EXISTENCE AND UNIQUENESS OF GLOBAL
+SOLUTIONS OF CAPUTO-TYPE FRACTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 765
+T. Kaczorek
+PERFECT NONLINEAR OBSERVERS
+OF FRACTIONAL DESCRIPTOR CONTINUOUS-TIME
+NONLINEAR SYSTEMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 775
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 19, No 4 (2016)
+
+CONTENTS
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 19–4–2016) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 785
+T. Kaczorek, P. Ostalczyk
+RESPONSES COMPARISON OF THE TWO
+DISCRETE-TIME LINEAR FRACTIONAL
+STATE-SPACE MODELS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 789
+J.R. Wang, M. Fečkan, Y. Zhou
+A SURVEY ON IMPULSIVE FRACTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 806
+R. Herrmann
+GENERALIZATION OF THE FRACTIONAL
+POISSON DISTRIBUTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 832
+L
+ . Plociniczak
+DIFFUSIVITY IDENTIFICATION IN A NONLINEAR
+TIME-FRACTIONAL DIFFUSION EQUATION . . . . . . . . . . . . . . . . . . . 843
+C. Bucur, F. Ferrari
+AN EXTENSION PROBLEM FOR THE FRACTIONAL
+DERIVATIVE DEFINED BY MARCHAUD . . . . . . . . . . . . . . . . . . . . . . 867
+Y. Liu, W. Rundell, M. Yamamoto
+STRONG MAXIMUM PRINCIPLE FOR FRACTIONAL
+DIFFUSION EQUATIONS AND AN APPLICATION
+TO AN INVERSE SOURCE PROBLEM . . . . . . . . . . . . . . . . . . . . . . . . . . 888
+S. Staněk
+THE NEUMANN PROBLEM FOR THE GENERALIZED
+BAGLEY-TORVIK FRACTIONAL
+DIFFERENTIAL EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 907
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+A. Di Crescenzo, A. Meoli
+ON THE FRACTIONAL PROBABILISTIC
+TAYLOR’S AND MEAN VALUE THEOREMS . . . . . . . . . . . . . . . . . . . 921
+Y. Povstenko
+TIME-FRACTIONAL HEAT CONDUCTION
+IN A TWO-LAYER COMPOSITE SLAB . . . . . . . . . . . . . . . . . . . . . . . . . 940
+E. Burtseva, N. Samko
+WEIGHTED ADAMS TYPE THEOREM FOR THE RIESZ
+FRACTIONAL INTEGRAL IN GENERALIZED
+MORREY SPACE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 954
+S. Baqer, L. Boyadjiev
+FRACTIONAL SCHRÖDINGER EQUATION WITH
+ZERO AND LINEAR POTENTIALS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 973
+M. Günendi, İ. Yaslan
+POSITIVE SOLUTIONS OF HIGHER-ORDER
+NONLINEAR MULTI-POINT FRACTIONAL EQUATIONS
+WITH INTEGRAL BOUNDARY CONDITIONS . . . . . . . . . . . . . . . . . . 989
+C. Lizama, M. P. Velasco
+WEIGHTED BOUNDED SOLUTIONS FOR A CLASS
+OF NONLINEAR FRACTIONAL EQUATIONS . . . . . . . . . . . . . . . . . . 1010
+I. Bachar, H. Mâagli
+EXISTENCE AND GLOBAL ASYMPTOTIC BEHAVIOR
+OF POSITIVE SOLUTIONS FOR SUPERLINEAR
+FRACTIONAL DIRICHLET PROBLEMS
+ON THE HALF-LINE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1031
+T. Jankowski
+FUNCTIONAL DELAY FRACTIONAL EQUATIONS . . . . . . . . . . . 1050
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 19, No 5 (2016)
+
+CONTENTS
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 19–5–2016) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1059
+J.A. Tenreiro Machado, F. Mainardi,
+V. Kiryakova, T. Atanacković
+FRACTIONAL CALCULUS: D’OÙ VENONS-NOUS?
+QUE SOMMES-NOUS? OÙ ALLONS-NOUS?
+(Contributions to Round Table Discussion held at ICFDA 2016) . . 1074
+R. Garrappa, F. Mainardi, G. Maione
+MODELS OF DIELECTRIC RELAXATION BASED ON
+COMPLETELY MONOTONE FUNCTIONS . . . . . . . . . . . . . . . . . . . . . 1105
+V.V. Anh, N.N. Leonenko, M.D. Ruiz-Medina
+SPACE-TIME FRACTIONAL STOCHASTIC EQUATIONS
+ON REGULAR BOUNDED OPEN DOMAINS . . . . . . . . . . . . . . . . . . . 1161
+V. Tarasov
+GEOMETRIC INTERPRETATION OF
+FRACTIONAL-ORDER DERIVATIVE . . . . . . . . . . . . . . . . . . . . . . . . . . . 1200
+Qi Yang, Dali Chen, Tiebiao Zhao, YangQuan Chen
+FRACTIONAL CALCULUS IN IMAGE PROCESSING:
+A REVIEW . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1222
+W. Chen, Y. Liang, X. Hei
+STRONG MAXIMUM PRINCIPLE FOR FRACTIONAL
+DIFFUSION EQUATIONS AND AN APPLICATION
+TO AN INVERSE SOURCE PROBLEM . . . . . . . . . . . . . . . . . . . . . . . . . 1250
+F. Ge, Y.Q. Chen, C. Kou, I. Podlubny
+ON THE REGIONAL CONTROLLABILITY
+OF THE SUB-DIFFUSION PROCESS
+WITH CAPUTO FRACTIONAL DERIVATIVE . . . . . . . . . . . . . . . . . . 1262
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+B.M. Vinagre, I. Tejado, J.E. Traver
+THERE’S PLENTY OF FRACTIONAL AT THE BOTTOM,
+I: BROWNIAN MOTORS AND SWIMMING MICROROBOTS . . 1282
+A. Cernea
+ON A FRACTIONAL DIFFERENTIAL INCLUSION
+WITH “MAXIMA” . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1292
+V.V. Uchaikin
+ON TIME-FRACTIONAL REPRESENTATION OF
+AN OPEN SYSTEM RESPONSE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1306
+N. Obrechkoﬀ
+ON THE SUMMATION OF TAYLOR’S SERIES ON
+THE CONTOUR OF THE DOMAIN OF SUMMABILITY
+(Reprinted from: Annuaire Univ. Soﬁa,
+Phys.-Math. Fac. 26, No 1 (1930), 53–100, In Bulgarian) . . . . . . . 1316
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 19, No 6 (2016)
+
+CONTENTS
+SPECIAL ISSUE:
+“Fractality and Fractionality”
+(Papers selected from International Workshop FaF ’2016
+– Lorentz Center, The Netherlands,
+and on the topics of Fractional Stochastics)
+Guest Editors:
+Virginia Kiryakova, Yuliya Mishura, Martina Zähle
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 19–6–2016) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1347
+G. Di Nunno, Y. Mishura, K. Ralchenko
+FRACTIONAL CALCULUS AND PATHWISE INTEGRATION
+FOR VOLTERRA PROCESSES DRIVEN BY LEVY
+AND MARTINGALE NOISE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1356
+Ma.E. Hernandez-Hernandez, V.N. Kolokoltsov
+ON THE SOLUTION OF TWO-SIDED FRACTIONAL ORDINARY
+DIFFERENTIAL EQUATIONS OF CAPUTO TYPE . . . . . . . . . . . . 1393
+J. Korbel, Y. Luchko
+MODELING OF FINANCIAL PROCESSES WITH A SPACE-TIME
+FRACTIONAL DIFFUSION EQUATION OF VARYING ORDER 1414
+V.V. Anh, N.N. Leonenko, M.D. Ruiz-Medina
+FRACTIONAL-IN-TIME AND MULTIFRACTIONAL-IN-SPACE
+STOCHASTIC PARTIAL DIFFERENTIAL EQUATIONS . . . . . . . . 1434
+I. Matychyn
+AN IDENTITY INVOLVING INTEGRATION WITH RESPECT TO
+VARIABLE ORDER OF FRACTIONAL DERIVATIVE . . . . . . . . . . 1460
+
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+M. Khalil, C. Tudor, M. Zili
+ON THE LAMPERTI TRANSFORM OF THE FRACTIONAL
+BROWNIAN SHEET . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1466
+M. Magdziarz, T. Zorawik
+DENSITIES OF SCALING LIMITS OF COUPLED
+CONTINUOUS TIME RANDOM WALKS . . . . . . . . . . . . . . . . . . . . . . . . 1488
+P. Chen, X. Zhang, Y. Li
+NONLOCAL PROBLEM FOR FRACTIONAL STOCHASTIC
+EVOLUTION EQUATIONS WITH SOLUTION OPERATORS . . . 1507
+M. Foondun, J.B. Mijena, E. Nane
+NON-LINEAR NOISE EXCITATION FOR SOME
+SPACE-TIME FRACTIONAL STOCHASTIC EQUATIONS
+IN BOUNDED DOMAINS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1527
+M. Stynes
+TOO MUCH REGULARITY MAY FORCE
+TOO MUCH UNIQUENESS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1554
+
+CONTENTS – FCAA, Vol. 20, No 1 (2017)
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 20–1–2017) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1
+
+M. Kwaśnicki
+TEN EQUIVALENT DEFINITIONS
+OF THE FRACTIONAL LAPLACE OPERATOR . . . . . . . . . . . . . . . . . .
+
+7
+
+W. Zhu, B. Chen, J. Yang
+CONSENSUS OF FRACTIONAL-ORDER MULTI-AGENT
+SYSTEMS WITH INPUT TIME DELAY . . . . . . . . . . . . . . . . . . . . . . . . . . . 52
+J.R. Graef, S.R. Grace, E. Tunç
+ASYMPTOTIC BEHAVIOR OF SOLUTIONS OF
+NONLINEAR FRACTIONAL DIFFERENTIAL EQUATIONS
+WITH CAPUTO-TYPE HADAMARD DERIVATIVES . . . . . . . . . . . . . 71
+H. Fu, H. Wang
+A PRECONDITIONED FAST FINITE DIFFERENCE
+METHOD FOR SPACE-TIME FRACTIONAL
+PARTIAL DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . .
+
+88
+
+Y. Kian, M. Yamamoto
+ON EXISTENCE AND UNIQUENESS OF SOLUTIONS
+FOR SEMILINEAR FRACTIONAL WAVE EQUATIONS . . . . . . . . . 117
+A. Liemert, A. Kienle
+COMPUTATIONAL SOLUTIONS OF THE TEMPERED
+FRACTIONAL WAVE-DIFFUSION EQUATION . . . . . . . . . . . . . . . . . 139
+Y.H. Wei, Y.Q. Chen, S.S. Cheng, Y. Wang
+COMPLETENESS ON THE STABILITY CRITERION OF
+FRACTIONAL ORDER LTI SYSTEMS . . . . . . . . . . . . . . . . . . . . . . . . . . . 159
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+S.K. Upadhyay, J.K. Dubey
+WAVELET CONVOLUTION PRODUCT INVOLVING
+FRACTIONAL FOURIER TRANSFORM . . . . . . . . . . . . . . . . . . . . . . . . . 173
+M.O. Mamchuev
+SOLUTIONS OF THE MAIN BOUNDARY VALUE
+PROBLEMS FOR THE TIME-FRACTIONAL TELEGRAPH
+EQUATION BY THE GREEN FUNCTION METHOD . . . . . . . . . . . . 190
+R.A. Leo, G. Sicuro, P. Tempesta
+A FOUNDATIONAL APPROACH TO THE LIE THEORY
+FOR FRACTIONAL ORDER
+PARTIAL DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . 212
+Xiangdong Yang
+NULL-CONTROLLABILITY OF A FRACTIONAL ORDER
+DIFFUSION EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 232
+R. Stanislawski
+NEW RESULTS IN STABILITY ANALYSIS FOR LTI SISO
+SYSTEMS MODELED BY GL-DISCRETIZED
+FRACTIONAL-ORDER TRANSFER FUNCTIONS . . . . . . . . . . . . . . . 243
+K. Górska, A. Horzela, K.A. Penson,
+G. Dattoli, G.H.E. Duchamp
+THE STRETCHED EXPONENTIAL BEHAVIOR AND
+ITS UNDERLYING DYNAMICS.
+THE PHENOMENOLOGICAL APPROACH . . . . . . . . . . . . . . . . . . . . . 260
+R.A.C. Ferreira
+LYAPUNOV-TYPE INEQUALITY FOR
+AN ANTI-PERIODIC FRACTIONAL
+BOUNDARY VALUE PROBLEM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 284
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 20, No 2 (2017)
+
+CONTENTS
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 20–2–2017) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 293
+J.A. Tenreiro Machado, V. Kiryakova
+THE CHRONICLES OF FRACTIONAL CALCULUS . . . . . . . . . . . . . 307
+R. Lazarov, P. Vabishchevich
+A NUMERICAL STUDY OF THE HOMOGENEOUS
+ELLIPTIC EQUATION WITH FRACTIONAL
+BOUNDARY CONDITIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 337
+W. Fan, F. Liu, X. Jiang, I. Turner
+A NOVEL UNSTRUCTURED MESH FINITE ELEMENT
+METHOD FOR SOLVING THE TIME-SPACE
+FRACTIONAL WAVE EQUATION ON A
+TWO-DIMENSIONAL IRREGULAR CONVEX DOMAIN . . . . . . . . 352
+S. Abbas, M. Benchohra, A. Petruşel
+ULAM STABILITY FOR HILFER TYPE FRACTIONAL
+DIFFERENTIAL INCLUSIONS VIA THE WEAKLY
+PICARD OPERATORS THEORY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 384
+A.N. Ceretani, D.A. Tarzia
+DETERMINATION OF TWO UNKNOWN THERMAL
+COEFFICIENTS THROUGH AN INVERSE ONE-PHASE
+FRACTIONAL STEFAN PROBLEM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 399
+M.-J. Luo, R.K. Raina
+FRACTIONAL INTEGRAL OPERATORS
+CHARACTERIZED BY SOME NEW HYPERGEOMETRIC
+SUMMATION FORMULAS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 422
+
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+T.B. Nguyen, B. Jang
+A HIGH-ORDER PREDICTOR-CORRECTOR METHOD
+FOR SOLVING NONLINEAR DIFFERENTIAL
+EQUATIONS OF FRACTIONAL ORDER . . . . . . . . . . . . . . . . . . . . . . . . 447
+S. Choudhary, V. Daftardar-Gejji
+INVARIANT SUBSPACE METHOD: A TOOL FOR
+SOLVING FRACTIONAL PARTIAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 477
+T. Kaczorek, D. Idczak
+CAUCHY FORMULA FOR THE TIME-VARYING LINEAR
+SYSTEMS WITH CAPUTO DERIVATIVE . . . . . . . . . . . . . . . . . . . . . . . . 494
+J. Paneva-Konovska
+OVERCONVERGENCE OF SERIES IN GENERALIZED
+MITTAG-LEFFLER FUNCTIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 506
+- ekić
+D. Dolićanin–D
+ON A NEW CLASS OF CONSTITUTIVE EQUATIONS
+FOR LINEAR VISCOELASTIC BODY . . . . . . . . . . . . . . . . . . . . . . . . . . . . 521
+R. Xue
+OBSERVABILITY FOR FRACTIONAL DIFFUSION
+EQUATIONS BY INTERIOR CONTROL . . . . . . . . . . . . . . . . . . . . . . . . . 537
+R. Joice Nirmala, K. Balachandran, J.J. Trujillo
+NULL CONTROLLABILITY OF FRACTIONAL
+DYNAMICAL SYSTEMS WITH
+CONSTRAINED CONTROL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 553
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 20, No 3 (2017)
+
+CONTENTS
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 20–3–2017) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 567
+A. Alsaedi, B. Ahmad, M. Kirane
+A SURVEY OF USEFUL INEQUALITIES
+IN FRACTIONAL CALCULUS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 574
+R. Agarwal, S. Hristova, D. O’Regan
+NON-INSTANTANEOUS IMPULSES IN CAPUTO
+FRACTIONAL DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . 595
+E. Kaslik
+ANALYSIS OF TWO- AND THREE-DIMENSIONAL
+FRACTIONAL-ORDER HINDMARSH-ROSE
+TYPE NEURONAL MODELS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 623
+G. Garcı́a
+SOLVABILITY OF INITIAL VALUE PROBLEMS WITH
+FRACTIONAL ORDER DIFFERENTIAL EQUATIONS
+IN BANACH SPACES BY α-DENSE CURVES . . . . . . . . . . . . . . . . . . . . 646
+S. Staněk
+PERIODIC PROBLEM FOR TWO-TERM FRACTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 662
+M. Yang, Q.R. Wang
+EXISTENCE OF MILD SOLUTIONS FOR A CLASS OF
+HILFER FRACTIONAL EVOLUTION EQUATIONS
+WITH NONLOCAL CONDITIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 679
+V.E. Fedorov, N.D. Ivanova
+IDENTIFICATION PROBLEM FOR DEGENERATE
+EVOLUTION EQUATIONS OF FRACTIONAL ORDER . . . . . . . . . 706
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+Hengfei Ding, Changpin Li
+FRACTIONAL-COMPACT NUMERICAL ALGORITHMS
+FOR RIESZ SPATIAL FRACTIONAL
+REACTION-DISPERSION EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . 722
+F. Hassan, A. Zolotas
+IMPACT OF FRACTIONAL ORDER METHODS ON
+OPTIMIZED TILT CONTROL FOR RAIL VEHICLES . . . . . . . . . . . 765
+O.G. Novozhenova
+LIFE AND SCIENCE OF ALEXEY GERASIMOV,
+ONE OF THE PIONEERS OF FRACTIONAL CALCULUS
+IN SOVIET UNION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 790
+E. Ugurlu, D. Baleanu, K. Tas
+REGULAR FRACTIONAL DIFFERENTIAL EQUATIONS
+IN THE SOBOLEV SPACE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 810
+M. Al-Refai
+MONOTONICITY AND CONVEXITY RESULTS FOR
+A FUNCTION THROUGH ITS
+CAPUTO FRACTIONAL DERIVATIVE . . . . . . . . . . . . . . . . . . . . . . . . . . 818
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 20, No 4 (2017)
+
+CONTENTS
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 20–4–2017) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 825
+L. D’Onofrio, A. Fiscella, G. Molica Bisci
+PERTURBATION METHODS FOR NONLOCAL
+KIRCHHOFF–TYPE PROBLEMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 829
+A. Giusti
+ON INFINITE ORDER DIFFERENTIAL OPERATORS IN
+FRACTIONAL VISCOELASTICITY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 854
+M. Ferreira, M.M. Rodrigues, N. Vieira
+FUNDAMENTAL SOLUTION OF THE
+MULTI-DIMENSIONAL TIME FRACTIONAL
+TELEGRAPH EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 868
+J.A. Gallegos, M.A. Duarte-Mermoud
+ROBUSTNESS AND CONVERGENCE OF FRACTIONAL
+SYSTEMS AND THEIR APPLICATIONS
+TO ADAPTIVE SCHEMES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 895
+D. Boyadzhiev, H. Kiskinov, M. Veselinova, A. Zahariev
+STABILITY ANALYSIS OF LINEAR DISTRIBUTED
+ORDER FRACTIONAL SYSTEMS WITH
+DISTRIBUTED DELAYS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 914
+M. Bergounioux, A. Leaci, G. Nardi, F. Tomarelli
+FRACTIONAL SOBOLEV SPACES AND FUNCTIONS OF
+BOUNDED VARIATION OF ONE VARIABLE . . . . . . . . . . . . . . . . . . . 936
+Y.-K. Chang, A. Pereira, R. Ponce
+APPROXIMATE CONTROLLABILITY FOR FRACTIONAL
+DIFFERENTIAL EQUATIONS OF SOBOLEV TYPE
+VIA PROPERTIES ON RESOLVENT OPERATORS . . . . . . . . . . . . . . 963
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+Yu. Kolomoitsev
+ON MODULI OF SMOOTHNESS AND
+AVERAGED DIFFERENCES OF FRACTIONAL ORDER . . . . . . . . 988
+C. Gong, W. Bao, J. Liu
+A PIECEWISE MEMORY PRINCIPLE FOR
+FRACTIONAL DERIVATIVES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1010
+B.P. Moghaddam, J.A.T. Machado
+A COMPUTATIONAL APPROACH FOR THE SOLUTION
+OF A CLASS OF VARIABLE-ORDER FRACTIONAL
+INTEGRO-DIFFERENTIAL EQUATIONS
+WITH WEAKLY SINGULAR KERNELS . . . . . . . . . . . . . . . . . . . . . . . . . 1023
+C. Bota, B. Căruntu
+ANALYTIC APPROXIMATE SOLUTIONS FOR
+A CLASS OF VARIABLE ORDER FRACTIONAL
+DIFFERENTIAL EQUATIONS USING
+THE POLYNOMIAL LEAST SQUARES METHOD . . . . . . . . . . . . . . 1043
+Y. Jiao, D. Zhou, F. Weisz, Z. Hao
+CORRIGENDUM: FRACTIONAL INTEGRAL ON
+MARTINGALE HARDY SPACES WITH
+VARIABLE EXPONENTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1051
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 20, No 5 (2017)
+
+CONTENTS
+SPECIAL ISSUE:
+Dedicated to 20th anniversary of FCAA
+and 65th birthday of Prof. V. Kiryakova
+Guest Editors: Y. Luchko and I. Podlubny
+
+Editorial: FCAA SPECIAL ISSUE
+(FCAA–Volume 20–5–2017) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1053
+I. Podlubny, R.L. Magin, I. Trymorush
+NIELS HENRIK ABEL AND THE BIRTH
+OF FRACTIONAL CALCULUS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1068
+N.J. Ford, Y. Yan
+AN APPROACH TO CONSTRUCT HIGHER ORDER
+TIME DISCRETISATION SCHEMES FOR TIME
+FRACTIONAL PARTIAL DIFFERENTIAL EQUATIONS
+WITH NONSMOOTH DATA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1076
+A. Karapetyants, S. Samko
+MIXED NORM SPACES OF ANALYTIC FUNCTIONS AS
+SPACES OF GENERALIZED FRACTIONAL DERIVATIVES
+OF FUNCTIONS IN HARDY TYPE SPACES . . . . . . . . . . . . . . . . . . . . 1106
+Yu. Luchko, M. Yamamoto
+ON THE MAXIMUM PRINCIPLE
+FOR A TIME-FRACTIONAL DIFFUSION EQUATION . . . . . . . . . . 1131
+L. Li, J. Sun, S. Tersian
+INFINITELY MANY SIGN-CHANGING SOLUTIONS FOR
+THE BRÉZIS-NIRENBERG PROBLEM INVOLVING
+THE FRACTIONAL LAPLACIAN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1146
+
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+K. Diethelm, S. Siegmund, H.T. Tuan
+ASYMPTOTIC BEHAVIOR OF SOLUTIONS
+OF LINEAR MULTI-ORDER
+FRACTIONAL DIFFERENTIAL SYSTEMS . . . . . . . . . . . . . . . . . . . . . . 1165
+R. Garrappa, S. Rogosin, F. Mainardi
+ON A GENERALIZED THREE-PARAMETER WRIGHT
+FUNCTION OF LE ROY TYPE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1196
+C. Bardaro, P.L. Butzer, I. Mantellini, G. Schmeisser
+A GENERALIZATION OF THE PALEY–WIENER
+THEOREM FOR MELLIN TRANSFORMS AND
+METRIC CHARACTERIZATION OF FUNCTION SPACES . . . . . 1216
+M.L. Morgado, M. Rebelo
+WELL-POSEDNESS AND NUMERICAL APPROXIMATION
+OF TEMPERED FRACTIONAL TERMINAL
+VALUE PROBLEMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1239
+R.R. Nigmatullin, W. Zhang, I. Gubaidullin
+ACCURATE RELATIONSHIPS BETWEEN FRACTALS
+AND FRACTIONAL INTEGRALS:
+NEW APPROACHES AND EVALUATIONS . . . . . . . . . . . . . . . . . . . . . 1263
+S. Umarov
+FRACTIONAL FOKKER-PLANCK-KOLMOGOROV
+EQUATIONS ASSOCIATED WITH SDEs
+ON A BOUNDED DOMAIN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1281
+D.Y. Xue, L. Bai
+BENCHMARK PROBLEMS FOR CAPUTO
+FRACTIONAL-ORDER ORDINARY
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1305
+
+CONTENTS – FCAA, Vol. 20, No 6 (2017)
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 20–6–2017) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1313
+K. Li
+NO LOCAL L1 SOLUTIONS FOR SEMILINEAR
+FRACTIONAL HEAT EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1328
+Bo Zhu, Lishan Liu, Yonghong Wu
+LOCAL AND GLOBAL EXISTENCE OF MILD
+SOLUTIONS FOR A CLASS OF SEMILINEAR
+FRACTIONAL INTEGRO-DIFFERENTIAL EQUATIONS . . . . . . . 1338
+H. Wang, D.P. Yang
+WELLPOSEDNESS OF NEUMANN BOUNDARY-VALUE
+PROBLEMS OF SPACE-FRACTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1356
+Y.H. Wei, Y.Q. Chen, S.S. Cheng, Y. Wang
+A NOTE ON SHORT MEMORY PRINCIPLE OF
+FRACTIONAL CALCULUS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1382
+D. Cao Labora, R. Rodrı́guez-López
+FROM FRACTIONAL ORDER EQUATIONS TO INTEGER
+ORDER EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1405
+I. Benedetti, V. Obukhovskii, V. Taddei
+ON GENERALIZED BOUNDARY VALUE PROBLEMS
+FOR A CLASS OF FRACTIONAL
+DIFFERENTIAL INCLUSIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1424
+G.M. Bahaa
+FRACTIONAL OPTIMAL CONTROL PROBLEM FOR
+VARIABLE-ORDER DIFFERENTIAL SYSTEMS . . . . . . . . . . . . . . . . 1447
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+X. Zhang, Q. Zhong
+UNIQUENESS OF SOLUTION FOR HIGHER-ORDER
+FRACTIONAL DIFFERENTIAL EQUATIONS WITH
+CONJUGATE TYPE INTEGRAL CONDITIONS . . . . . . . . . . . . . . . . . 1471
+M. Jleli, M. Kirane, B. Samet
+LYAPUNOV-TYPE INEQUALITIES FOR A FRACTIONAL
+p-LAPLACIAN SYSTEM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1485
+K. Saoudi
+A CRITICAL FRACTIONAL ELLIPTIC EQUATION WITH
+SINGULAR NONLINEARITIES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1507
+A. Jerbashian, J. Restrepo
+A BOUNDARY PROPERTY OF SOME SUBCLASSES OF
+FUNCTIONS OF BOUNDED TYPE IN THE HALF-PLANE . . . . . 1531
+E. Burtseva, N. Samko
+ON WEIGHTED GENERALIZED FRACTIONAL AND
+HARDY-TYPE OPERATORS ACTING BETWEEN
+MORREY-TYPE SPACES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1545
+K. Diethelm
+ERRATUM: THE MEAN VALUE THEOREMS
+AND A NAGUMO-TYPE UNIQUENESS THEOREM
+FOR CAPUTO’S FRACTIONAL CALCULUS . . . . . . . . . . . . . . . . . . . . 1567
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 21, No 1 (2018)
+
+CONTENTS
+SPECIAL ISSUE:
+Papers selected from presentations
+at International Conference TMSF 2017:
+“Transform Methods and Special Functions 2017”
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 21–1–2018) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1
+
+T. Sandev, R. Metzler, A. Chechkin
+FROM CONTINUOUS TIME RANDOM WALKS TO
+THE GENERALIZED DIFFUSION EQUATION . . . . . . . . . . . . . . . . . . .
+
+10
+
+T.M. Atanacković, S. Pilipović, D. Zorica
+PROPERTIES OF THE CAPUTO-FABRIZIO
+FRACTIONAL DERIVATIVE
+AND ITS DISTRIBUTIONAL SETTINGS . . . . . . . . . . . . . . . . . . . . . . . . .
+
+29
+
+M. Klimek, M. Ciesielski, T. Blaszczyk
+EXACT AND NUMERICAL SOLUTIONS
+OF THE FRACTIONAL STURM–LIOUVILLE PROBLEM . . . . . . . .
+
+45
+
+R. Agarwal, S. Hristova, D. O’Regan
+SOME STABILITY PROPERTIES RELATED TO INITIAL
+TIME DIFFERENCE FOR CAPUTO FRACTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+72
+
+M. Fărcăşeanu
+ON AN EIGENVALUE PROBLEM INVOLVING
+THE FRACTIONAL (s, p)-LAPLACIAN . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+94
+
+Y. Liang
+DIFFUSION ENTROPY METHOD FOR ULTRASLOW
+DIFFUSION USING INVERSE
+MITTAG-LEFFLER FUNCTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 104
+(Continued on back cover page)
+
+CONTENTS, continued:
+Y. Povstenko, T. Kyrylych
+TIME-FRACTIONAL DIFFUSION
+WITH MASS ABSORPTION
+UNDER HARMONIC IMPACT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 118
+I. Matychyn, V. Onyshchenko
+OPTIMAL CONTROL OF LINEAR SYSTEMS
+WITH FRACTIONAL DERIVATIVES . . . . . . . . . . . . . . . . . . . . . . . . . . . . 134
+A. Chang, H.G. Sun
+TIME-SPACE FRACTIONAL DERIVATIVE MODELS
+FOR CO2 TRANSPORT IN HETEROGENEOUS MEDIA . . . . . . . . 151
+D. Cao Labora, R. Rodrı́guez-López
+IMPROVEMENTS IN A METHOD FOR SOLVING
+FRACTIONAL INTEGRAL EQUATIONS WITH SOME
+LINKS WITH FRACTIONAL DIFFERENTIAL EQUATIONS . . . . 174
+A. Cernea
+ON SOME FRACTIONAL DIFFERENTIAL INCLUSIONS
+WITH RANDOM PARAMETERS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 190
+F. Al-Musalhi, N. Al-Salti, E. Karimov
+INITIAL BOUNDARY VALUE PROBLEMS FOR
+A FRACTIONAL DIFFERENTIAL EQUATION WITH
+HYPER-BESSEL OPERATOR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 200
+K. Górska, A. Lattanzi, G. Dattoli
+MITTAG-LEFFLER FUNCTION AND FRACTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 220
+B. Datsko, V. Gaﬁychuk
+COMPLEX SPATIO-TEMPORAL SOLUTIONS
+IN FRACTIONAL REACTION-DIFFUSION SYSTEMS
+NEAR A BIFURCATION POINT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 237
+J. Paneva-Konovska
+DIFFERENTIAL AND INTEGRAL RELATIONS
+IN THE CLASS OF MULTI-INDEX
+MITTAG-LEFFLER FUNCTIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 254
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 21, No 2 (2018)
+
+CONTENTS
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 21–2–2018) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 267
+A. Kubica, M. Yamamoto
+INITIAL-BOUNDARY VALUE PROBLEMS FOR
+FRACTIONAL DIFFUSION EQUATIONS WITH
+TIME-DEPENDENT COEFFICIENTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . 276
+Xiao-Li Ding, J.J. Nieto
+ANALYTICAL SOLUTIONS FOR MULTI-TERM
+TIME-SPACE FRACTIONAL PARTIAL DIFFERENTIAL
+EQUATIONS WITH NONLOCAL DAMPING TERMS . . . . . . . . . . . . 312
+S. Umarov, F. Daum, K. Nelson
+FRACTIONAL GENERALIZATIONS OF
+ZAKAI EQUATION AND SOME
+SOLUTION METHODS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 336
+G.C. Wu, D. Baleanu
+STABILITY ANALYSIS OF IMPULSIVE FRACTIONAL
+DIFFERENCE EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 354
+A.M. Mathai
+MELLIN CONVOLUTIONS, STATISTICAL
+DISTRIBUTIONS AND FRACTIONAL CALCULUS . . . . . . . . . . . . . . 376
+F.A. Shah, L. Debnath
+FRACTIONAL WAVELET FRAMES IN L2 (R) . . . . . . . . . . . . . . . . . . . 399
+B. Ahmad, R. Luca
+EXISTENCE OF SOLUTIONS FOR A SYSTEM OF
+FRACTIONAL DIFFERENTIAL EQUATIONS WITH
+COUPLED NONLOCAL BOUNDARY CONDITIONS . . . . . . . . . . . . . 423
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+J.W. Lyons, J.T. Neugebauer
+TWO POINT FRACTIONAL BOUNDARY VALUE
+PROBLEMS WITH A FRACTIONAL
+BOUNDARY CONDITION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 442
+L. Yan, X. Yin
+LARGE DEVIATION PRINCIPLE FOR A SPACE-TIME
+FRACTIONAL STOCHASTIC HEAT EQUATION WITH
+FRACTIONAL NOISE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 462
+D. Karlı
+EXTENSION OF MIKHLIN MULTIPLIER THEOREM
+TO FRACTIONAL DERIVATIVES AND
+STABLE PROCESSES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 486
+C.J. Song, Y. Zhang
+NOETHER SYMMETRY AND CONSERVED QUANTITY
+FOR FRACTIONAL BIRKHOFFIAN MECHANICS
+AND ITS APPLICATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 509
+Z.N. Xia, D.J. Wang
+ASYMPTOTIC BEHAVIOR OF MILD SOLUTIONS FOR
+NONLINEAR FRACTIONAL DIFFERENCE EQUATIONS . . . . . . . 527
+P.C. Peng, L.Y. Wu, X.X. Ji
+POSITIVE SOLUTIONS TO NONLINEAR SYSTEMS
+INVOLVING FULLY NONLINEAR
+FRACTIONAL OPERATORS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 552
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 21, No 3 (2018)
+
+CONTENTS
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 21–3–2018) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 575
+M. Ruzhansky, D. Suragan, N. Yessirkegenov
+HARDY-LITTLEWOOD, BESSEL-RIESZ, AND
+FRACTIONAL INTEGRAL OPERATORS IN
+ANISOTROPIC MORREY AND CAMPANATO SPACES . . . . . . . . . 577
+E.A. Gonzalez, I. Petráš, M.D. Ortigueira
+NOVEL POLARIZATION INDEX EVALUATION
+FORMULA AND FRACTIONAL-ORDER DYNAMICS
+IN ELECTRIC MOTOR INSULATION RESISTANCE . . . . . . . . . . . . 613
+E. Dalmasso, G. Pradolini, W. Ramos
+THE EFFECT OF THE SMOOTHNESS OF FRACTIONAL
+TYPE OPERATORS OVER THEIR COMMUTATORS
+WITH LIPSCHITZ SYMBOLS ON WEIGHTED SPACES . . . . . . . . . 628
+V. Bohaienko
+PARALLEL ALGORITHMS FOR MODELLING
+TWO-DIMENSIONAL NON-EQUILIBRIUM SALT
+TRANSFER PROCESSES ON THE BASE
+OF FRACTIONAL DERIVATIVE MODEL . . . . . . . . . . . . . . . . . . . . . . . . 654
+J. Cao, H.M. Srivastava, Z.-G. Liu
+SOME ITERATED FRACTIONAL q-INTEGRALS
+AND THEIR APPLICATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 672
+C. Leal, C. Lizama, M. Murillo-Arcila
+LEBESGUE REGULARITY FOR NONLOCAL
+TIME-DISCRETE EQUATIONS WITH DELAYS . . . . . . . . . . . . . . . . 696
+S. Padhi, J.R. Graef, S. Pati
+MULTIPLE POSITIVE SOLUTIONS FOR A BOUNDARY
+VALUE PROBLEM WITH NONLINEAR
+NONLOCAL RIEMANN-STIELTJES INTEGRAL
+BOUNDARY CONDITIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 716
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+Z. Li, Y. Yan
+ERROR ESTIMATES OF HIGH-ORDER NUMERICAL
+METHODS FOR SOLVING TIME FRACTIONAL
+PARTIAL DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . 746
+P.M. Rajković, M.S. Stanković, S.D. Marinković
+THE LAPLACE TRANSFORM INDUCED BY
+THE DEFORMED EXPONENTIAL FUNCTION
+OF TWO VARIABLES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 775
+Y. Zhou
+ATTRACTIVITY FOR FRACTIONAL EVOLUTION
+EQUATIONS WITH ALMOST SECTORIAL OPERATORS . . . . . . 786
+T.F. Ma, B.Q. Yan
+THE MULTIPLICITY SOLUTIONS FOR NONLINEAR
+FRACTIONAL DIFFERENTIAL EQUATIONS
+OF RIEMANN-LIOUVILLE TYPE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 801
+Chung-Sik Sin
+WELL-POSEDNESS OF GENERAL CAPUTO-TYPE
+FRACTIONAL DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . 819
+Y. Wang, Q. Wang
+LYAPUNOV-TYPE INEQUALITIES FOR NONLINEAR
+FRACTIONAL DIFFERENTIAL EQUATION WITH
+HILFER FRACTIONAL DERIVATIVE UNDER
+MULTI-POINT BOUNDARY CONDITIONS . . . . . . . . . . . . . . . . . . . . . . 833
+M. Ali, S. Aziz, S.A. Malik
+INVERSE SOURCE PROBLEM FOR A SPACE-TIME
+FRACTIONAL DIFFUSION EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . 844
+S. Choudhary, V. Daftardar-Gejji
+ERRATUM TO: INVARIANT SUBSPACE METHOD:
+A TOOL FOR SOLVING FRACTIONAL PARTIAL
+DIFFERENTIAL EQUATIONS, IN: FCAA-20-2-2017 . . . . . . . . . . . . . 864
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 21, No 4 (2018)
+
+CONTENTS
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 21–4–2018) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 867
+E. Bazhlekova
+SUBORDINATION IN A CLASS OF GENERALIZED
+TIME-FRACTIONAL DIFFUSION-WAVE EQUATIONS . . . . . . . . . . 869
+S. Roscani, D. Tarzia
+AN INTEGRAL RELATIONSHIP FOR A
+FRACTIONAL ONE-PHASE STEFAN PROBLEM . . . . . . . . . . . . . . . . 901
+N.I. Mahmudov
+FINITE-APPROXIMATE CONTROLLABILITY OF FRACTIONAL
+EVOLUTION EQUATIONS:
+VARIATIONAL APPROACH . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 919
+M. D’Ovidio, P. Loreti, A. Momenzadeh, S. Sarv Ahrabi
+DETERMINATION OF ORDER IN LINEAR FRACTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 937
+C.M. Kirk, W.E. Olmstead
+THERMAL BLOW-UP IN A FINITE STRIP WITH
+SUPERDIFFUSIVE PROPERTIES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 949
+Y. Cheng, R.P. Agarwal, D. O’ Regan
+EXISTENCE AND CONTROLLABILITY FOR NONLINEAR
+FRACTIONAL DIFFERENTIAL INCLUSIONS
+WITH NONLOCAL BOUNDARY CONDITIONS
+AND TIME-VARYING DELAY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 960
+J.-Ph. Aguilar, C. Coste, J. Korbel
+SERIES REPRESENTATION OF THE PRICING
+FORMULA FOR THE EUROPEAN OPTION DRIVEN BY
+SPACE-TIME FRACTIONAL DIFFUSION . . . . . . . . . . . . . . . . . . . . . . . . 981
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+A. Mystkowski, A. Zolotas
+PLC-BASED DISCRETE FRACTIONAL-ORDER CONTROL
+DESIGN FOR AN INDUSTRIAL-ORIENTED WATER
+TANK VOLUME SYSTEM WITH INPUT DELAY . . . . . . . . . . . . . . 1005
+S. Abbas, M. Benchohra, N. Hamidi, J. Henderson
+CAPUTO-HADAMARD FRACTIONAL DIFFERENTIAL
+EQUATIONS IN BANACH SPACES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1027
+C.P. Li, Q. Yi
+FINITE DIFFERENCE METHOD FOR
+TWO-DIMENSIONAL NONLINEAR TIME-FRACTIONAL
+SUBDIFFUSION EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1046
+L. Feng, F. Liu, I. Turner, L. Zheng
+NOVEL NUMERICAL ANALYSIS OF MULTI-TERM TIME
+FRACTIONAL VISCOELASTIC NON-NEWTONIAN FLUID
+MODELS FOR SIMULATING UNSTEADY MHD COUETTE
+FLOW OF A GENERALIZED OLDROYD-B FLUID . . . . . . . . . . . . 1073
+A.W. Wharmby
+FRACTIONAL LUMPED CAPACITANCE . . . . . . . . . . . . . . . . . . . . . . . 1104
+D. Vivek, K. Kanagarajan, S. Sivasundaram
+ON THE BEHAVIOR OF SOLUTIONS OF FRACTIONAL
+DIFFERENTIAL EQUATIONS ON TIME SCALE VIA
+HILFER FRACTIONAL DERIVATIVES . . . . . . . . . . . . . . . . . . . . . . . . . 1120
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 21, No 5 (2018)
+
+CONTENTS
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 21–5–2018) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1139
+J. Machado, V. Kiryakova, F. Mainardi, S. Momani
+FRACTIONAL CALCULUS’S ADVENTURES
+IN WONDERLAND
+(ROUND TABLE HELD AT ICFDA 2018) . . . . . . . . . . . . . . . . . . . . . . . . 1151
+F. Mainardi, E. Masina
+ON MODIFICATIONS OF THE EXPONENTIAL
+INTEGRAL WITH THE MITTAG-LEFFLER FUNCTION . . . . . . . 1156
+E. Hausenblas, M. Kovács
+GLOBAL SOLUTIONS TO STOCHASTIC VOLTERRA
+EQUATIONS DRIVEN BY LÉVY NOISE . . . . . . . . . . . . . . . . . . . . . . . 1170
+Ya. A. Butko
+CHERNOFF APPROXIMATION FOR SEMIGROUPS
+GENERATED BY KILLED FELLER PROCESSES AND
+FEYNMAN FORMULAE FOR TIME-FRACTIONAL
+FOKKER–PLANCK–KOLMOGOROV EQUATIONS . . . . . . . . . . . . . 1203
+M.I. Gomoyunov
+FRACTIONAL DERIVATIVES OF CONVEX LYAPUNOV
+FUNCTIONS AND CONTROL PROBLEMS
+IN FRACTIONAL ORDER SYSTEMS . . . . . . . . . . . . . . . . . . . . . . . . . . . 1238
+E. Otárola, A.J. Salgado
+REGULARITY OF SOLUTIONS TO SPACE–TIME
+FRACTIONAL WAVE EQUATIONS: A PDE APPROACH . . . . . . . 1262
+L. Ren, J.R. Wang, M. Fečkan
+ASYMPTOTICALLY PERIODIC SOLUTIONS FOR
+CAPUTO TYPE FRACTIONAL EVOLUTION EQUATIONS . . . . 1294
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+T.M. Atanacković, M. Janev, S. Konjik, S. Pilipović
+COMPLEX FRACTIONAL ZENER MODEL
+OF WAVE PROPAGATION IN R . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1313
+A. Biswas, J. Lőrinczi
+MAXIMUM PRINCIPLES FOR TIME-FRACTIONAL
+CAUCHY PROBLEMS WITH SPATIALLY
+NON-LOCAL COMPONENTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1335
+D.B. Karp, J.L. López
+AN EXTENSION OF THE MULTIPLE ERDÉLYI-KOBER
+OPERATOR AND REPRESENTATIONS OF THE
+GENERALIZED HYPERGEOMETRIC FUNCTIONS . . . . . . . . . . . 1360
+M. Andrić, G. Farid, J. Pečarić
+A FURTHER EXTENSION OF MITTAG-LEFFLER
+FUNCTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1377
+M.R. Rapaić, T.B. Šekara, M.Č. Bošković
+FREQUENCY-DISTRIBUTED REPRESENTATION OF
+IRRATIONAL LINEAR SYSTEMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1396
+M. D’Ovidio, S. Vitali, V. Sposini, O. Sliusarenko,
+P. Paradisi, G. Castellani, G. Pagnini
+CENTRE-OF-MASS LIKE SUPERPOSITION OF
+ORNSTEIN–UHLENBECK PROCESSES: A PATHWAY TO
+NON-AUTONOMOUS STOCHASTIC DIFFERENTIAL
+EQUATIONS AND TO FRACTIONAL DIFFUSION . . . . . . . . . . . . . 1420
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 21, No 6 (2018)
+
+CONTENTS
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 21–6–2018) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1437
+X.W. Li, Y.X. Li, Z.H. Liu, J. Li
+SENSITIVITY ANALYSIS FOR OPTIMAL CONTROL
+PROBLEMS DESCRIBED BY NONLINEAR FRACTIONAL
+EVOLUTION INCLUSIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1439
+T.D. Ke, N.N. Quan
+FINITE-TIME ATTRACTIVITY FOR SEMILINEAR
+TEMPERED FRACTIONAL WAVE EQUATIONS . . . . . . . . . . . . . . . 1471
+T. Yajima, S. Oiwa, K. Yamasaki
+GEOMETRY OF CURVES WITH FRACTIONAL-ORDER
+TANGENT VECTOR AND FRENET-SERRET FORMULAS . . . . 1493
+F.S. Patrı́cio, M. Patrı́cio, H. Ramos
+EXTRAPOLATING FOR ATTAINING HIGH PRECISION
+SOLUTIONS FOR FRACTIONAL PARTIAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1506
+T. Lian, Z. Fan, G. Li
+TIME OPTIMAL CONTROLS FOR FRACTIONAL
+DIFFERENTIAL SYSTEMS WITH
+RIEMANN-LIOUVILLE DERIVATIVES . . . . . . . . . . . . . . . . . . . . . . . . . . 1524
+M. Li, J. Pastor, S. Piskarev
+INVERSES OF GENERATORS OF INTEGRATED
+FRACTIONAL RESOLVENT OPERATOR FUNCTIONS . . . . . . . . 1542
+G.A. Afrouzi, A. Hadjian
+A VARIATIONAL APPROACH FOR BOUNDARY VALUE
+PROBLEMS FOR IMPULSIVE FRACTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1565
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+D. Averna, A. Sciammetta, E. Tornatore
+INFINITELY MANY SOLUTIONS TO BOUNDARY
+VALUE PROBLEM FOR FRACTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1585
+S.Y. Reutskiy, Z.-J. Fu
+A SEMI-ANALYTIC METHOD FOR FRACTIONAL-ORDER
+ORDINARY DIFFERENTIAL EQUATIONS:
+TESTING RESULTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1598
+Y.N. Li, Q.G. Zhang
+BLOW-UP AND GLOBAL EXISTENCE OF SOLUTIONS
+FOR A TIME FRACTIONAL DIFFUSION EQUATION . . . . . . . . . 1619
+B. Rubin
+A NOTE ON THE BLASCHKE-PETKANTSCHIN
+FORMULA, RIESZ DISTRIBUTIONS,
+AND DRURY’S IDENTITY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1641
+Y.S. Liang
+FRACTAL DIMENSION OF RIEMANN-LIOUVILLE
+FRACTIONAL INTEGRAL OF
+1-DIMENSIONAL CONTINUOUS FUNCTIONS . . . . . . . . . . . . . . . . . 1651
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 22, No 1 (2019)
+
+CONTENTS
+SPECIAL ISSUE: International Conference
+“Fractional Diﬀerentiation and its Applications 2018”
+(Papers selected from ICFDA 18, Amman, Jordan)
+GUEST–EDITORS:
+
+V. Kiryakova, J.A.T. Machado, S. Momani
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 22–1–2019) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+3
+
+J.A. Tenreiro Machado, A.M. Lopes
+RANKING THE SCIENTIFIC OUTPUT OF
+RESEARCHERS IN FRACTIONAL CALCULUS . . . . . . . . . . . . . . . . . .
+
+11
+
+H.G. Sun, A. Chang, Y. Zhang, W. Chen
+A REVIEW ON VARIABLE-ORDER FRACTIONAL
+DIFFERENTIAL EQUATIONS: MATHEMATICAL
+FOUNDATIONS, PHYSICAL MODELS, NUMERICAL
+METHODS AND APPLICATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+E.A. Abdel-Rehim
+FROM POWER LAWS TO FRACTIONAL DIFFUSION
+PROCESSES WITH AND WITHOUT EXTERNAL
+FORCES, THE NON DIRECT WAY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+60
+
+M. Klimek
+HOMOGENEOUS ROBIN BOUNDARY CONDITIONS
+AND DISCRETE SPECTRUM OF FRACTIONAL
+EIGENVALUE PROBLEM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78
+A. Li, Y.H. Wei, Z.Y. Li, Y. Wang
+THE NUMERICAL ALGORITHMS FOR DISCRETE
+MITTAG-LEFFLER FUNCTIONS APPROXIMATION . . . . . . . . . . . .
+
+95
+
+JB. Receveur, S. Victor, P. Melchior
+NEW INTERPRETATION OF FRACTIONAL POTENTIAL
+FIELDS FOR ROBUST PATH PLANNING . . . . . . . . . . . . . . . . . . . . . . . 113
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+J.P. Nolan
+STABLE DISTRIBUTIONS AND GREEN’S FUNCTIONS
+FOR FRACTIONAL DIFFUSIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 128
+I. Tejado, E. Pérez, D. Valério
+FRACTIONAL CALCULUS IN ECONOMIC GROWTH
+MODELLING OF THE GROUP OF SEVEN . . . . . . . . . . . . . . . . . . . . . . 139
+T. Kaczorek, L
+ . Sajewski
+RELATIONSHIP BETWEEN CONTROLLABILITY AND
+OBSERVABILITY OF STANDARD AND FRACTIONAL
+DIFFERENT ORDERS DISCRETE-TIME LINEAR SYSTEM . . . . 158
+I. Matychyn, V. Onyshchenko
+OPTIMAL CONTROL OF LINEAR SYSTEMS
+OF ARBITRARY FRACTIONAL ORDERS . . . . . . . . . . . . . . . . . . . . . . . 170
+G.C. Wu, D.Q. Zeng, D. Baleanu
+FRACTIONAL IMPULSIVE DIFFERENTIAL EQUATIONS:
+EXACT SOLUTIONS, INTEGRAL EQUATIONS
+AND SHORT MEMORY CASE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 180
+T. Abuaisha, J. Kertzscher
+FRACTIONAL-ORDER MODELLING AND PARAMETER
+IDENTIFICATION OF ELECTRICAL COILS . . . . . . . . . . . . . . . . . . . . 193
+P. Ostalczyk, D. Sankowski, M. Ba̧kala, J. Nowakowski
+FRACTIONAL-ORDER VALUE IDENTIFICATION OF THE
+DISCRETE INTEGRATOR FROM A NOISED SIGNAL.
+Part I . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 217
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 22, No 2 (2019)
+
+CONTENTS
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 22–2–2019) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 237
+A.A. Abdelhakim
+THE FLAW IN THE CONFORMABLE CALCULUS: IT IS
+CONFORMABLE BECAUSE IT IS NOT FRACTIONAL . . . . . . . . . 242
+M.D. Ortigueira, V. Martynyuk, M. Fedula, J.T. Machado
+THE FAILURE OF CERTAIN FRACTIONAL CALCULUS
+OPERATORS IN TWO PHYSICAL MODELS . . . . . . . . . . . . . . . . . . . . 255
+V.E. Fedorov, R.R. Nazhimov
+INVERSE PROBLEMS FOR A CLASS
+OF DEGENERATE EVOLUTION EQUATIONS
+WITH RIEMANN – LIOUVILLE DERIVATIVE . . . . . . . . . . . . . . . . . . . 271
+M. Cai, C.P. Li
+ON RIESZ DERIVATIVE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 287
+A. Ashyralyev, A. Hamad
+A NOTE ON FRACTIONAL POWERS OF STRONGLY
+POSITIVE OPERATORS AND THEIR APPLICATIONS . . . . . . . . 302
+P. Kern, S. Lage, M.M. Meerschaert
+SEMI-FRACTIONAL DIFFUSION EQUATIONS . . . . . . . . . . . . . . . . . . 326
+M. Kirane, B.T. Torebek
+EXTREMUM PRINCIPLE FOR THE HADAMARD
+DERIVATIVES AND ITS APPLICATION TO NONLINEAR
+FRACTIONAL PARTIAL DIFFERENTIAL EQUATIONS . . . . . . . . 358
+
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+S. Bu, G. Cai
+WELL-POSEDNESS OF FRACTIONAL DEGENERATE
+DIFFERENTIAL EQUATIONS IN BANACH SPACES . . . . . . . . . . . . 379
+J.L. da Silva, L. Streit
+STRUCTURE FACTORS FOR GENERALIZED GREY
+BROWINIAN MOTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 396
+V. Nosov, J.A. Meda-Campaña
+LINEAR STATIONARY FRACTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 412
+W.P. Hunek
+PERFECT CONTROL FOR RIGHT-INVERTIBLE
+GRÜNWALD-LETNIKOV PLANTS – AN INNOVATIVE
+APPROACH TO PRACTICAL IMPLEMENTATION . . . . . . . . . . . . . 424
+C. Castaing, C. Godet-Thobie, P.D. Phung, L.X. Truong
+ON FRACTIONAL DIFFERENTIAL INCLUSIONS WITH
+NONLOCAL BOUNDARY CONDITIONS . . . . . . . . . . . . . . . . . . . . . . . . 444
+Kh. Dorjgotov, H. Ochiai, U. Zunderiya
+ON SOLUTIONS OF LINEAR FRACTIONAL
+DIFFERENTIAL EQUATIONS AND SYSTEMS THEREOF . . . . . .
+J. Borah, S.N. Bora
+EXISTENCE OF MILD SOLUTION OF A CLASS OF
+NONLOCAL FRACTIONAL ORDER DIFFERENTIAL
+EQUATION WITH NOT INSTANTANEOUS IMPULSES . . . . . . . . .
+J. Yang, X. Hou, M. Luo
+A CAD-BASED ALGORITHM FOR SOLVING STABLE
+PARAMETER REGION OF FRACTIONAL-ORDER
+SYSTEMS WITH STRUCTURED PERTURBATIONS . . . . . . . . . . .
+J.-P. Garcı́a-Sandoval
+ON REPRESENTATION AND INTERPRETATION
+OF FRACTIONAL CALCULUS AND FRACTIONAL
+ORDER SYSTEMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+479
+
+495
+
+509
+
+522
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 22, No 3 (2019)
+
+CONTENTS
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 22–3–2019) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 539
+V.N. Kolokoltsov
+THE PROBABILISTIC POINT OF VIEW ON
+THE GENERALIZED FRACTIONAL PARTIAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 543
+B. Ahmad, N. Alghamdi, A. Alsaedi, S.K. Ntouyas
+A SYSTEM OF COUPLED MULTI-TERM FRACTIONAL
+DIFFERENTIAL EQUATIONS WITH THREE-POINT
+COUPLED BOUNDARY CONDITIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . 601
+M.A. Navascués, P.R. Massopust
+FRACTAL CONVOLUTION:
+A NEW OPERATION BETWEEN FUNCTIONS . . . . . . . . . . . . . . . . . . 619
+Z. Li, M. Yamamoto
+UNIQUE CONTINUATION PRINCIPLE FOR
+THE ONE-DIMENSIONAL TIME-FRACTIONAL
+DIFFUSION EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 644
+M. Kukushkin
+ASYMPTOTICS OF EIGENVALUES FOR DIFFERENTIAL
+OPERATORS OF FRACTIONAL ORDER . . . . . . . . . . . . . . . . . . . . . . . 658
+L. Liu, T. Caraballo, P.E. Kloeden
+THE ASYMPTOTIC BEHAVIOUR OF FRACTIONAL
+LATTICE SYSTEMS WITH VARIABLE DELAY . . . . . . . . . . . . . . . . . 681
+Y. Zhang, B. Hofmann
+ON FRACTIONAL ASYMPTOTICAL REGULARIZATION
+OF LINEAR ILL-POSED PROBLEMS
+IN HILBERT SPACES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 699
+
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+L. Bourdin
+WEIGHTED HÖLDER CONTINUITY OF
+RIEMANN-LIOUVILLE FRACTIONAL INTEGRALS –
+APPLICATION TO REGULARITY OF SOLUTIONS TO
+FRACTIONAL CAUCHY PROBLEMS
+WITH CARATHÉODORY DYNAMIC . . . . . . . . . . . . . . . . . . . . . . . . . . . . 722
+X. Meng, M. Stynes
+GREEN’S FUNCTIONS, POSITIVE SOLUTIONS,
+AND A LYAPUNOV INEQUALITY FOR
+A CAPUTO FRACTIONAL-DERIVATIVE
+BOUNDARY VALUE PROBLEM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 750
+G. Acosta, F.M. Bersetche, J.P. Borthagaray
+FINITE ELEMENT APPROXIMATIONS FOR
+FRACTIONAL EVOLUTION PROBLEMS . . . . . . . . . . . . . . . . . . . . . . . . 767
+J. Sanchez, F.J. Ariza, M.P. Arciga, E. Garcia
+STOCHASTIC DIFFUSION EQUATION WITH
+FRACTIONAL LAPLACIAN ON THE FIRST QUADRANT . . . . . . 795
+D. Mozyrska, P. Oziablo, M. Wyrwas
+STABILITY OF FRACTIONAL VARIABLE ORDER
+DIFFERENCE SYSTEMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 807
+A. Deshpande, V. Daftardar-Gejji
+CHAOTIC DYNAMICS OF FRACTIONAL VALLIS
+SYSTEM FOR EL-NIÑO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 825
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 22, No 4 (2019)
+
+CONTENTS
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 22–4–2019) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 843
+R. Capitanelli, M. D’Ovidio
+FRACTIONAL EQUATIONS VIA CONVERGENCE
+OF FORMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 844
+J. Cresson, A. Szafrańska
+ABOUT THE NOETHER’S THEOREM FOR FRACTIONAL
+LAGRANGIAN SYSTEMS AND A GENERALIZATION
+OF THE CLASSICAL JOST METHOD OF PROOf . . . . . . . . . . . . . . . 871
+B. Rubin
+THE VERTICAL SLICE TRANSFORM
+ON THE UNIT SPHERE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 899
+W. McLean, K. Mustapha, R. Ali, O. Knio
+WELL-POSEDNESS OF TIME-FRACTIONAL
+ADVECTION-DIFFUSION-REACTION EQUATIONS . . . . . . . . . . . . 918
+N. Nyamoradi, S. Tersian
+EXISTENCE OF SOLUTIONS FOR NONLINEAR
+FRACTIONAL ORDER P -LAPLACIAN DIFFERENTIAL
+EQUATIONS VIA CRITICAL POINT THEORY . . . . . . . . . . . . . . . . . . 945
+C.-S. Deng, R.L. Schilling
+EXACT ASYMPTOTIC FORMULAS FOR THE HEAT
+KERNELS OF SPACE AND
+TIME-FRACTIONAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 968
+J. Ruan, D. Fan, C. Zhang
+ESTIMATES OF DAMPED FRACTIONAL
+WAVE EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 990
+
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+H. Wang, X. Zheng
+A MODIFIED TIME-FRACTIONAL DIFFUSION
+EQUATION AND ITS FINITE DIFFERENCE METHOD:
+REGULARITY AND ERROR ANALYSIS . . . . . . . . . . . . . . . . . . . . . . . . 1014
+V. Ginting, Y. Li
+ON THE FRACTIONAL
+DIFFUSION-ADVECTION-REACTION EQUATION IN R . . . . . . 1039
+R. Mabel Lizzy, K. Balachandran, Yong-Ki Ma
+CONTROLLABILITY OF NONLINEAR STOCHASTIC
+FRACTIONAL HIGHER ORDER DYNAMICAL SYSTEMS . . . . . 1063
+L. Shu, X. Shu, J. Mao
+APPROXIMATE CONTROLLABILITY AND EXISTENCE
+OF MILD SOLUTIONS FOR RIEMANN-LIOUVILLE
+FRACTIONAL STOCHASTIC EVOLUTION EQUATIONS
+WITH NONLOCAL CONDITIONS OF ORDER 1 < α < 2 . . . . . . . 1086
+N. Aguila-Camacho, J. Gallegos, M.A. Duarte-Mermoud
+ANALYSIS OF FRACTIONAL ORDER ERROR MODELS
+IN ADAPTIVE SYSTEMS: MIXED ORDER CASES . . . . . . . . . . . . . 1113
+R.A.C. Ferreira
+FRACTIONAL CALCULUS OF VARIATIONS:
+A NOVEL WAY TO LOOK AT IT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1133
+F. Xu, S. Zhou
+PRICING OF PERPETUAL AMERICAN PUT OPTION
+WITH SUB-MIXED FRACTIONAL BROWNIAN MOTION . . . . . . 1145
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 22, No 5 (2019)
+
+CONTENTS
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 22–5–2019) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1155
+K. Sayevand, J.A. Tenreiro Machado
+A SURVEY ON FRACTIONAL ASYMPTOTIC
+EXPANSION METHOD: A FORGOTTEN THEORY . . . . . . . . . . . . 1165
+P. Lanusse, M. Tari
+SIMPLIFIED FRACTIONAL-ORDER DESIGN OF A MIMO
+ROBUST CONTROLLER . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1177
+N. Samko
+EMBEDDINGS OF WEIGHTED GENERALIZED MORREY
+SPACES INTO LEBESGUE SPACES ON FRACTAL SETS . . . . . . 1203
+T. Kleiner, R. Hilfer
+WEYL INTEGRALS ON WEIGHTED SPACES . . . . . . . . . . . . . . . . . . 1225
+E.D. Kosov
+ON FRACTIONAL REGULARITY OF DISTRIBUTIONS
+OF FUNCTIONS IN GAUSSIAN RANDOM VARIABLES . . . . . . . 1249
+V. Kokilashvili, M. Mastylo, A. Meskhi
+COMPACTNESS CRITERIA FOR FRACTIONAL
+INTEGRAL OPERATORS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1269
+K. Górska, A. Horzela, R. Garrappa
+SOME RESULTS ON THE COMPLETE MONOTONICITY
+OF MITTAG-LEFFLER FUNCTIONS OF LE ROY TYPe . . . . . . . 1284
+
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+C. Chen, M. Bohner, B. Jia
+METHOD OF UPPER AND LOWER SOLUTIONS FOR
+NONLINEAR CAPUTO FRACTIONAL DIFFERENCE
+EQUATIONS AND ITS APPLICATION . . . . . . . . . . . . . . . . . . . . . . . . . 1307
+M. Hinze, A. Schmidt, R.I. Leine
+NUMERICAL SOLUTION OF FRACTIONAL-ORDER
+ORDINARY DIFFERENTIAL EQUATIONS
+USING THE REFORMULATED INFINITE
+STATE REPRESENTATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1321
+V. Ambrosio, R. Servadei
+SUPERCRITICAL FRACTIONAL KIRCHHOFF
+TYPE PROBLEMSS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1351
+I. Birs, C. Muresan, D. Copot, I. Nascu, C. Ionescu
+IDENTIFICATION FOR CONTROL OF SUSPENDED
+OBJECTS IN NON-NEWTONIAN FLUIDS . . . . . . . . . . . . . . . . . . . . . . 1378
+X. Wei, D.Y. Liu, D. Boutat, Y.M. Chen
+ALGEBRAIC FRACTIONAL ORDER DIFFERENTIATOR
+BASED ON THE PSEUDO-STATE
+SPACE REPRESENTATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1395
+L.M. Del Pezzo, R. Ferreira, J.D. Rossi
+EIGENVALUES FOR A COMBINATION BETWEEN
+LOCAL AND NONLOCAL p-LAPLACIANS . . . . . . . . . . . . . . . . . . . . . 1414
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 22, No 6 (2019)
+
+CONTENTS
+
+SPECIAL ISSUE
+– In Memory of Late Professor Wen Chen
+Guest-Editors:
+YangQuan Chen, Changpin Li,
+Igor Podlubny, Hongguang Sun
+Editorial: FCAA SPECIAL ISSUE – IN MEMORY
+OF LATE PROFESSOR WEN CHEN
+(FCAA–Volume 22–6–2019) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1437
+Y.N. Wang, Y.Q. Chen, X.Z. Liao
+STATE-OF-ART SURVEY OF FRACTIONAL
+ORDER MODELING AND ESTIMATION METHODS
+FOR LITHIUM-ION BATTERIES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1449
+Z.P. Li, H.G. Sun, R.T. Sibatov
+AN INVESTIGATION ON CONTINUOUS TIME RANDOM
+WALK MODEL FOR BEDLOAD TRANSPORT . . . . . . . . . . . . . . . . . 1480
+I. Podlubny
+POROUS FUNCTIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1502
+Y. Liang, N. Su, W.Chen
+A TIME-SPACE HAUSDORFF DERIVATIVE MODEL
+FOR ANOMALOUS TRANSPORT IN POROUS MEDIA . . . . . . . . 1517
+H.F. Ding, C.P. Li
+HIGH-ORDER ALGORITHMS FOR RIESZ DERIVATIVE
+AND THEIR APPLICATIONS (IV) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1537
+A. Lischke, J.F. Kelly, M.M. Meerschaert
+MASS-CONSERVING TEMPERED FRACTIONAL
+DIFFUSION IN A BOUNDED INTERVAL . . . . . . . . . . . . . . . . . . . . . . . 1561
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+S. Holm
+DISPERSION ANALYSIS FOR WAVE EQUATIONS
+WITH FRACTIONAL LAPLACIAN LOSS OPERATORS . . . . . . . . 1596
+Y. Zhang, H.G. Sun, C.M. Zheng
+LAGRANGIAN SOLVER FOR VECTOR FRACTIONAL
+DIFFUSION IN BOUNDED ANISOTROPIC AQUIFERS:
+DEVELOPMENT AND APPLICATION . . . . . . . . . . . . . . . . . . . . . . . . . 1607
+D. Baleanu, G.C. Wu
+SOME FURTHER RESULTS OF THE LAPLACE
+TRANSFORM FOR VARIABLE–ORDER FRACTIONAL
+DIFFERENCE EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1641
+C.H. Wang, Y. Guo, S.Q. Zheng, Y.Q. Chen
+ROBUST STABILITY ANALYSIS OF LTI SYSTEMS
+WITH FRACTIONAL DEGREE GENERALIZED
+FREQUENCY VARIABLES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1655
+P.P. Mehta, G. Pang, F. Song, G.E. Karniadakis
+DISCOVERING A UNIVERSAL VARIABLE-ORDER
+FRACTIONAL MODEL FOR TURBULENT COUETTE
+FLOW USING A PHYSICS-INFORMED
+NEURAL NETWORK . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1675
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 23, No 1 (2020)
+
+CONTENTS
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 23–1–2020) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+A. Giusti, I. Colombaro, R. Garra,
+R. Garrappa, F. Polito, M. Popolizio, F. Mainardi
+A PRACTICAL GUIDE TO PRABHAKAR
+FRACTIONAL CALCULUS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+E. Awad, R. Metzler
+CROSSOVER DYNAMICS FROM SUPERDIFFUSION TO
+SUBDIFFUSION: MODELS AND SOLUTIONS . . . . . . . . . . . . . . . . . . . . 55
+L. A-M. Hanna, M. Al-Kandari, Yu. Luchko
+OPERATIONAL METHOD FOR SOLVING
+FRACTIONAL DIFFERENTIAL EQUATIONS
+WITH THE LEFT- AND RIGHT-HAND SIDED
+ERDÉLYI-KOBER FRACTIONAL DERIVATIVES . . . . . . . . . . . . . . . . 103
+Lj. Oparnica, E. Süli
+WELL-POSEDNESS OF THE FRACTIONAL ZENER WAVE
+EQUATION FOR HETEROGENEOUS
+VISCOELASTIC MATERIALS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 126
+A.N. Ceretani
+A NOTE ON MODELS FOR ANOMALOUS
+PHASE-CHANGE PROCESSES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 167
+S. Zhang, L. Liu, D. Xue, Y.Q. Chen
+STABILITY AND RESONANCE ANALYSIS OF
+A GENERAL NON-COMMENSURATE ELEMENTARY
+FRACTIONAL-ORDER SYSTEM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 183
+A. Hanyga
+A COMMENT ON A CONTROVERSIAL ISSUE:
+A GENERALIZED FRACTIONAL DERIVATIVE CANNOT
+HAVE A REGULAR KERNEL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 211
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+X. Meng, E. Nane
+SPACE-TIME FRACTIONAL STOCHASTIC PARTIAL
+DIFFERENTIAL EQUATIONS WITH LÉVY NOISE . . . . . . . . . . . . . 224
+H.T. Tuan, S. Siegmund
+STABILITY OF SCALAR NONLINEAR FRACTIONAL
+DIFFERENTIAL EQUATIONS WITH LINEARLY
+DOMINATED DELAY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 250
+P. Chen, X. Zhang, Y. Li
+EXISTENCE AND APPROXIMATE CONTROLLABILITY
+OF FRACTIONAL EVOLUTION EQUATIONS
+WITH NONLOCAL CONDITIONS VIA
+RESOLVENT OPERATORS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 268
+D. Baleanu
+COMMENTS ON: “THE FAILURE OF CERTAIN
+FRACTIONAL CALCULUS OPERATORS
+IN TWO PHYSICAL MODELS”
+by M. Ortigueira, V. Martynyuk, M. Fedula and J.A.T. Machado,
+in: Fract. Calc. Appl. Anal. 22, No 2 (2019), 255–270 . . . . . . . . . . . . . 292
+H. Rafeiro, S. Samko
+A NOTE ON VANISHING MORREY → VMO RESULT
+FOR FRACTIONAL INTEGRALS OF VARIABLE ORDER . . . . . . 298
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 23, No 2 (2020)
+
+CONTENTS
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 23–2–2020) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 303
+I. Trymorush, I. Podlubny
+POROUS FUNCTIONS – II . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 307
+M. Ruzhansky, N. Tokmagambetov, B.T. Torebek
+ON A NON–LOCAL PROBLEM
+FOR A MULTI–TERM FRACTIONAL
+DIFFUSION-WAVE EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 324
+A. El-Ajou, M.N. Oqielat, Z. Al-Zhour, S. Momani
+A CLASS OF LINEAR NON-HOMOGENOUS HIGHER
+ORDER MATRIX FRACTIONAL DIFFERENTIAL
+EQUATIONS: ANALYTICAL SOLUTIONS AND
+NEW TECHNIQUE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 356
+G. Maros, F. Izsák
+FRACTIONAL ORDER ELLIPTIC PROBLEMS WITH
+INHOMOGENEOUS DIRICHLET
+BOUNDARY CONDITIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 378
+A. Alsaedi, B. Ahmad, M. Kirane, R. Lassoued
+GLOBAL EXISTENCE AND LARGE TIME BEHAVIOR
+OF SOLUTIONS OF A TIME FRACTIONAL REACTION
+DIFFUSION SYSTEM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 390
+P. Ostalczyk, M. Ba̧kala, J. Nowakowski, D. Sankowski
+EVALUATION OF FRACTIONAL ORDER OF
+THE DISCRETE INTEGRATOR. PART II . . . . . . . . . . . . . . . . . . . . . . . . 408
+R. Ponce
+SUBORDINATION PRINCIPLE FOR FRACTIONAL
+DIFFUSION-WAVE EQUATIONS OF SOBOLEV TYPE . . . . . . . . . . 427
+
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+G. Ascione, Y. Mishura, E. Pirozzi
+TIME-CHANGED FRACTIONAL
+ORNSTEIN-UHLENBECK PROCESSE . . . . . . . . . . . . . . . . . . . . . . . . . . . 450
+L. Li, S. Tersian
+FRACTIONAL PROBLEMS WITH CRITICAL
+NONLINEARITIES BY A SUBLINEAR PERTURBATION . . . . . . . 484
+Nguyen T. Thanh, Vu N. Phat, P. Niamsupi
+NEW FINITE-TIME STABILITY ANALYSIS OF
+SINGULAR FRACTIONAL DIFFERENTIAL EQUATIONS
+WITH TIME-VARYING DELAY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 504
+E.M. Ferreira, A.K. Kohara, J. Sesma
+REFLECTION PROPERTIES
+OF ZETA RELATED FUNCTIONS IN TERMS OF
+FRACTIONAL DERIVATIVES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 520
+N. Singha, C. Nahak
+α-FRACTIONALLY CONVEX FUNCTIONS . . . . . . . . . . . . . . . . . . . . . . 534
+L. Ma
+ON THE KINETICS OF HADAMARD-TYPE
+FRACTIONAL DIFFERENTIAL SYSTEMs . . . . . . . . . . . . . . . . . . . . . . . 553
+M. Wang, B. Jia, F. Du, X. Liu
+ASYMPTOTIC STABILITY OF FRACTIONAL
+DIFFERENCE EQUATIONS WITH BOUNDED
+TIME DELAYS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 571
+C. Wu, X. Liu
+THE CONTINUATION OF SOLUTIONS TO SYSTEMS
+OF CAPUTO FRACTIONAL ORDER
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 591
+F. Mainardi, E. Masina
+ERRATUM: ON MODIFICATIONS OF
+THE EXPONENTIAL INTEGRAL
+WITH THE MITTAG-LEFFLER FUNCTION . . . . . . . . . . . . . . . . . . . . . 600
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 23, No 3 (2020)
+
+CONTENTS
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 23–3–2020) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 605
+K. Diethelm, R. Garrappa, A. Giusti, M. Stynes
+WHY FRACTIONAL DERIVATIVES WITH
+NONSINGULAR KERNELS SHOULD NOT BE USED . . . . . . . . . . . . 610
+L. Abadias, G. Estrada-Rodriguez, E. Estrada
+FRACTIONAL-ORDER SUSCEPTIBLE-INFECTED
+MODEL: DEFINITION AND APPLICATIONS TO
+THE STUDY OF COVID-19 MAIN PROTEASE . . . . . . . . . . . . . . . . . . 635
+T.M. Michelitsch, A.P. Riascos
+GENERALIZED FRACTIONAL POISSON PROCESS AND
+RELATED STOCHASTIC DYNAMICS . . . . . . . . . . . . . . . . . . . . . . . . . . . 656
+M. Krasnoschok, S. Pereverzyev, S.V. Siryk, N. Vasylyeva
+DETERMINATION OF THE FRACTIONAL ORDER
+IN SEMILINEAR SUBDIFFUSION EQUATIONS . . . . . . . . . . . . . . . . . 694
+A. Fiscella, P. Pucci
+DEGENERATE KIRCHHOFF (p, q)–FRACTIONAL
+SYSTEMS WITH CRITICAL NONLINEARITIES . . . . . . . . . . . . . . . . . 723
+I. Matychyn, V. Onyshchenko
+SOLUTION OF LINEAR FRACTIONAL ORDER SYSTEMS
+WITH VARIABLE COEFFICIENTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 753
+R.R. Nigmatullin, P. Lino, G. Maione
+“FUZZY” CALCULUS: THE LINK
+BETWEEN QUANTUM MECHANICS AND
+DISCRETE FRACTIONAL OPERATORS . . . . . . . . . . . . . . . . . . . . . . . . 764
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+Z. Bai, S. Sun, Z. Du, Y. Chen
+THE GREEN FUNCTION FOR A CLASS OF CAPUTO
+FRACTIONAL DIFFERENTIAL EQUATIONS WITH
+A CONVECTION TERM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 787
+M. Ali, S. Aziz, S.A. Malik
+INVERSE PROBLEM FOR A MULTI-TERM FRACTIONAL
+DIFFERENTIAL EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 799
+S.D. Zeng, S. Migórski, V.T. Nguyen, Y.R. Bai
+MAXIMUM PRINCIPLES FOR A CLASS
+OF GENERALIZED TIME-FRACTIONAL
+DIFFUSION EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 822
+A. Daoues, A. Hammami, K. Saoudi
+MULTIPLE POSITIVE SOLUTIONS FOR A NONLOCAL
+PDE WITH CRITICAL SOBOLEV-HARDY
+AND SINGULAR NONLINEARITIES
+VIA PERTURBATION METHOD . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 837
+P.K. Pandey, R.K. Pandey and O.P. Agrawal
+VARIATIONAL APPROXIMATION FOR FRACTIONAL
+STURM–LIOUVILLE PROBLEM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 861
+B. Wu
+THE 2-ADIC DERIVATIVES AND FRACTAL DIMENSION
+OF TAKAGI-LIKE FUNCTION ON 2-SERIES FIELD . . . . . . . . . . . . 875
+S.S. Haider, M.U. Rehman
+CONSTRUCTION OF FIXED POINT OPERATORS FOR
+NONLINEAR DIFFERENCE EQUATIONS OF NON
+INTEGER ORDER WITH IMPULSES . . . . . . . . . . . . . . . . . . . . . . . . . . . . 886
+W. Xu, W. Xu, K. Lu
+AN AVERAGING PRINCIPLE FOR STOCHASTIC
+DIFFERENTIAL EQUATIONS
+OF FRACTIONAL ORDER 0 < α < 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . 908
+A. Hulianytskyi
+WEAK SOLVABILITY OF THE VARIABLE-ORDER
+SUBDIFFUSION EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 920
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 23, No 4 (2020)
+
+CONTENTS
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 23–4–2020) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 935
+Yu. Luchko
+FRACTIONAL DERIVATIVES AND THE FUNDAMENTAL
+THEOREM OF FRACTIONAL CALCULUS . . . . . . . . . . . . . . . . . . . . . . 939
+B. Rubin, Y. Wang
+ERDÉLYI–KOBER FRACTIONAL INTEGRALS AND
+RADON TRANSFORMS FOR MUTUALLY
+ORTHOGONAL AFFINE PLANES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 967
+A. Cabada, N. Dimitrov
+NONTRIVIAL SOLUTIONS OF NON-AUTONOMOUS
+DIRICHLET FRACTIONAL DISCRETE PROBLEMS . . . . . . . . . . . . 980
+Ž. Tomovski, J.L.A. Dubbeldam, J. Korbel
+APPLICATIONS OF HILFER-PRABHAKAR OPERATOR
+TO OPTION PRICING FINANCIAL MODEL . . . . . . . . . . . . . . . . . . . . 996
+R. Spigler
+ON A QUANTITATIVE THEORY OF LIMITS:
+ESTIMATING THE SPEED OF CONVERGENCE . . . . . . . . . . . . . . 1013
+M.J. Ceballos-Lira, A. Pérez
+GLOBAL SOLUTIONS AND BLOWING-UP SOLUTIONS
+FOR A NONAUTONOMOUS AND NONLOCAL IN SPACE
+REACTION-DIFFUSION SYSTEM WITH DIRICHLET
+BOUNDARY CONDITIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1025
+J. Meichsner, C. Seifert
+ON THE HARMONIC EXTENSION APPROACH TO
+FRACTIONAL POWERS IN BANACH SPACES . . . . . . . . . . . . . . . . . 1054
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+J. Liang, Y. Mu, T.-J. Xiao
+INITIAL-VALUE / NONLOCAL CAUCHY PROBLEMS
+FOR FRACTIONAL DIFFERENTIAL EQUATIONS
+INVOLVING ψ-HILFER MULTIVARIABLE OPERATORS . . . . . . . 1090
+A. Lopushansky, O. Lopushansky, A. Szpila
+FRACTIONAL ABSTRACT CAUCHY PROBLEM ON
+COMPLEX INTERPOLATION SCALES . . . . . . . . . . . . . . . . . . . . . . . . . 1125
+M.I. Gomoyunov
+ON REPRESENTATION FORMULAS FOR SOLUTIONS
+OF LINEAR DIFFERENTIAL EQUATIONS WITH
+CAPUTO FRACTIONAL DERIVATIVES . . . . . . . . . . . . . . . . . . . . . . . 1141
+Yu. Kondratiev, A. Piatnitski, E. Zhizhina
+ASYMPTOTICS OF FUNDAMENTAL SOLUTIONS
+FOR TIME FRACTIONAL EQUATIONS WITH
+CONVOLUTION KERNELS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1161
+J. Vanterler da C. Sousa, M. Benchohra, G.M. N’Guérékata
+ATTRACTIVITY FOR DIFFERENTIAL EQUATIONS
+OF FRACTIONAL ORDER AND ψ-HILFER TYPE . . . . . . . . . . . . . 1188
+J. Carmona, E. Colorado, T. Leonori, A. Ortega
+SEMILINEAR FRACTIONAL ELLIPTIC PROBLEMS
+WITH MIXED DIRICHLET-NEUMANN
+BOUNDARY CONDITIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1208
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 23, No 5 (2020)
+
+CONTENTS
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 23–5–2020) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1241
+L. Beghin, J. Gajda
+TEMPERED RELAXATION EQUATION
+AND RELATED GENERALIZED STABLE PROCESSES . . . . . . . . 1248
+N. Samko
+INTEGRABILITY PROPERTIES OF INTEGRAL
+TRANSFORMS VIA MORREY SPACES . . . . . . . . . . . . . . . . . . . . . . . . 1274
+Vu Kim Tuan
+FRACTIONAL INTEGRO-DIFFERENTIAL EQUATIONS
+IN WIENER SPACES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1300
+J.A. Tenreiro Machado, D. Cao Labora
+FRACTIONAL FRACTALS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1329
+Y. Wang, Y. Yan, Y. Yang
+TWO HIGH-ORDER TIME DISCRETIZATION SCHEMES
+FOR SUBDIFFUSION PROBLEMS WITH
+NONSMOOTH DATA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1349
+Kangqun Zhang
+APPLICATIONS OF ERDÉLYI-KOBER FRACTIONAL
+INTEGRAL FOR SOLVING TIME-FRACTIONAL
+TRICOMI-KELDYSH TYPE EQUATION . . . . . . . . . . . . . . . . . . . . . . . . 1381
+P. Duraisamy, T. Nandha Gopal, M. Subramanian
+ANALYSIS OF FRACTIONAL INTEGRO-DIFFERENTIAL
+EQUATIONS WITH NONLOCAL ERDÉLYI-KOBER
+TYPE INTEGRAL BOUNDARY CONDITIONS . . . . . . . . . . . . . . . . . . 1401
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+S. Creo, M.R. Lancia, A.I. Nazarov
+REGULARITY RESULTS FOR NONLOCAL EVOLUTION
+VENTTSEL’ PROBLEMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1416
+H. Albrecher, M. Bladt, M. Bladt
+MULTIVARIATE FRACTIONAL PHASE–TYPE
+DISTRIBUTIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1431
+V. Kokilashvili, A. Meskhi
+TRACE INEQUALITIES FOR FRACTIONAL INTEGRALS
+IN MIXED NORM GRAND LEBESGUE SPACES . . . . . . . . . . . . . . . . 1452
+M. Bayram, A. Secer, H. Adiguzel
+THE ASYMPTOTIC BEHAVIOR OF SOLUTIONS OF
+DISCRETE NONLINEAR FRACTIONAL EQUATIONS . . . . . . . . . 1472
+K.K. Kataria, P. Vellaisamy
+STATE DEPENDENT VERSIONS OF THE SPACE-TIME
+FRACTIONAL POISSON PROCESS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1483
+Y. Pei, Y.K. Chang
+APPROXIMATE CONTROLLABILITY FOR STOCHASTIC
+FRACTIONAL HEMIVARIATIONAL INEQUALITIES
+OF DEGENERATE TYPE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1506
+M. French, R. Choudhuri, J. Garcia, J. Petty
+EXPERIMENTAL INVESTIGATION OF FRACTIONAL
+ORDER BEHAVIOR IN AN OSCILLATING DISK . . . . . . . . . . . . . . . 1532
+Chung-Sik Sin
+CAUCHY PROBLEM FOR GENERAL TIME
+FRACTIONAL DIFFUSION EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . 1545
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 23, No 6 (2020)
+
+CONTENTS
+SPECIAL 2020 CONFERENCES’ ISSUE
+
+Editorial: FCAA SPECIAL 2020 CONFERENCES’ ISSUE
+(FCAA–Volume 23–6–2020) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1561
+Survey Papers:
+T. Atanacković, S. Pilipović, D. Seleši
+WAVE PROPAGATION DYNAMICS IN A FRACTIONAL
+ZENER MODEL WITH STOCHASTIC EXCITATION . . . . . . . . . . . 1570
+S. Harizanov, R. Lazarov, S. Margenov
+A SURVEY ON NUMERICAL METHODS FOR SPECTRAL
+SPACE-FRACTIONAL DIFFUSION PROBLEMS . . . . . . . . . . . . . . . 1605
+Research Papers:
+R. Ashurov, S. Umarov
+DETERMINATION OF THE ORDER OF FRACTIONAL
+DERIVATIVE FOR SUBDIFFUSION EQUATIONS . . . . . . . . . . . . . 1647
+M. Ruzhansky, B.T. Torebek
+MULTIDIMENSIONAL VAN DER CORPUT-TYPE
+ESTIMATES INVOLVING
+MITTAG-LEFFLER FUNCTIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1663
+J. Janno
+DETERMINATION OF TIME-DEPENDENT SOURCES
+AND PARAMETERS OF NONLOCAL DIFFUSION AND
+WAVE EQUATIONS FROM FINAL DATA . . . . . . . . . . . . . . . . . . . . . . . 1678
+M. Slodička
+UNIQUENESS FOR AN INVERSE SOURCE PROBLEM
+OF DETERMINING A SPACE-DEPENDENT SOURCE
+IN A NON-AUTONOMOUS TIME-FRACTIONAL
+DIFFUSION EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1702
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+A. Pskhu
+NAKHUSHEV EXTREMUM PRINCIPLE FOR A CLASS
+OF INTEGRO-DIFFERENTIAL OPERATORS . . . . . . . . . . . . . . . . . . . 1712
+A. Ashyralyev, B. Hicdurmaz
+BOUNDED SOLUTIONS OF SECOND ORDER OF
+ACCURACY DIFFERENCE SCHEMES FOR SEMILINEAR
+FRACTIONAL SCHRÖDINGER EQUATIONS . . . . . . . . . . . . . . . . . . . 1723
+M. Japundžić, D. Rajter-Ćirić
+FRACTIONAL NONLINEAR STOCHASTIC HEAT
+EQUATION WITH VARIABLE
+THERMAL CONDUCTIVITY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1762
+N. Singha
+IMPLEMENTATION OF FRACTIONAL OPTIMAL
+CONTROL PROBLEMS IN REAL-WORLD APPLICATIONS . . . . 1783
+Historical Survey:
+S. Rogosin, M. Dubatovskaya
+MKHITAR DJRBASHIAN AND
+HIS CONTRIBUTION TO FRACTIONAL CALCULUS . . . . . . . . . . 1797
+Archive Paper:
+M.M. Dzherbashian, A.B. Nersesian
+FRACTIONAL DERIVATIVES AND CAUCHY PROBLEM
+FOR DIFFERENTIAL EQUATIONS
+OF FRACTIONAL ORDER.
+EN Transl. (by S. Rogosin, M. Dubatovskaya), from:
+Izv. AN Armenian SSR, Ser. Math. 3, No 1 (1968), 3–29 . . . . . . . . . 1810
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 24, No 1 (2021)
+
+CONTENTS
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 24–1–2021) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+Survey Papers:
+L. Guo, Y. Chen, S. Shi, B. West
+RENORMALIZATION GROUP AND FRACTIONAL
+CALCULUS METHODS IN A COMPLEX WORLD:
+A REVIEW . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+5
+
+R.B. Paris, A. Consiglio, F. Mainardi
+ON THE ASYMPTOTICS OF WRIGHT FUNCTIONS
+OF THE SECOND KIND . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+54
+
+Research Papers:
+A. N. Kochubei, Yu. Kondratiev, J. L. da Silva
+ON FRACTIONAL HEAT EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+73
+
+E. Bazhlekova
+COMPLETELY MONOTONE MULTINOMIAL
+MITTAG-LEFFLER TYPE FUNCTIONS AND DIFFUSION
+EQUATIONS WITH MULTIPLE TIME-DERIVATIVES . . . . . . . . . . .
+
+88
+
+E. Di Nardo, F. Polito, E. Scalas
+A FRACTIONAL GENERALIZATION OF THE DIRICHLET
+DISTRIBUTION AND RELATED DISTRIBUTIONS . . . . . . . . . . . . . 112
+G. Pagnini, S. Vitali
+SHOULD I STAY OR SHOULD I GO?
+ZERO-SIZE JUMPS IN RANDOM WALKS
+FOR LÉVY FLIGHTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 137
+Y. Kian, M. Yamamoto
+WELL-POSEDNESS FOR WEAK AND STRONG
+SOLUTIONS OF NON-HOMOGENEOUS INITIAL
+BOUNDARY VALUE PROBLEMS FOR FRACTIONAL
+DIFFUSION EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 168
+(Continued on back cover page)
+
+CONTENTS, continued:
+H. Zhang, X. Jiang, F. Liu
+ERROR ANALYSIS OF NONLINEAR TIME FRACTIONAL
+MOBILE/IMMOBILE ADVECTION-DIFFUSION
+EQUATION WITH WEAKLY SINGULAR SOLUTIONS . . . . . . . . . . 202
+O. Brandibur, E. Kaslik
+EXACT STABILITY AND INSTABILITY REGIONS FOR
+TWO-DIMENSIONAL LINEAR AUTONOMOUS
+MULTI-ORDER SYSTEMS OF FRACTIONAL-ORDER
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 225
+S. Umarov, R. Ashurov, Y. Chen
+ON A METHOD OF SOLUTION OF SYSTEMS OF
+FRACTIONAL PSEUDO-DIFFERENTIAL EQUATIONS . . . . . . . . . 254
+V. Kolokoltsov, F. Lin, A. Mijatović
+MONTE CARLO ESTIMATION OF THE SOLUTION OF
+FRACTIONAL PARTIAL DIFFERENTIAL EQUATIONS . . . . . . . . 278
+J.W. He, Y. Zhou
+STABILITY ANALYSIS FOR DISCRETE TIME
+ABSTRACT FRACTIONAL DIFFERENTIAL EQUATIONS . . . . . . 307
+Short Paper:
+J. Henderson, J. T. Neugebauer
+EXISTENCE OF LOCAL SOLUTIONS FOR FRACTIONAL
+DIFFERENCE EQUATIONS WITH LEFT
+FOCAL BOUNDARY CONDITIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 324
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 24, No 2 (2021)
+
+CONTENTS
+Editorial:
+ANNIVERSARY OF PROF. S.G. SAMKO, FC EVENTS
+(FCAA–Volume 24–2–2021) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 333
+Yu. Luchko
+OPERATIONAL CALCULUS FOR THE GENERAL
+FRACTIONAL DERIVATIVE AND ITS APPLICATIONS . . . . . . . . 338
+B. Rubin, Y. Wang
+RIESZ POTENTIALS AND ORTHOGONAL RADON
+TRANSFORMS ON AFFINE GRASSMANNIANS . . . . . . . . . . . . . . . . . 376
+F. Weisz
+CHARACTERIZATIONS OF VARIABLE MARTINGALE
+HARDY SPACES VIA MAXIMAL FUNCTIONS . . . . . . . . . . . . . . . . . . 393
+Survey Paper:
+J.-F. Duhé, S. Victor, P. Melchior
+CONTRIBUTIONS ON ARTIFICIAL POTENTIAL FIELD
+METHOD FOR EFFECTIVE OBSTACLE AVOIDANCE . . . . . . . . . 421
+Research Papers:
+P. Patie, A. Srapionyan
+SELF-SIMILAR CAUCHY PROBLEMS AND
+GENERALIZED MITTAG-LEFFLER FUNCTIONS . . . . . . . . . . . . . . . 447
+M.D. Kassim, N.-E. Tatar
+ASYMPTOTIC BEHAVIOR OF SOLUTIONS OF
+FRACTIONAL DIFFERENTIAL EQUATIONS WITH
+HADAMARD FRACTIONAL DERIVATIVES . . . . . . . . . . . . . . . . . . . . 483
+M.Kh. Ruziev
+A BOUNDARY VALUE PROBLEM FOR A PARTIAL
+DIFFERENTIAL EQUATION WITH
+FRACTIONAL DERIVATIVE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 509
+(Continued on back cover page)
+
+CONTENTS, continued:
+H.M. Fahad, A. Fernandez
+OPERATIONAL CALCULUS FOR THE
+RIEMANN–LIOUVILLE FRACTIONAL DERIVATIVE
+WITH RESPECT TO A FUNCTION AND
+ITS APPLICATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 518
+S. Zhu, G. Li
+DUALITY THEORY OF FRACTIONAL RESOLVENTS
+AND APPLICATIONS TO BACKWARD
+FRACTIONAL CONTROL SYSTEMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . 541
+G. Lv, H. Gao, J. Wei
+KINETIC SOLUTIONS FOR NONLOCAL STOCHASTIC
+CONSERVATION LAWS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 559
+M. Ferreira, M.M. Rodrigues, N. Vieira
+A FRACTIONAL ANALYSIS IN HIGHER DIMENSIONS
+FOR THE STURM-LIOUVILLE PROBLEM . . . . . . . . . . . . . . . . . . . . . . 585
+G. Li, B. Lehman
+AVERAGING THEORY FOR FRACTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 621
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 24, No 3 (2021)
+
+CONTENTS
+
+Editorial Survey: V. Kiryakova, J.A.T. Machado, Yu. Luchko:
+IN MEMORY OF THE HONORARY FOUNDING EDITORS
+BEHIND THE FCAA SUCCESS STORY . . . . . . . . . . . . . . . . . . . . . . . . . . 641
+R. Kamalakkannan, R. Roopkumar, A. Zayed
+SHORT TIME COUPLED FRACTIONAL FOURIER
+TRANSFORM AND THE UNCERTAINTY PRINCIPLE . . . . . . . . . . 667
+D. Kubanek, J. Koton, J. Jerabek, D. Andriukaitis
+(N + α)-ORDER LOW-PASS AND HIGH-PASS FILTER
+TRANSFER FUNCTIONS
+FOR NON-CASCADE IMPLEMENTATIONS
+APPROXIMATING BUTTERWORTH RESPONSES . . . . . . . . . . . . . . 689
+P. Chigansky, M. Kleptsyna
+SHARP ASYMPTOTICS IN A FRACTIONAL
+STURM-LIOUVILLE PROBLEM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 715
+V.K. Tuan, D.T. Duc, and T.D. Phung
+MULTI-TERM FRACTIONAL INTEGRO-DIFFERENTIAL
+EQUATIONS IN POWER GROWTH FUNCTION SPACES . . . . . . . 739
+Y. Ouedjedi, A. Rougirel, K. Benmeriem
+GALERKIN METHOD FOR TIME FRACTIONAL
+SEMILINEAR EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 755
+H. Khosravian-Arab, M.R. Eslahchi
+MÜNTZ STURM-LIOUVILLE PROBLEMS: THEORY
+AND NUMERICAL EXPERIMENTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 775
+N. Guerngar, E. Nane, R. Tinaztepe,
+S. Ulusoy, H.W. Van Wyk
+SIMULTANEOUS INVERSION FOR THE FRACTIONAL
+EXPONENTS IN THE SPACE-TIME
+ FRACTIONAL
+α/2
+
+γ/2
+DIFFUSION EQUATION ∂tβ u = − − Δ
+u− −Δ
+u . . . . . . . 818
+(Continued on back cover page)
+
+CONTENTS, continued:
+S.N. Askhabov
+NONLINEAR CONVOLUTION INTEGRO-DIFFERENTIAL
+EQUATION WITH VARIABLE COEFFICIENT . . . . . . . . . . . . . . . . . . 848
+Z. Tang, Z. Fu, H. Sun, X. Liu
+AN EFFICIENT LOCALIZED COLLOCATION SOLVER
+FOR ANOMALOUS DIFFUSION ON SURFACES . . . . . . . . . . . . . . . . 865
+P.G. Surkov
+APPROXIMATE CALCULATION OF THE CAPUTO-TYPE
+FRACTIONAL DERIVATIVE FROM INACCURATE DATA.
+DYNAMICAL APPROACH . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 895
+L. Wu
+SLIDING METHODS FOR THE HIGHER ORDER
+FRACTIONAL LAPLACIANS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 923
+T. Kaczorek, L
+ . Sajewski
+GLOBAL STABILITY OF FRACTIONAL DIFFERENT
+ORDERS NONLINEAR FEEDBACK SYSTEMS
+WITH POSITIVE LINEAR PARTS AND
+INTERVAL STATE MATRICES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 950
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 24, No 4 (2021)
+
+CONTENTS
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 24–4–2021) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 963
+F. del Teso, D. Gómez-Castro, J.L. Vázquez
+THREE REPRESENTATIONS OF THE FRACTIONAL
+p-LAPLACIAN: SEMIGROUP, EXTENSION
+AND BALAKRISHNAN FORMULAS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 966
+J.A. Tenreiro Machado
+THE BOUNCING BALL AND
+THE GRÜNWALD-LETNIKOV DEFINITION
+OF FRACTIONAL DERIVATIVE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1003
+P. Loreti, D. Sforza
+FRACTIONAL DIFFUSION-WAVE EQUATIONS:
+HIDDEN REGULARITY FOR WEAK SOLUTIONS . . . . . . . . . . . . . 1015
+Q. Du, L. Toniazzi, Z. Xu
+CENSORED STABLE SUBORDINATORS AND
+FRACTIONAL DERIVATIVES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1035
+D. Min, F. Chen
+VARIATIONAL METHODS TO THE p-LAPLACIAN TYPE
+NONLINEAR FRACTIONAL ORDER IMPULSIVE
+DIFFERENTIAL EQUATIONS WITH STURM-LIOUVILLE
+BOUNDARY-VALUE PROBLEM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1069
+A. Saeedian, F. Merrikh-Bayat, A. Jalilvand
+MULTIVARIABLE FRACTIONAL-ORDER PID TUNING
+BY ITERATIVE NON-SMOOTH STATIC-DYNAMIC
+H∞ SYNTHESIS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1094
+D.N.D. Hai
+FILTER REGULARIZATION METHOD FOR A
+NONLINEAR RIESZ-FELLER SPACE-FRACTIONAL
+BACKWARD DIFFUSION PROBLEM WITH
+TEMPORALLY DEPENDENT THERMAL CONDUCTIVITY . . . 1112
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+Y. Pan, D. Fan, J. Zhao
+THE RATE OF CONVERGENCE ON
+FRACTIONAL POWER DISSIPATIVE OPERATOR
+ON COMPACT MANIFOLDS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1130
+U.C. Ji, M.R. Lee, P.C. Ma
+FRACTIONAL LANGEVIN TYPE EQUATIONS FOR
+WHITE NOISE DISTRIBUTIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1160
+R. Castillo, M. Loayza, A. Viana
+LOCAL EXISTENCE AND NON-EXISTENCE FOR
+A FRACTIONAL REACTION–DIFFUSION EQUATION
+IN LEBESGUE SPACES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1193
+M. Al-Refai
+MAXIMUM PRINCIPLES AND APPLICATIONS FOR
+FRACTIONAL DIFFERENTIAL EQUATIONS WITH
+OPERATORS INVOLVING MITTAG-LEFFLER FUNCTION . . . . 1220
+A. Alikhanov, M. Beshtokov, M. Mehra
+THE CRANK-NICOLSON TYPE COMPACT
+DIFFERENCE SCHEMES FOR A LOADED
+TIME-FRACTIONAL HALLAIRE EQUATION . . . . . . . . . . . . . . . . . . . 1231
+W.P. Hunek, T. Feliks
+ROBUST FRACTIONAL-ORDER PERFECT CONTROL
+FOR NON-FULL RANK PLANTS DESCRIBED IN
+THE GRÜNWALD-LETNIKOV IMC FRAMEWORK . . . . . . . . . . . . 1257
+M.J. Bin, H.Y. Deng, Y.X. Li, J. Zhao
+PROPERTIES OF THE SET OF ADMISSIBLE “STATE
+CONTROL” PAIR FOR A CLASS OF FRACTIONAL
+SEMILINEAR EVOLUTION CONTROL SYSTEMS . . . . . . . . . . . . . . 1275
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 24, No 5 (2021)
+
+CONTENTS
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 24–5–2021) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1299
+M. D’Elia, M. Gulian, H. Olson, G.E. Karniadakis
+TOWARDS A UNIFIED THEORY OF FRACTIONAL
+AND NONLOCAL VECTOR CALCULUS . . . . . . . . . . . . . . . . . . . . . . . . 1301
+D. Yoon, D. You
+AN ADAPTIVE MEMORY METHOD FOR ACCURATE
+AND EFFICIENT COMPUTATION OF THE CAPUTO
+FRACTIONAL DERIVATIVE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1356
+P.B. Dubovski, J. Slepoi
+ANALYSIS OF SOLUTIONS OF SOME MULTI-TERM
+FRACTIONAL BESSEL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . 1380
+H.R. Henrı́quez, V. Poblete, J.C. Pozo
+EXISTENCE OF SOLUTIONS FOR THE SEMILINEAR
+ABSTRACT CAUCHY PROBLEM
+OF FRACTIONAL ORDER . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1409
+A. Lastra, S. Michalik, M. Suwińska
+SUMMABILITY OF FORMAL SOLUTIONS FOR
+A FAMILY OF GENERALIZED MOMENT
+INTEGRO-DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . 1445
+J. Jia, X. Zheng, H. Wang
+ANALYSIS AND FAST APPROXIMATION OF
+A STEADY-STATE SPATIALLY-DEPENDENT
+DISTRIBUTED-ORDER SPACE-FRACTIONAL
+DIFFUSION EQUATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1477
+U. Le, D.E. Pelinovsky
+GREEN’S FUNCTION FOR THE FRACTIONAL KDV
+EQUATION ON THE PERIODIC DOMAIN VIA
+MITTAG–LEFFLER FUNCTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1507
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+J. Juchem, A. Chevalier, K. Dekemele, M. Loccuﬁer
+FIRST ORDER PLUS FRACTIONAL DIFFUSIVE DELAY
+MODELING: INTERCONNECTED DISCRETE SYSTEMS . . . . . . 1535
+R. Droghei
+ON A SOLUTION OF A FRACTIONAL HYPER-BESSEL
+DIFFERENTIAL EQUATION BY MEANS OF A
+MULTI-INDEX SPECIAL FUNCTION . . . . . . . . . . . . . . . . . . . . . . . . . . . 1559
+Y. Li
+ON THE DECOMPOSITION OF SOLUTIONS:
+FROM FRACTIONAL DIFFUSION TO
+FRACTIONAL LAPLACIAN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1571
+A. Mayouﬁ, S. Victor, M. Chetoui, R. Malti, M. Aoun
+OUTPUT ERROR MISO SYSTEM IDENTIFICATION
+USING FRACTIONAL MODELS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1601
+J.-S. Duan, Y. Li
+IDENTIFICATION OF SYSTEM WITH
+DISTRIBUTED-ORDER DERIVATIVES . . . . . . . . . . . . . . . . . . . . . . . . . 1619
+T. Simon
+ON THE GREEN FUNCTION OF THE KILLED
+FRACTIONAL LAPLACIAN ON THE PERIODIC DOMAIN . . . . 1629
+
+pISSN 1311-0454, eISSN 1314-2224
+
+FCAA, Vol. 24, No 6 (2021)
+
+CONTENTS
+
+Editorial: FCAA RELATED NEWS, EVENTS AND BOOKS
+(FCAA–Volume 24–6–2021) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1637
+N. Samko
+WEIGHTED FRACTIONAL HARDY OPERATORS AND
+THEIR COMMUTATORS ON GENERALIZED MORREY
+SPACES OVER QUASI-METRIC MEASURE SPACES . . . . . . . . . . . 1643
+M. Mazza
+B-SPLINE COLLOCATION DISCRETIZATIONS OF
+CAPUTO AND RIEMANN-LIOUVILLE
+DERIVATIVES: A MATRIX COMPARISON . . . . . . . . . . . . . . . . . . . . . 1670
+R. López-Soriano, A. Ortega
+A STRONG MAXIMUM PRINCIPLE FOR THE
+FRACTIONAL LAPLACE EQUATION WITH MIXED
+BOUNDARY CONDITION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1699
+C.Y. Jiao, A. Khaliq, C.P. Li, H.X. Wang
+DIFFERENCE BETWEEN RIESZ DERIVATIVE
+AND FRACTIONAL LAPLACIAN
+ON THE PROPER SUBSET OF R . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1716
+M.A. Navascués, R.N. Mohapatra, A.K.B. Chand
+SOME PROPERTIES OF THE FRACTAL
+CONVOLUTION OF FUNCTIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1735
+X. Zhang, P. Chen, D. O’Regan
+CONTINUOUS DEPENDENCE OF FUZZY MILD
+SOLUTIONS ON PARAMETERS FOR IVP OF
+FRACTIONAL FUZZY EVOLUTION EQUATIONS . . . . . . . . . . . . . . 1758
+M. Bohner, N. Fewster-Young
+DISCRETE FRACTIONAL BOUNDARY VALUE
+PROBLEMS AND INEQUALITIES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1777
+(Continued on back cover page)
+
+CONTENTS, continued:
+
+C.K. Li
+ON THE GENERALIZED FRACTIONAL LAPLACIAN . . . . . . . . . . 1797
+B.T. Krishna
+RECENT DEVELOPMENTS ON THE REALIZATION
+OF FRACTANCE DEVICE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1831
+J. González-Camus, R. Ponce
+EXPLICIT REPRESENTATION OF DISCRETE
+FRACTIONAL RESOLVENT FAMILIES
+IN BANACH SPACES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1853
+J.A. Rosenfeld, W.E. Dixon
+CONVERGENCE RATE ESTIMATES FOR THE
+KERNELIZED PREDICTOR CORRECTOR METHOD FOR
+FRACTIONAL ORDER INITIAL VALUE PROBLEMS . . . . . . . . . . 1879
+A. Ahmad, M. Ali, S.A. Malik
+INVERSE PROBLEMS FOR DIFFUSION
+EQUATION WITH FRACTIONAL
+DZHERBASHIAN-NERSESIAN OPERATOR . . . . . . . . . . . . . . . . . . . . 1899
+C.-Y. Gu, G.-C. Wu, B. Shiri
+AN INVERSE PROBLEM APPROACH TO DETERMINE
+POSSIBLE MEMORY LENGTH OF FRACTIONAL
+DIFFERENTIAL EQUATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1919
+
+
